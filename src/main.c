@@ -292,7 +292,16 @@ int main(void)
                     settings_save(&settings);
                     if (settings.language != last_language) {
                         str_load(strings_file(settings.language));
+                        pool_free(pool);
+                        pool = load_all(settings.language);
                         last_language = settings.language;
+                        if (!pool) {
+                            ui_message(ui_center_rect(40, 6), S(STR_MSG_FAILED_LOAD));
+                            pool = load_all(LANG_ENGLISH);
+                            last_language = LANG_ENGLISH;
+                            settings.language = LANG_ENGLISH;
+                        }
+                        difficulty_init(&ds, pool, &settings, prog);
                     }
                 } else if (selected == 3) {
                     show_progress(prog);
