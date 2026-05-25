@@ -1,5 +1,8 @@
 # TerQuiz
 
+<img width="1308" height="884" alt="Screenshot from 2026-05-25 15-37-42" src="https://github.com/user-attachments/assets/6e87efd2-1152-4daa-8e08-ae8138353baf" />
+
+
 **TerQuiz** is a terminal-based Linux command quiz that tests your knowledge of shell commands, terminal hotkeys, redirection operators, and package managers across multiple distributions. Built in C with ncursesw for UTF-8 support.
 
 ## Features
