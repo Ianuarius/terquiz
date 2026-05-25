@@ -1,1 +1,4 @@
 terquiz.code-workspace
+.vscode/
+build/
+libncurses-dev_6.4+20240113-1ubuntu2_amd64.deb
