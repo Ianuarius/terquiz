@@ -2,3 +2,5 @@ terquiz.code-workspace
 .vscode/
 build/
 libncurses-dev_*
+terquiz
+terquiz.desktop
