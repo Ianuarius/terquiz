@@ -1,0 +1,78 @@
+# id	description
+brew	Homebrew-pakettienhallinta macOS:lle
+brew-install	Asenna Homebrew-paketti
+brew-uninstall	Poista Homebrew-paketti
+brew-update	Päivitä Homebrew itse
+brew-upgrade	Päivitä kaikki Homebrew-paketit
+brew-search	Etsi Homebrew-paketteja
+brew-info	Näytä Homebrew-paketin tiedot
+brew-list	Listaa asennetut Homebrew-paketit
+brew-cask	Asenna graafisia sovelluksia Homebrew'lla
+brew-cask-install	Asenna cask-sovellus
+brew-doctor	Tarkista Homebrew'n kunto
+brew-cleanup	Poista vanhat pakettiversiot
+brew-services	Hallitse taustapalveluita
+brew-bundle	Ilmoituksellinen pakettienhallinta
+defaults	Lue/kirjoita macOS:n oletusasetuksia
+defaults-read	Lue oletusavain
+defaults-write	Kirjoita oletusavain
+defaults-delete	Poista oletusavain
+defaults-find	Etsi oletuksista merkkijonoa
+plutil	Property List -työkalu
+plutil-p	Tulosta plist luettavassa muodossa
+plutil-convert-xml1	Muunna plist XML-muotoon
+plutil-lint	Tarkista plistin syntaksi
+swvers	Näytä macOS:n versiotiedot
+systemprofiler	Järjestelmän laitteisto/ohjelmistoraportti
+systemprofiler-sphardwaredatatype	Laitteistotiedot
+systemprofiler-spsoftwaredatatype	Ohjelmistotiedot
+pmset	Virranhallinta-asetukset
+pmset-g	Hae nykyiset virta-asetukset
+pmset-g-batt	Näytä akun tila
+pmset-noidle	Estä lepotila
+diskutil	Levynhallintatyökalu
+diskutil-list	Listaa kaikki levyt
+diskutil-info	Näytä levyn tiedot
+diskutil-mount	Asenna levy
+diskutil-unmount	Irrota levy
+diskutil-erasedisk	Tyhjennä ja alusta levy
+hdiutil	Levykuvatyökalu
+hdiutil-attach	Asenna levykuva
+hdiutil-create	Luo levykuva
+hdiutil-detach	Irrota levykuva
+open	Avaa tiedosto tai sovellus
+open-a	Avaa tietyllä sovelluksella
+open-2	Avaa nykyinen kansio Finderissa
+open-e	Avaa TextEditilla
+osascript	Suorita AppleScript
+osascript-e	AppleScript suoraan komentoriviltä
+mdfind	Spotlight-haku komentoriviltä
+mdfind-name	Hae tiedostonimellä
+mdfind-onlyin	Rajoita haku hakemistoon
+mdutil	Hallitse Spotlight-indeksointia
+mdutil-e	Tyhjennä Spotlight-indeksi
+mdutil-i	Ota indeksointi päälle/pois
+launchctl	Hallitse launchd-palveluita
+launchctl-load	Lataa launchd-asetustiedosto
+launchctl-unload	Poista launchd-asetustiedosto
+launchctl-start	Käynnistä launchd-palvelu
+launchctl-stop	Pysäytä launchd-palvelu
+launchctl-list	Listaa launchd-palvelut
+caffeinate	Estä järjestelmää nukkumasta
+sips	Komentosarjakuva käsittelyjärjestelmä
+sips-z	Muuta kuvan kokoa
+sips-f	Käännä kuvaa
+textutil	Asiakirjamuunnin
+textutil-convert	Muunna asiakirjamuotoa
+airport	AirPort/WiFi-apuohjelma
+networksetup	Verkkoasetustyökalu
+networksetup-listallnetworkservices	Listaa verkkopalvelut
+networksetup-setairportpower	Ota WiFi päälle/pois
+dscacheutil	Hakemistopalvelun välimuistityökalu
+softwareupdate	macOS:n päivitystyökalu
+softwareupdate-l	Listaa saatavilla olevat päivitykset
+softwareupdate-i	Asenna tietty päivitys
+tmutil	Time Machine -työkalu
+tmutil-startbackup	Käynnistä Time Machine -varmistus
+tmutil-stopbackup	Pysäytä Time Machine -varmistus
+tmutil-listbackups	Listaa varmistukset

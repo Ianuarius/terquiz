@@ -1,0 +1,43 @@
+# id	command	category	difficulty
+pacman	pacman	arch	4
+pacman-s	pacman -S	arch	5
+pacman-r	pacman -R	arch	5
+pacman-rs	pacman -Rs	arch	6
+pacman-rns	pacman -Rns	arch	7
+pacman-u	pacman -U	arch	7
+pacman-sy	pacman -Sy	arch	5
+pacman-su	pacman -Su	arch	5
+pacman-syu	pacman -Syu	arch	5
+pacman-ss	pacman -Ss	arch	6
+pacman-si	pacman -Si	arch	7
+pacman-qs	pacman -Qs	arch	7
+pacman-qi	pacman -Qi	arch	7
+pacman-ql	pacman -Ql	arch	8
+pacman-qo	pacman -Qo	arch	8
+pacman-qdt	pacman -Qdt	arch	9
+pacman-sc	pacman -Sc	arch	8
+pacman-scc	pacman -Scc	arch	9
+pacman-fl	pacman -Fl	arch	10
+pacman-sw	pacman -Sw	arch	10
+pacman-noconfirm	pacman --noconfirm	arch	7
+yay	yay	arch	6
+yay-s	yay -S	arch	6
+yay-syu	yay -Syu	arch	7
+yay-ss	yay -Ss	arch	8
+yay-yc	yay -Yc	arch	10
+paru	paru	arch	6
+paru-s	paru -S	arch	7
+makepkg	makepkg	arch	7
+makepkg-si	makepkg -si	arch	8
+makepkg-c	makepkg -c	arch	9
+pkgbuild	PKGBUILD	arch	7
+pkgfile	pkgfile	arch	9
+pkgfile-u	pkgfile -u	arch	10
+pacman-key	pacman-key	arch	8
+pacman-key-init	pacman-key --init	arch	9
+pacman-key-populate	pacman-key --populate	arch	9
+pacstrap	pacstrap	arch	8
+arch-chroot	arch-chroot	arch	8
+genfstab	genfstab	arch	9
+mkinitcpio	mkinitcpio	arch	10
+reflector	reflector	arch	9

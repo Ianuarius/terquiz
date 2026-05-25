@@ -1,0 +1,78 @@
+# id	description
+brew	Homebrew package manager for macOS
+brew-install	Install a Homebrew package
+brew-uninstall	Uninstall a Homebrew package
+brew-update	Update Homebrew itself
+brew-upgrade	Upgrade all Homebrew packages
+brew-search	Search Homebrew packages
+brew-info	Show Homebrew package info
+brew-list	List installed Homebrew packages
+brew-cask	Install GUI applications via Homebrew
+brew-cask-install	Install a cask application
+brew-doctor	Check Homebrew for issues
+brew-cleanup	Remove old package versions
+brew-services	Manage background services
+brew-bundle	Declarative package management
+defaults	Read/write macOS user defaults
+defaults-read	Read a defaults key
+defaults-write	Write a defaults key
+defaults-delete	Delete a defaults key
+defaults-find	Search defaults for string
+plutil	Property list utility
+plutil-p	Print plist in human-readable form
+plutil-convert-xml1	Convert plist to XML
+plutil-lint	Check plist syntax
+swvers	Show macOS version information
+systemprofiler	System hardware/software report
+systemprofiler-sphardwaredatatype	Hardware info
+systemprofiler-spsoftwaredatatype	Software info
+pmset	Power management settings
+pmset-g	Get current power settings
+pmset-g-batt	Show battery status
+pmset-noidle	Prevent idle sleep
+diskutil	Disk management utility
+diskutil-list	List all disks
+diskutil-info	Show disk information
+diskutil-mount	Mount a volume
+diskutil-unmount	Unmount a volume
+diskutil-erasedisk	Erase and format disk
+hdiutil	Disk image utility
+hdiutil-attach	Mount a disk image
+hdiutil-create	Create a disk image
+hdiutil-detach	Unmount a disk image
+open	Open file or application
+open-a	Open with specific application
+open-2	Open current directory in Finder
+open-e	Open with TextEdit
+osascript	Execute AppleScript
+osascript-e	Inline AppleScript
+mdfind	Spotlight search from command line
+mdfind-name	Search by filename
+mdfind-onlyin	Restrict search to directory
+mdutil	Manage Spotlight indexing
+mdutil-e	Erase Spotlight index
+mdutil-i	Toggle indexing
+launchctl	Manage launchd services
+launchctl-load	Load a launchd plist
+launchctl-unload	Unload a launchd plist
+launchctl-start	Start a launchd job
+launchctl-stop	Stop a launchd job
+launchctl-list	List launchd jobs
+caffeinate	Prevent system from sleeping
+sips	Scriptable image processing system
+sips-z	Resize image
+sips-f	Rotate image
+textutil	Document format converter
+textutil-convert	Convert document format
+airport	AirPort/ Wi-Fi utility
+networksetup	Network configuration tool
+networksetup-listallnetworkservices	List network services
+networksetup-setairportpower	Toggle Wi-Fi
+dscacheutil	Directory service cache utility
+softwareupdate	macOS software update tool
+softwareupdate-l	List available updates
+softwareupdate-i	Install specific update
+tmutil	Time Machine utility
+tmutil-startbackup	Start Time Machine backup
+tmutil-stopbackup	Stop Time Machine backup
+tmutil-listbackups	List backups

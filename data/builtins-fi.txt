@@ -1,0 +1,75 @@
+# id	description
+cd	Vaihda hakemistoa
+cd-home	Siirry kotihakemistoon
+cd-prev	Palaa edelliseen hakemistoon
+cd-parent	Siirry ylähakemistoon
+cd-root	Siirry juurihakemistoon
+pushd	Työnnä hakemisto pinoon ja vaihda siihen
+pushd-plusn	Kierrätä pinoa ja vaihda N:nteen hakemistoon
+popd	Ponna hakemisto pinosta ja vaihda siihen
+popd-plusn	Poista N:s hakemisto pinosta
+dirs	Näytä hakemistopino
+alias	Luo komentoalias
+alias-p	Tulosta kaikki aliakset uudelleenkäytettävässä muodossa
+unalias	Poista komentoalias
+unalias-a	Poista kaikki aliakset
+export	Aseta ympäristömuuttuja lapsiprosesseille
+export-p	Tulosta kaikki viedyt muuttujat
+unset	Poista muuttuja tai funktio
+set	Aseta tai näytä Shellin asetukset ja sijaintiparametrit
+set-o	Aseta Shellin asetus
+set-pluso	Poista Shellin asetus
+set-e	Lopeta virheessä (errexit)
+set-u	Käsittele asettamattomat muuttujat virheenä
+set-x	Tulosta komennot ennen suoritusta (xtrace)
+set-a	Vie kaikki määritellyt muuttujat
+readonly	Merkitse muuttujat vain luku -tilaan
+source	Suorita komennot tiedostosta nykyisessä Shellissä
+source-dot	Suorita tiedosto nykyisessä Shellissä
+exec	Korvaa Shell komennolla
+eval	Arvioi argumentit Shellin komentona
+let	Arvioi aritmeettinen lauseke
+command	Suorita komento ohittaen Shellin funktiot
+builtin	Suorita Shellin sisäänrakennettu nimellä
+enable	Ota käyttöön tai poista käytöstä Shellin sisäänrakennettu
+hash	Muista komentojen sijainnit
+exit	Poistu Shellistä
+return	Palaa funktiosta tai lähdetiedostosta
+break	Poistu silmukasta
+continue	Jatka seuraavaan silmukan iteraatioon
+logout	Kirjaudu ulos login Shellistä
+read	Lue rivi vakiosyötteestä muuttujaan
+read-p	Lue kehotteella
+read-r	Lue raaka syöte (ilman kenoviivakäsittelyä)
+read-t	Lue aikakatkaisulla
+read-s	Lue hiljaa (ei näy ruudulla)
+readarray	Lue rivit vakiosyötteestä taulukkoon
+declare	Määrittele muuttuja ja aseta attribuutit
+declare-i	Määrittele kokonaislukumuuttuja
+declare-a	Määrittele taulukkomuuttuja
+declare-r	Määrittele vain luku -muuttuja
+declare-x	Vie muuttuja ympäristöön
+declare-f	Näytä funktion määritelmä
+typeset	Määrittele muuttuja (synonyymi declarelle)
+local	Määrittele paikallinen muuttuja funktiossa
+local-r	Määrittele paikallinen vain luku -muuttuja
+shopt	Aseta Shellin asetuksia
+shopt-s	Ota Shellin asetus käyttöön
+shopt-u	Poista Shellin asetus käytöstä
+history	Näytä komentohistoria
+history-c	Tyhjennä komentohistoria
+history-d	Poista tietty historiakohta
+fc	Muokkaa ja suorita historiasta uudelleen
+fc-l	Listaa historiasta
+fc-s	Suorita historiasta uudelleen
+suspend	Keskeytä Shellin suoritus
+ulimit	Aseta tai näytä resurssirajat
+ulimit-a	Näytä kaikki resurssirajat
+ulimit-n	Aseta tiedostokahvojen enimmäismäärä
+umask	Aseta tiedostonluontimaski
+type	Näytä komennon tyyppi (sisäänrakennettu, alias, ulkoinen)
+caller	Tulosta kutsuvan funktion konteksti
+printf-v	Muotoile ja sijoita muuttujaan
+mapfile	Lue rivit vakiosyötteestä taulukkoon
+complete	Määrittele täydennyssäännöt
+compgen	Luo täydennysosumat

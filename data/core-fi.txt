@@ -1,0 +1,1029 @@
+# id	description
+ls	Listaa hakemiston sisältö
+ls-a	Listaa kaikki merkinnät, myös piilotiedostot
+ls-l	Listaa pitkässä muodossa yksityiskohtineen
+ls-la	Listaa kaikki tiedostot pitkässä muodossa
+ls-lh	Listaa helppolukuisessa pitkässä muodossa
+ls-r	Listaa käänteisessä järjestyksessä
+ls-s	Listaa lajiteltuna tiedostokoon mukaan
+ls-t	Listaa lajiteltuna muokkausajan mukaan
+ls-r-2	Listaa käänteisessä järjestyksessä
+ls-1	Listaa yksi merkintä rivillä
+ls-d	Listaa hakemistojen nimet, ei sisältöä
+ls-i	Listaa inode-numeroineen
+ls-f	Lisää tunniste merkintöihin
+ls-la-color	Listaa kaikki värillisellä tulosteella
+ls-lhs	Listaa helppolukuisena lajiteltuna koon mukaan
+ls-latr	Listaa kaikki lajiteltuna ajan mukaan käänteisesti
+ls-la-group-directories-first	Listaa kaikki, hakemistot ensin
+ls-la-sortextension	Listaa kaikki lajiteltuna tiedostopäätteen mukaan
+cat	Yhdistä ja näytä tiedostot
+tac	Yhdistä ja näytä tiedostot käänteisesti
+rm	Poista tiedostoja tai hakemistoja
+rm-rf	Poista tiedostot väkisin rekursiivisesti
+rm-i	Kysy ennen jokaista poistoa
+rmdir	Poista tyhjiä hakemistoja
+mv	Siirrä tai nimeä tiedostoja uudelleen
+mv-i	Kysy ennen ylikirjoitusta
+mv-u	Siirrä vain kun lähde on uudempi
+mv-b	Tee varmuuskopio ennen siirtoa
+cp	Kopioi tiedostoja ja hakemistoja
+cp-r	Kopioi hakemistot rekursiivisesti
+cp-a	Arkistokopio säilyttäen ominaisuudet
+cp-i	Kysy ennen ylikirjoitusta
+cp-u	Kopioi vain kun lähde on uudempi
+cp-p	Säilytä tiedoston ominaisuudet
+cp-l	Luo kova linkkejä kopioinnin sijaan
+cp-s	Luo symbolisia linkkejä kopioinnin sijaan
+cp-preserveall	Säilytä kaikki ominaisuudet
+mkdir	Luo hakemistoja
+mkdir-p	Luo ylähakemistot tarvittaessa
+mkdir-v	Tulosta luodut hakemistot
+mkdir-m	Aseta oikeudet luotaessa
+touch	Luo tyhjiä tiedostoja tai päivitä aikaleimoja
+touch-t	Aseta tietty aikaleima
+touch-r	Käytä viitetiedoston aikaleimaa
+find	Etsi tiedostoja hakemistopuusta
+find-name	Etsi tiedostoja nimimallin mukaan
+find-iname	Etsi tiedostoja nimellä välittämättä koosta
+find-type	Etsi tiedostoja tyypin mukaan
+find-size	Etsi tiedostoja koon mukaan
+find-mtime	Etsi tiedostoja muokkausajan mukaan
+find-mmin	Etsi tiedostoja muokattu N minuuttia sitten
+find-exec	Suorita komento löydetyille tiedostoille
+find-ok	Suorita vahvistuksella
+find-delete	Poista löydetyt tiedostot
+find-maxdepth	Rajoita hakusyvyyttä
+find-mindepth	Aseta vähimmäishakusyvyys
+find-newer	Etsi tiedostoja uudempia kuin viite
+find-perm	Etsi tiedostoja oikeuksien mukaan
+find-user	Etsi tiedostoja omistajan mukaan
+find-group	Etsi tiedostoja ryhmän mukaan
+find-print0	Tulosta tiedostonimet nollalla erotettuina
+find-l	Seuraa symbolisia linkkejä
+ln	Luo kovia linkkejä
+ln-s	Luo symbolisia linkkejä
+ln-sf	Pakota luonti tai päivitä symbolinen linkki
+ln-v	Tulosta linkattujen tiedostojen nimet
+tar	Arkistoi tiedostoja
+tar-czf	Luo gzip-pakattu arkisto
+tar-xzf	Pura gzip-pakattu arkisto
+tar-tjf	Listaa bzip2-arkiston sisältö
+tar-xjf	Pura xz-pakattu arkisto
+tar-xjf-2	Pura xz-pakattu arkisto
+tar-xf	Pura mikä tahansa pakattu arkisto
+tar-rf	Lisää tiedostoja arkistoon
+tar-uf	Päivitä tiedostoja arkistossa
+tar-tvf	Listaa arkiston sisältö yksityiskohtaisesti
+tar-exclude	Ohita tiedostoja arkistosta
+gzip	Pakkaa tiedostoja gzipillä
+gzip-k	Säilytä alkuperäinen tiedosto pakattaessa
+gzip-d	Pura gzip-tiedostot
+gunzip	Pura gzip-tiedostot
+gunzip-k	Säilytä alkuperäinen purettaessa
+bzip2	Pakkaa tiedostoja bzip2:lla
+bunzip2	Pura bzip2-tiedostot
+bzip2-k	Säilytä alkuperäinen pakattaessa
+xz	Pakkaa tiedostoja xz:llä
+unxz	Pura xz-tiedostot
+zip	Paketoi ja pakkaa tiedostoja
+zip-r	Pakkaa hakemisto rekursiivisesti
+zip-q	Hiljainen pakkaus
+zip-d	Poista merkintöjä arkistosta
+unzip	Pura zip-arkistot
+unzip-l	Listaa zip-arkiston sisältö
+unzip-o	Ylikirjoita tiedostot kysymättä
+unzip-d	Pura tiettyyn hakemistoon
+rsync	Etätiedostojen synkronointi
+rsync-a	Arkistotila rsyncille
+rsync-v	Yksityiskohtainen rsync
+rsync-z	Pakkaa siirron aikana
+rsync-p	Näytä edistyminen ja säilytä osittainen
+rsync-delete	Poista ylimääräiset tiedostot kohteesta
+rsync-e-ssh	Käytä SSH:ta rsync-siirrossa
+dd	Muunna ja kopioi tiedosto
+dd-if	Lue määritetystä syötetiedostosta
+dd-of	Kirjoita määritettyyn tulostetiedostoon
+dd-bs	Aseta lohkokoko
+dd-count	Kopioi vain N lohkoa
+dd-statusprogress	Näytä edistyminen kopioinnin aikana
+stat	Näytä tiedoston tai tiedostojärjestelmän tila
+stat-c	Muotoile tuloste omalla muodolla
+stat-f	Näytä tiedostojärjestelmän tila
+file	Tunnista tiedostotyyppi
+tree	Näytä hakemistopuu
+tree-l	Rajoita puun syvyyttä
+tree-d	Näytä vain hakemistot
+tree-h	Helppolukuiset koot
+tree-a	Sisällytä piilotiedostot
+basename	Poista hakemisto ja pääte polkunnimestä
+dirname	Poista viimeinen osa tiedostopolusta
+realpath	Tulosta absoluuttinen polku
+mktemp	Luo väliaikaistiedosto tai -hakemisto
+mktemp-d	Luo väliaikaishakemisto
+mktemp-p	Luo väliaikaistiedosto tiettyyn hakemistoon
+install	Kopioi tiedostoja ja aseta ominaisuudet
+install-d	Luo hakemistoja kuten mkdir -p
+install-m	Aseta oikeudet asennuksen yhteydessä
+patch	Käytä diff-tiedostoa alkuperäiseen
+patch-p	Poista polun osia
+patch-r	Käytä korjaustiedostoa käänteisesti
+sync	Tyhjennä tiedostojärjestelmän puskurit
+truncate	Pienennä tai suurenna tiedostokokoa
+fallocate	Varaa tilaa tiedostolle etukäteen
+readlink	Tulosta symbolisen linkin arvo
+readlink-f	Vakiota polku seuraamalla symboleja linkkejä
+grep	Etsi tekstiä tiedostojen sisällöstä
+grep-r	Etsi rekursiivisesti hakemistoista
+grep-i	Kirjainkoosta välittämätön haku
+grep-v	Käännä haku, näytä ei-täsmäävät rivit
+grep-c	Näytä konteksti osuman ympärillä
+grep-n	Näytä rivinumerot osumien kanssa
+grep-l	Listaa vain osumia sisältävät tiedostonimet
+grep-w	Täsmää vain kokonaisiin sanoihin
+grep-x	Täsmää vain kokonaisiin riveihin
+grep-o	Näytä vain täsmäävä osa
+grep-a	Näytä rivit osuman jälkeen
+grep-b	Näytä rivit ennen osumaa
+grep-c-2	Näytä konteksti osuman ympärillä
+grep-e	Käytä laajennettua regexiä
+grep-p	Käytä Perl-yhteensopivaa regexiä
+grep-q	Hiljainen tila, vain poistumiskoodi
+grep-s	Piilota virheilmoitukset
+grep-color	Korosta osumia
+grep-m	Pysähdy N osuman jälkeen
+grep-f	Lue mallit tiedostosta
+egrep	Laajennettu grep (sama kuin grep -E)
+fgrep	Kiinteän merkkijonon grep (sama kuin grep -F)
+sed	Virtamuokkain tekstin suodatukseen ja muuntamiseen
+sed-i	Muokkaa tiedostoja paikan päällä
+sed-n	Estä automaattinen tulostus
+sed-s	Korvaa tekstimalli
+sed-e	Määritä useita lausekkeita
+sed-f	Lue skripti tiedostosta
+sed-r	Käytä laajennettua regexiä
+awk	Mallien skannaus- ja tekstinkäsittelykieli
+awk-f	Aseta syötekentän erotin
+awk-print	Tulosta tietyt kentät
+awk-pattern	Tulosta mallia vastaavat rivit
+awk-v	Välitä muuttuja awk-skriptiin
+awk-begin	Suorita ennen tiedoston käsittelyä
+awk-end	Suorita tiedoston käsittelyn jälkeen
+cut	Poista osioita tiedoston jokaiselta riviltä
+cut-d	Leikkaa käyttäen mukautettua erotinta
+cut-f	Valitse tietyt kentät
+cut-c	Valitse tietyt merkit
+cut-complement	Täydennä valinta
+sort	Järjestä tekstitiedostojen rivit
+sort-r	Järjestä käänteiseen järjestykseen
+sort-n	Järjestä numeerisesti
+sort-k	Järjestä avaimen/sarakkeen mukaan
+sort-u	Järjestä ja tulosta ainutkertaiset rivit
+sort-t	Määritä kenttäerotin
+sort-h	Helppolukuinen numeerinen järjestys
+sort-v	Versionumeron mukainen järjestys
+uniq	Suodata vierekkäiset kaksoiskappaleet
+uniq-c	Laske kunkin rivin esiintymät
+uniq-d	Näytä vain kaksoiskappalerivit
+uniq-u	Näytä vain ainutkertaiset rivit
+uniq-i	Kirjainkoosta välittämätön vertailu
+wc	Laske rivit, sanat ja merkit
+wc-l	Laske vain rivit
+wc-w	Laske vain sanat
+wc-c	Laske tavut
+wc-m	Laske merkit
+head	Näytä tiedoston ensimmäiset rivit
+head-n	Näytä ensimmäiset N riviä
+head-c	Näytä ensimmäiset N tavua
+head-q	Älä koskaan tulosta otsikoita
+tail	Näytä tiedoston viimeiset rivit
+tail-n	Näytä viimeiset N riviä
+tail-f	Seuraa uudelleenyrityksellä kierron jälkeen
+tail-f-2	Seuraa uudelleenyrityksellä kierron jälkeen
+tail-q	Piilota otsikot
+tail-c	Näytä viimeiset N tavua
+diff	Vertaa tiedostoja rivi riviltä
+diff-u	Yhdistetty diff-muoto
+diff-y	Rinnakkainen vertailu
+diff-r	Vertaa hakemistoja rekursiivisesti
+diff-q	Näytä vain eroavatko tiedostot
+diff-i	Ohita kirjainkokoerot
+diff-w	Ohita välilyöntierot
+diff-n	Käsittele puuttuvat tiedostot tyhjinä
+diff-color	Värillinen tuloste
+sdiff	Rinnakkainen diff
+cmp	Vertaa kahta tiedostoa tavu tavulta
+cmp-l	Näytä eroavat tavupaikat
+comm	Vertaa järjestettyjä tiedostoja rivi riviltä
+comm-1	Piilota ensimmäinen sarake
+comm-2	Piilota toinen sarake
+comm-3	Piilota kolmas sarake
+tr	Käännä tai poista merkkejä
+tr-d	Poista määritetyt merkit
+tr-s	Tiivistä toistuvat merkit
+tr-c	Käytä merkistön komplementtia
+tee	Lue syötteestä ja kirjoita tulosteeseen ja tiedostoihin
+tee-a	Lisää tiedostoihin ylikirjoituksen sijaan
+tee-i	Ohita keskeytyssignaalit
+fold	Rivitä syöterivit haluttuun leveyteen
+fold-w	Aseta rivityksen leveys
+fold-s	Katkaise välilyönneistä
+expand	Muunna sarkaimet välilyönneiksi
+expand-t	Aseta sarkaimen koko
+unexpand	Muunna välilyönnit sarkaimiksi
+unexpand-a	Muunna kaikki välilyönnit
+nl	Numeroi tiedostojen rivit
+nl-ba	Numeroi kaikki rivit myös tyhjät
+nl-n	Aseta rivinumeron muoto
+od	Näytä tiedostot oktaali- ja muissa muodoissa
+od-a	Aseta osoitemuoto
+od-t	Aseta tulostetyypin muoto
+hexdump	Näytä tiedoston sisältö heksadesimaalina
+hexdump-c	Kanooninen heksa+ASCII-näyttö
+hexdump-n	Näytä vain N tavua
+xxd	Tee heksatuloste tai palauta
+xxd-r	Palauta heksatuloste
+xxd-p	Pelkkä heksatuloste
+rev	Käänteinen jokainen rivi merkki kerrallaan
+seq	Tulosta numerosarja
+seq-s	Aseta erotin
+seq-w	Yhtä leveä täyte
+shuf	Luo satunnaisia permutaatioita
+shuf-n	Tulosta N satunnaista riviä
+shuf-e	Käsittele argumentit syöteriveinä
+shuf-r	Salli toistuva tuloste
+xargs	Rakenna ja suorita komentorivejä syötteestä
+xargs-n	Rajoita argumentteja per komento
+xargs-i	Korvaa merkkijono komennossa
+xargs-p	Suorita komentoja rinnakkain
+xargs-0	Lue nollalla eroteltu syöte
+xargs-r	Älä suorita jos syöte on tyhjä
+pr	Muunna tekstitiedostot tulostukseen
+pr-2	Kaksipalstainen tuloste
+paste	Yhdistä tiedostojen rivejä
+paste-d	Käytä mukautettua erotinta
+paste-s	Sarjallista kaikki rivit
+join	Yhdistä kahden tiedoston rivit yhteisellä kentällä
+join-t	Aseta kenttäerotin
+join-1	Yhdistä ensimmäisen tiedoston kentällä
+look	Näytä rivit, jotka alkavat annetulla merkkijonolla
+fmt	Yksinkertainen optimaalinen tekstinmuotoilija
+fmt-w	Aseta rivin maksimileveys
+fmt-u	Tasainen välitys
+strings	Etsi tulostettavia merkkijonoja binääritiedostoista
+strings-n	Merkkijonon vähimmäispituus
+strings-t	Näytä merkkijonon sijainti
+iconv	Muunna tekstiä merkistökoodausten välillä
+iconv-f	Määritä lähdemerkistö
+iconv-t	Määritä kohdemerkistö
+iconv-l	Listaa tunnetut merkistöt
+recode	Muunna tiedoston merkistöjä
+less	Näytä tiedoston sisältö sivu kerrallaan
+less-n	Näytä rivinumerot
+less-s	Katkaise pitkät rivit
+less-i	Kirjainkoosta välittämätön haku
+less-r	Tulosta raa'at ohjausmerkit
+less-plusf	Seurantatila kuten tail -f
+less-g	Korosta vain viimeinen hakuosumista
+more	Näytä tiedoston sisältö sivu kerrallaan
+more-s	Tiivistä tyhjät rivit
+more-plus-pattern	Aloita tietystä kohdasta
+echo	Näytä tekstirivi
+echo-n	Tulosta ilman rivinvaihtoa
+echo-e	Tulkitse escape-sekvenssit
+printf	Muotoile ja tulosta dataa
+printf-s	Tulosta muotoiltu merkkijono
+printf-d	Tulosta muotoiltu kokonaisluku
+printf-x	Tulosta heksadesimaaliluku
+column	Palstoita listat
+column-t	Luo tasattu taulukko
+column-s	Määritä sarake-erotin
+column-x	Täytä sarakkeet ennen rivejä
+tsort	Topologinen järjestys
+curl	Siirrä tietoa URL-osoitteesta tai siihen
+curl-o	Lataa käyttäen etätiedoston nimeä
+curl-l	Seuraa uudelleenohjauksia
+curl-i	Nouda vain otsikot
+curl-s	Näytä virheet hiljaisessa tilassa
+curl-s-2	Näytä virheet hiljaisessa tilassa
+curl-o-2	Lataa käyttäen etätiedoston nimeä
+curl-c	Jatka keskeytynyttä latausta
+curl-u	Anna käyttäjänimi tunnistautumista varten
+curl-h	Lisää mukautettu otsake
+curl-d	Lähetä POST-dataa
+curl-x	Määritä HTTP-metodi
+curl-k	Salli epäturvallinen SSL
+curl-v	Yksityiskohtainen tuloste
+curl-data-urlencode	URL-koodaa POST-data
+curl-limit-rate	Rajoita latausnopeutta
+wget	Ei-vuorovaikutteinen verkkolataaja
+wget-o	Kirjoita ladattu data tiedostoon
+wget-c	Jatka keskeneräistä latausta
+wget-q	Hiljainen tila lataukselle
+wget-p	Lataa tiettyyn hakemistoon
+wget-r	Rekursiivinen lataus
+wget-np	Ei ylähakemistoja
+wget-l	Rekursion syvyysrajoitus
+wget-m	Peilaa verkkosivusto
+wget-nv	Ei-yksityiskohtainen tuloste
+ssh	OpenSSH etäkirjautumisasiakas
+ssh-i	SSH käyttäen identiteettitiedostoa
+ssh-p	SSH tietyllä portilla
+ssh-j	SSH-hyppypalvelin
+ssh-x	Ota X11-välitys käyttöön
+ssh-y	Ota luotettu X11-välitys käyttöön
+ssh-n	Älä suorita etäkomentoa
+ssh-f	Siirry taustalle tunnistautumisen jälkeen
+ssh-v	Yksityiskohtainen SSH-tuloste
+ssh-keygen	Luo SSH-avainpari
+ssh-copy-id	Asenna SSH-julkinen avain
+ssh-add	Lisää avain SSH-agentille
+ssh-agent	SSH-tunnistautumisagentti
+scp	Turvallinen kopiointi SSH:n yli
+scp-p	Määritä portti SCP:lle
+scp-r	Rekursiivinen SCP
+scp-c	Ota pakkaus käyttöön
+sftp	SSH-tiedostonsiirtoprotokolla
+sftp-p	Määritä SFTP-portti
+ftp	Tiedostonsiirtoprotokollan asiakasohjelma
+ftp-i	Poista vuorovaikutteinen tila käytöstä
+nc	Mielivaltaiset TCP- ja UDP-yhteydet
+nc-l	Kuuntele saapuvaa yhteyttä
+nc-v	Yksityiskohtainen tuloste
+nc-z	Skannaa avoimia portteja
+nc-u	Käytä UDP:tä
+nc-w	Yhteyden aikakatkaisu
+netstat	Verkkotilastot ja yhteydet
+netstat-tuln	Näytä kuuntelevat portit
+netstat-a	Näytä kaikki socketit
+netstat-p	Näytä socketia käyttävä prosessi
+netstat-r	Näytä reititystaulu
+netstat-s	Näytä protokollakohtaiset tilastot
+ss	Sokettitilastotyökalu
+ss-t	Näytä TCP-socketit
+ss-u	Näytä UDP-socketit
+ss-l	Näytä kuuntelevat socketit
+ss-p	Näytä socketia käyttävä prosessi
+ss-n	Näytä numeeriset osoitteet
+ss-s	Näytä socket-yhteenveto
+ping	Testaa verkkoyhteyttä isäntään
+ping-c	Pingaa tietyllä määrällä
+ping-i	Pingaa aikavälillä
+ping-s	Aseta paketin koko
+ping-4	Pakota IPv4
+ping-6	Pakota IPv6
+traceroute	Jäljitä verkkopolku isäntään
+traceroute-n	Traceroute numeerisella tulosteella
+traceroute-m	Aseta enimmäishypyt
+traceroute-w	Aseta odotusaika
+traceroute-i	Käytä ICMP:tä UDP:n sijaan
+mtr	Verkkodiagnostiikkatyökalu, yhdistää pingin ja tracerouten
+mtr-r	Raportointitila
+mtr-c	Aseta ping-määrä
+dig	DNS-hakutyökalu
+dig-x	Käänteinen DNS-haku
+dig-plusshort	Lyhyt vastaus
+dig-plustrace	Jäljitä DNS-delegointi
+dig-server	Kysy tiettyä DNS-palvelinta
+dig-any	Kysy kaikkia tietuetyyppejä
+dig-mx	Kysy sähköpostinvaihtotietueita
+nslookup	Kysy DNS-nimipalvelimia
+host	DNS-hakutyökalu
+host-t	Kysy tiettyä tietuetyyppiä
+host-a	Kysy kaikkia tietueita
+nmap	Verkkokartoitus ja -skannaus
+nmap-ss	SYN-salaskannaus
+nmap-sv	Version tunnistusskannaus
+nmap-st	TCP-yhteyskannaus
+nmap-su	UDP-skannaus
+nmap-o	Käyttöjärjestelmän tunnistus
+nmap-p	Skannaa tiettyjä portteja
+nmap-a	Aggressiivinen skannaus
+nmap-v	Yksityiskohtainen tuloste
+nmap-sn	Ping-skannaus
+nmap-top-ports	Skannaa N yleisintä porttia
+iptables	IPv4-palomuurisääntöjen hallinta
+iptables-l	Listaa nykyiset palomuurisäännöt
+iptables-a	Lisää sääntö
+iptables-d	Poista sääntö
+iptables-p	Aseta oletuskäytäntö
+iptables-f	Tyhjennä kaikki säännöt
+iptables-s	Määritä lähdeosoite
+iptables-j	Määritä kohdehypppy
+ip	Näytä ja hallitse reitityslaitteita
+ip-addr	Näytä IP-osoitteet
+ip-link	Hallitse verkkoliittymiä
+ip-route	Näytä reititystaulu
+ip-neigh	Näytä naapuri-/ARP-taulu
+ip-s	Näytä tilastot
+ip-c	Värillinen tuloste
+ip-link-set	Muuta liittymän tilaa
+ip-route-add	Lisää reitti
+ifconfig	Määritä verkkoliittymiä
+ifconfig-a	Näytä kaikki liittymät
+route	Näytä ja hallitse IP-reititystaulua
+route-n	Numeerinen reititystaulu
+arp	Hallitse ARP-välimuistia
+arp-a	Näytä kaikki ARP-merkinnät
+arp-d	Poista ARP-merkintä
+iwconfig	Määritä langattomia verkkoliittymiä
+iwconfig-a	Näytä kaikki langattomat liittymät
+whois	Kysy verkkotunnuksen rekisteröintitietoja
+telnet	Käyttöliittymä TELNET-protokollalle
+elinks	Tekstipohjainen verkkoselain
+links	Tekstitilainen verkkoselain
+lynx	Komentorivipohjainen verkkoselain
+httpie	HTTP-asiakas JSON-tuella
+http	Yksinkertainen HTTP-asiakas (httpie)
+socat	Kaksisuuntainen tiedonsiirto stdion kautta
+socat-tcp-listen	Kuuntele TCP-porttia
+socat-unix-connect	Yhdistä Unix-socketiin
+ps	Listaa käynnissä olevat prosessit
+ps-aux	Listaa kaikki käynnissä olevat prosessit yksityiskohtineen
+ps-ef	Listaa täydellinen prosessilistaus
+ps-u	Listaa prosessit käyttäjän mukaan
+ps-c	Listaa prosessit komennon nimen mukaan
+ps-o	Mukautettu tulostemuoto
+ps-sort	Järjestä prosessilista
+ps-l	Listaa säikeet
+ps-forest	Näytä prosessipuu
+top	Näytä reaaliaikaisia prosessitietoja
+top-u	Näytä prosessit tietylle käyttäjälle
+top-p	Tarkkaile tiettyjä PIDejä
+top-b	Erätila
+top-n	Päivitysten määrä erätilassa
+htop	Vuorovaikutteinen prosessikatselin
+htop-p	Tarkkaile tiettyjä PIDejä
+htop-u	Näytä prosessit käyttäjälle
+htop-t	Puunäkymä
+kill	Lähetä signaali prosessille
+kill-9	Päätä prosessi väkisin
+kill-15	Päätä prosessi hallitusti
+kill-1	Katkaisusignaali (lataa asetukset uudelleen)
+kill-2	Keskeytyssignaali (Ctrl+C)
+kill-3	Lopetussignaali
+kill-stop	Pysäytä prosessi
+kill-cont	Jatka pysäytettyä prosessia
+killall	Tapa prosesseja nimellä
+killall-9	Pakota tappamaan kaikki nimellä
+killall-i	Vuorovaikutteinen tappo
+killall-q	Hiljainen killall
+pkill	Lähetä signaali prosesseille nimellä
+pkill-f	Täsmää koko komentoriviin
+pkill-u	Tapa käyttäjän prosessit
+pgrep	Etsi prosesseja nimellä
+pgrep-f	Täsmää koko komentoriviin
+pgrep-u	Etsi käyttäjän mukaan
+pgrep-l	Näytä prosessinimi PID:n kanssa
+nice	Suorita ohjelma muokatulla prioriteetilla
+nice-n	Määritä prioriteetin lisäys
+renice	Muuta käynnissä olevan prosessin prioriteettia
+renice-n	Muuta prioriteettia lisäyksellä
+nohup	Suorita komento katkaisunkestävästi
+nohup-out	Tulostetiedosto nohupille
+bg	Jatka keskeytettyä työtä taustalla
+fg	Tuo taustatyö etualalle
+jobs	Listaa aktiiviset työt nykyisessä kuoressa
+jobs-l	Näytä PID työlistauksessa
+jobs-r	Näytä vain käynnissä olevat työt
+jobs-s	Näytä vain pysäytetyt työt
+disown	Poista töitä nykyisestä kuoresta
+disown-h	Merkitse työ, jota ei tapeta uloskirjautumisella
+wait	Odota prosessin valmistumista
+wait-n	Odota seuraavan työn valmistumista
+timeout	Suorita komento aikarajalla
+timeout-k	Lähetä KILL jos SIGTERM ohitetaan
+timeout-s	Määritä signaali
+pidof	Etsi käynnissä olevan ohjelman PID
+pidof-x	Etsi skriptin PID
+lsof	Listaa avoimet tiedostot prosessin mukaan
+lsof-i	Listaa verkkoyhteydet
+lsof-u	Listaa tiedostot käyttäjän mukaan
+lsof-p	Listaa tiedostot PID:n mukaan
+lsof-plusd	Listaa avoimet tiedostot hakemistossa
+fuser	Tunnista tiedostoja käyttävät prosessit
+fuser-k	Tapa tiedostoa käyttävät prosessit
+fuser-v	Yksityiskohtainen tuloste
+strace	Jäljitä järjestelmäkutsuja ja signaaleja
+strace-p	Liity käynnissä olevaan prosessiin
+strace-e	Suodata tiettyjä järjestelmäkutsuja
+strace-o	Kirjoita tuloste tiedostoon
+strace-c	Laske järjestelmäkutsutilastot
+strace-f	Jäljitä lapsiprosesseja
+strace-t	Näytä aikaleimat
+ltrace	Jäljitä kirjastokutsuja
+ltrace-p	Liity prosessiin
+ltrace-e	Suodata kirjastokutsuja
+ltrace-s	Näytä myös järjestelmäkutsut
+mpstat	Näytä suoritintilastot
+mpstat-p-all	Suoritinkohtaiset tilastot
+pwdx	Näytä prosessin työhakemisto
+pmap	Näytä prosessin muistikartta
+uptime	Kuinka kauan järjestelmä on ollut käynnissä
+w	Näytä kuka on kirjautunut ja mitä he tekevät
+uname	Tulosta järjestelmätiedot
+uname-a	Tulosta kaikki järjestelmätiedot
+uname-r	Tulosta ytimen julkaisuversio
+uname-n	Tulosta verkkosolmun isäntänimi
+uname-m	Tulosta koneen laitteistonimi
+uname-s	Tulosta ytimen nimi
+df	Näytä tiedostojärjestelmän levytilan käyttö
+df-h	Helppolukuinen levytila
+df-t	Näytä tiedostojärjestelmän tyyppi
+df-i	Näytä inode-käyttö
+df-x	Ohita tiedostojärjestelmätyyppi
+df-total	Näytä summat
+du	Arvioi tiedostojen levytilan käyttö
+du-sh	Yhteenveto helppolukuisessa muodossa
+du-h	Helppolukuiset koot
+du-c	Kokonaissumma
+du-max-depth	Rajoita hakemiston syvyyttä
+du-a	Sisällytä tiedostot listaukseen
+du-exclude	Ohita täsmäävät tiedostot
+du-t	Näytä vain koko suuremmat merkinnät
+free	Näytä muistin käyttö
+free-h	Helppolukuinen muistin näyttö
+free-m	Näytä megatavuina
+free-g	Näytä gigatavuina
+free-s	Toista aikavälillä
+free-t	Näytä summat
+lscpu	Näytä suorittimen arkkitehtuuritiedot
+lscpu-e	Laajennetut suoritintiedot
+lscpu-p	Jäsennettävä tuloste
+lspci	Listaa kaikki PCI-laitteet
+lspci-v	Yksityiskohtainen PCI-listaus
+lspci-k	Näytä ydinajurit
+lspci-nn	Näytä numeeriset IDt
+lsblk	Listaa lohkolaitteet
+lsblk-f	Näytä tiedostojärjestelmätiedot
+lsblk-m	Näytä oikeudet
+lsblk-l	Listausmuoto
+lsusb	Listaa USB-laitteet
+lsusb-v	Yksityiskohtaiset USB-tiedot
+lsusb-t	Puumuoto keskittimien kanssa
+lshw	Listaa laitteistokokoonpano
+lshw-short	Lyhyt laitteistolistaus
+lshw-class	Suodata laitteistoluokan mukaan
+dmidecode	DMI-taulun purkaja laitteistotiedoille
+dmidecode-t	Suodata tyypin mukaan
+dmidecode-s	Näytä tietty merkkijono
+dmesg	Tulosta ytimen rengaspuskuriviestit
+dmesg-w	Seuraa ytimen viestejä reaaliajassa
+dmesg-l	Suodata lokitason mukaan
+dmesg-t	Helppolukuiset aikaleimat
+dmesg-level	Suodata tietyn tason mukaan
+hostname	Näytä tai aseta järjestelmän isäntänimi
+hostname-f	Näytä FQDN
+hostname-i	Näytä isännän IP-osoite
+hostnamectl	Hallitse järjestelmän isäntänimeä
+date	Näytä tai aseta päivämäärä ja aika
+date-plusf	Muotoile päivämäärä ISO 8601
+date-pluss	Unix-aikaleima
+date-u	Näytä UTC-aika
+date-d	Jäsennä päivämäärämerkkijono
+cal	Näytä kalenteri
+cal-3	Näytä edellinen/nykyinen/seuraava kuukausi
+cal-y	Näytä koko vuosi
+cal-j	Juliaaniset päivämäärät
+which	Paikanna komento PATHista
+which-a	Näytä kaikki osumat PATHissa
+whereis	Paikanna binääri, lähde ja manuaalisivut
+whereis-b	Paikanna vain binääri
+whereis-m	Paikanna vain manuaali
+whatis	Näytä yhden rivin manuaalisivun kuvaukset
+man	Näytä manuaalisivuja
+man-k	Etsi manuaalisivuja avainsanalla
+man-f	Etsi manuaalisivuja nimellä
+man-w	Näytä polku manuaalisivulle
+man-5	Lue manuaalisivun osio 5
+apropos	Etsi manuaalisivujen nimiä ja kuvauksia
+type	Kuvaa miten komento tulkitaan
+env	Näytä tai muuta ympäristömuuttujia
+env-i	Tyhjennä ympäristö
+env-u	Poista muuttuja
+printenv	Tulosta ympäristömuuttujat
+pwd	Tulosta työhakemisto (nykyinen sijainti)
+tty	Tulosta päätteen nimi
+sleep	Viivästä suoritusta määritetyllä ajalla
+sleep-inf	Nuku ikuisesti
+yes	Toista merkkijonoa
+yes-text	Tulosta mukautettu teksti
+clear	Tyhjennä päätenäyttö
+reset	Palauta päätteen asetukset
+watch	Suorita ohjelma säännöllisesti
+watch-n	Aseta päivitysväli
+watch-d	Korosta muutokset
+watch-g	Poistu kun tuloste muuttuu
+watch-t	Piilota otsake
+crontab	Ajoita säännöllisiä komentoja
+crontab-e	Muokkaa crontabia
+crontab-l	Listaa crontab-merkinnät
+crontab-r	Poista crontab
+at	Ajoita komentoja myöhempää suoritusta varten
+at-now	Ajoita välittömästi
+atq	Listaa odottavat at-työt
+atrm	Poista at-työ
+time	Mittaa komennon suoritusaika
+time-v	Yksityiskohtainen ajoitustuloste
+nproc	Tulosta suoritinyksiköiden määrä
+arch	Tulosta koneen arkkitehtuuri
+getconf	Hae järjestelmän määritysarvot
+locale	Hae lokalisointitietoja
+locale-a	Listaa saatavilla olevat lokalisoinnit
+localectl	Hallitse järjestelmän lokalisointia
+timedatectl	Hallitse järjestelmän aikaa ja päivämäärää
+timedatectl-list-timezones	Listaa aikavyöhykkeet
+logname	Tulosta käyttäjän kirjautumisnimi
+groups	Tulosta ryhmäjäsenyydet
+id	Tulosta käyttäjän ja ryhmän identiteetti
+id-u	Tulosta vain käyttäjä-ID
+id-g	Tulosta vain ryhmä-ID
+id-un	Tulosta efektiivinen käyttäjänimi
+sudo	Suorita komento ylläpitäjänä
+sudo-u	Suorita toisena käyttäjänä
+sudo-i	Kirjaudu sisään rootina
+sudo-s	Kuori rootina
+sudo-l	Listaa sallitut komennot
+sudo-k	Mitätöi aikaleima
+sudo-v	Vahvista sudo-aikaleima
+sudo-e	Säilytä ympäristö
+su	Kirjaudu sisään toisena käyttäjänä
+su-2	Kirjaudu sisään toisena käyttäjänä
+su-c	Suorita komento käyttäjänä
+useradd	Luo uusi käyttäjätili
+useradd-m	Luo kotihakemisto
+useradd-s	Aseta login Shell
+useradd-g	Aseta lisäryhmät
+userdel	Poista käyttäjätili
+userdel-r	Poista kotihakemisto
+usermod	Muokkaa käyttäjätiliä
+usermod-ag	Lisää ryhmiin
+usermod-l	Lukitse käyttäjätili
+usermod-l-2	Lukitse käyttäjätili
+usermod-u	Avaa käyttäjätilin lukitus
+passwd	Vaihda käyttäjän salasana
+passwd-l	Lukitse salasana
+passwd-u	Avaa salasanan lukitus
+passwd-d	Poista salasana
+passwd-s	Näytä salasanan tila
+groupadd	Luo uusi ryhmä
+groupadd-r	Luo järjestelmäryhmä
+groupdel	Poista ryhmä
+groupmod	Muokkaa ryhmää
+whoami	Tulosta nykyinen käyttäjänimi
+who	Näytä kuka on kirjautunut
+who-b	Näytä viimeinen käynnistysaika
+who-r	Näytä suoritustaso
+last	Näytä viimeksi kirjautuneet käyttäjät
+last-n	Näytä viimeiset N merkintää
+last-x	Näytä sammutus/suoritustaso
+lastb	Näytä epäonnistuneet kirjautumisyritykset
+users	Listaa nykyiset kirjautuneet käyttäjät
+faillog	Kirjautumisvirhetietueet
+chage	Muuta käyttäjän salasanan vanhentumistietoja
+chage-l	Listaa salasanan vanhentumistiedot
+chage-m	Aseta salasanan enimmäisikä
+getent	Hae tietueita tietokannoista
+getent-passwd	Listaa käyttäjät passwdista
+getent-group	Listaa ryhmät
+getent-hosts	Listaa isännät
+visudo	Muokkaa sudoers-tiedostoa turvallisesti
+adduser	Luo uusi käyttäjä vuorovaikutteisesti
+deluser	Poista käyttäjä
+deluser-remove-home	Poista kotihakemiston kanssa
+newgrp	Kirjaudu uuteen ryhmään
+setfacl	Aseta tiedostojen pääsynvalvontalistoja
+setfacl-m	Muokkaa ACL:ää
+setfacl-x	Poista ACL-merkintä
+setfacl-r	Rekursiivinen ACL
+getfacl	Hae tiedostojen pääsynvalvontalistat
+groups-2	Tulosta ryhmäjäsenyydet
+umask	Aseta tiedostonluontimaski
+umask-s	Symbolinen umask
+chmod	Muuta tiedoston tilabittejä
+chmod-plusx	Tee tiedostosta suoritettava
+chmod-r	Muuta oikeuksia rekursiivisesti
+chmod-755	Aseta rwxr-xr-x-oikeudet
+chmod-644	Aseta rw-r--r---oikeudet
+chmod-u-pluss	Aseta SUID-bitti
+chmod-g-pluss	Aseta SGID-bitti
+chmod-plust	Aseta tarttumisbitti
+chown	Muuta tiedoston omistajaa ja ryhmää
+chown-r	Rekursiivinen chown
+chown-usergroup	Muuta omistaja ja ryhmä
+chgrp	Muuta ryhmän omistajuutta
+chgrp-r	Rekursiivinen chgrp
+apt	Debian-pakettienhallintatyökalu
+apt-update	Päivitä paketti-indeksi
+apt-upgrade	Päivitä kaikki päivitettävissä olevat paketit
+apt-full-upgrade	Päivitä riippuvuusmuutoksilla
+apt-install	Asenna paketti
+apt-remove	Poista paketti
+apt-autoremove	Poista käyttämättömät paketit
+apt-purge	Poista paketti ja asetustiedostot
+apt-search	Etsi paketteja
+apt-show	Näytä paketin tiedot
+apt-list	Listaa paketit kriteerien mukaan
+apt-list-installed	Listaa asennetut paketit
+apt-list-upgradable	Listaa päivitettävät paketit
+apt-edit-sources	Muokkaa sources.list-tiedostoa
+apt-mark	Merkitse paketit pito/automaatti
+apt-mark-hold	Pidä paketti nykyisessä versiossa
+dpkg	Debian-pakettienhallinta matalalla tasolla
+dpkg-i	Asenna Debian-paketti
+dpkg-r	Poista Debian-paketti
+dpkg-l	Listaa paketin asentamat tiedostot
+dpkg-l-2	Listaa paketin asentamat tiedostot
+dpkg-s	Etsi paketti, joka omistaa tiedoston
+dpkg-p	Poista paketti kokonaan
+dpkg-configure	Määritä uudelleen purettu paketti
+dpkg-reconfigure	Määritä asennettu paketti uudelleen
+snap	Snap-pakettienhallinta
+snap-install	Asenna snap-paketti
+snap-remove	Poista snap-paketti
+snap-list	Listaa asennetut snapit
+snap-find	Etsi snap-paketteja
+snap-refresh	Päivitä snap-paketit
+snap-revert	Palauta snap edelliseen versioon
+flatpak	Flatpak-sovellustenhallinta
+flatpak-install	Asenna Flatpak-sovellus
+flatpak-run	Suorita Flatpak-sovellus
+flatpak-list	Listaa asennetut Flatpakit
+flatpak-update	Päivitä Flatpak-sovellukset
+flatpak-remove	Poista Flatpak-sovellus
+flatpak-search	Etsi Flatpak-etäsäilytyspaikasta
+flatpak-override	Ohita oikeudet
+rpm	RPM-pakettienhallinta
+rpm-i	Asenna RPM-paketti
+rpm-e	Poista RPM-paketti
+rpm-q	Kysy RPM-tietokantaa
+rpm-qa	Kysy kaikkia asennettuja paketteja
+rpm-v	Vahvista asennetut paketit
+rpm-qf	Kysy tiedoston omistajuutta
+rpm-ql	Listaa paketin tiedostot
+make	Rakenna kohteet Makefilestä
+make-clean	Poista rakennusjäänteet
+make-install	Asenna käännetty ohjelma
+make-j	Rakenna rinnakkaisilla töillä
+make-f	Käytä mukautettua Makefileä
+cmake	Alustariippumaton rakennusjärjestelmän generaattori
+cmake-2	Luo rakennustiedostot nykyiseen hakemistoon
+cmake-d	Aseta CMake-muuttuja
+cmake-build	Rakenna CMakella
+cmake-install	Asenna CMakella
+git	Hajautettu versiohallintajärjestelmä
+git-clone	Kloonaa säilytyspaikka
+git-clone-depth	Matala klooni
+git-commit	Tallenna muutokset säilytyspaikkaan
+git-commit-m	Versioi liitetyllä viestillä
+git-commit-a	Valmistele ja versioi kaikki muutokset
+git-commit-amend	Korjaa edellinen versio
+git-push	Työnnä muutokset etäsäilytyspaikkaan
+git-push-origin	Työnnä tiettyyn etäsäilytyspaikkaan
+git-push-force	Pakotettu työntö
+git-pull	Vedä muutokset etäsäilytyspaikasta
+git-pull-rebase	Vedä uudelleenpohjauksella
+git-add	Lisää tiedoston sisältö indeksiin
+git-add-p	Lisää vuorovaikutteisesti paloina
+git-add-2	Lisää kaikki muutokset
+git-status	Näytä työpuun tila
+git-status-s	Lyhyt tilatuloste
+git-diff	Näytä muutoksia versioiden välillä
+git-diff-cached	Näytä valmistellut muutokset
+git-diff-stat	Näytä diff-tilastot
+git-log	Näytä versiolokit
+git-log-oneline	Yhden rivin versioloki
+git-log-graph	Graafinen haarahistoria
+git-log-p	Näytä korjaukset lokissa
+git-branch	Listaa tai hallitse haaroja
+git-branch-d	Pakotettu haaran poisto
+git-branch-d-2	Pakotettu haaran poisto
+git-branch-a	Listaa kaikki haarat
+git-checkout	Vaihda haaraa tai palauta tiedostoja
+git-checkout-b	Luo ja vaihda uuteen haaraan
+git-merge	Yhdistä haaroja
+git-merge-no-ff	Yhdistä ilman suoraa siirtoa
+git-rebase	Aseta versiot uudelleen toisen pohjan päälle
+git-rebase-i	Vuorovaikutteinen uudelleenpohjaus
+git-stash	Talleta muutokset väliaikaisesti
+git-stash-pop	Käytä ja hylkää talletus
+git-stash-list	Listaa talletukset
+git-fetch	Nouda etäsäilytyspaikasta
+git-remote-v	Näytä etäsäilytyspaikat
+git-tag	Luo git-tagi
+git-revert	Palauta versio
+git-reset	Palauta nykyinen HEAD
+git-reset-hard	Kova palautus
+git-rm	Poista tiedostot seurannasta
+git-mv	Siirrä tiedosto gitissä
+git-config	Hae/aseta git-asetus
+git-config-global	Aseta globaali git-asetus
+git-config-global-user-name	Aseta git-käyttäjänimi
+git-config-global-user-email	Aseta git-sähköposti
+git-init	Alusta uusi säilytyspaikka
+git-blame	Näytä versio riviä kohti
+git-bisect	Binäärihaku virheille
+git-cherry-pick	Käytä tiettyä versiota
+gcc	GNU C -kääntäjä
+gcc-o	Määritä tulostetiedoston nimi
+gcc-wall	Ota kaikki varoitukset käyttöön
+gcc-g	Sisällytä debug-symbolit
+gcc-o2	Optimointitaso 2
+gcc-c	Käännä vain, älä linkkaa
+gcc-i	Lisää include-hakemisto
+gcc-l	Linkkaa kirjaston kanssa
+gcc-l-2	Linkkaa kirjaston kanssa
+gcc-d	Määritä esikäsittelijämakro
+gcc-stdc11	Aseta C-standardi
+gcc-fsanitize	Ota puhdistin käyttöön
+gcc-e	Vain esikäsittely
+gcc-s	Käännä assemblyksi
+g-plus-plus	GNU C++ -kääntäjä
+g-plus-plus-stdc-plus-plus11	Aseta C++-standardi
+clang	C-kieliperheen etuosa LLVM:lle
+clang-o2	Optimoi clangilla
+clang-fsanitize	Clang-puhdistin
+gdb	GNU-debuggeri
+gdb-run	Suorita ohjelma debuggerin alla
+gdb-break	Aseta keskeytyskohta debuggerissa
+gdb-next	Ohita askel debuggerissa
+gdb-step	Astu sisään debuggerissa
+gdb-continue	Jatka suoritusta
+gdb-print	Tulosta muuttujan arvo
+gdb-backtrace	Näytä kutsupino
+gdb-info-registers	Näytä suorittimen rekisterit gdb:ssä
+gdb-x-s	Tutki muistia merkkijonona
+gdb-attach	Liity käynnissä olevaan prosessiin
+valgrind	Muistin debuggaus ja profilointi
+valgrind-leak-check	Tarkista muistivuodot
+valgrind-toolcallgrind	Kutsugraafiprofilointi valgrindilla
+valgrind-toolhelgrind	Säikevirheiden tunnistus valgrindilla
+valgrind-toolmassif	Keon profilointi valgrindilla
+valgrind-v	Yksityiskohtainen valgrind-tuloste
+ldd	Tulosta jaetun kirjaston riippuvuudet
+ldd-v	Yksityiskohtainen ldd
+ldd-r	Tarkista ratkaisemattomat symbolit
+objdump	Näytä olioitedoston tietoja
+objdump-d	Pura olioitedosto konekielestä
+objdump-t	Näytä symbolitaulu
+objdump-h	Näytä osio-otsikot
+nm	Listaa symboleja olioitedostoista
+nm-c	Pura C++-symbolit
+nm-a	Näytä debug-symbolit
+strip	Poista symboleja olioitedostoista
+strip-strip-debug	Poista vain debug-symbolit
+ar	Luo ja hallitse arkistokirjastoja
+ar-rcs	Luo staattinen kirjasto
+ar-t	Listaa arkiston jäsenet
+autoconf	Luo määritysskriptejä
+configure	Määritä lähdekoodi käännöstä varten
+configure-prefix	Asenna etuliite
+configure-enable	Ota tietty ominaisuus käyttöön
+configure-with	Ota riippuvuus käyttöön
+patch-2	Käytä diff-tiedostoa alkuperäiseen
+ctags	Luo tag-tiedostoja lähdekoodille
+ctags-r	Rekursiivinen tag-generointi
+cscope	Vuorovaikutteinen lähdekoodin selain
+indent	Muotoile C-lähdekoodia
+pkg-config	Palauta kääntäjän liput kirjastoille
+pkg-config-cflags	Näytä include-liput
+pkg-config-libs	Näytä kirjastoliput
+pkg-config-list-all	Listaa kaikki paketit
+pkg-config-modversion	Näytä paketin versio
+ccache	Käännösvälimuisti
+distcc	Hajautettu C-kääntäjä
+ninja	Pieni rakennusjärjestelmävaihtoehto
+meson	Suorituskykyinen rakennusjärjestelmä
+meson-setup	Määritä meson-rakennus
+meson-compile	Käännä mesonilla
+meson-test	Suorita testit mesonilla
+perf	Linux-suorituskyvyn profilointityökalu
+perf-stat	Mittaa suorituskykylaskurit
+perf-record	Tallenna suorituskykytietoa
+perf-report	Näytä tallennettu suorituskykytieto
+perf-top	Reaaliaikainen suorituskyvyn seuranta
+perf-annotate	Merkitse perf-data lähdekoodilla
+perf-script	Näytä perf-data skriptinä
+bpftrace	Dynaaminen jäljitystyökalu eBPF:lle
+bpftrace-e	Yhden rivin bpftrace-anturi
+strace-e-traceopenreadwrite	Jäljitä tiettyjä järjestelmäkutsuja
+strace-c-2	Laske järjestelmäkutsutilastot
+objdump-m-intel-d	Pura konekielestä Intel-syntaksilla
+objdump-s	Pura lähdekoodi lomittain
+readelf	Näytä ELF-tiedoston tiedot
+readelf-a	Näytä kaikki ELF-tiedot
+readelf-s	Näytä ELF-symbolitaulu
+readelf-r	Näytä ELF-sijoitusinfo
+objcopy	Kopioi ja muunna oliotiedostoja
+objcopy-strip-debug	Poista debug-osiöt
+objcopy-add-gnu-debuglink	Lisää ulkoinen debuggausinfo
+size	Näytä oliotiedoston osiokoot
+size-d	Näytä dataosion koko
+tcpdump	Sieppaa ja analysoi verkkoliikennettä
+tcpdump-i	Sieppaa tietyllä liittymällä
+tcpdump-x	Tulosta heksa ja ASCII paketeista
+tcpdump-w	Kirjoita sieppaus tiedostoon
+tcpdump-r	Lue sieppaus tiedostosta
+tcpdump-port	Suodata sieppausta portin mukaan
+tcpdump-host	Suodata sieppausta isännän mukaan
+tcpdump-c	Sieppaa N pakettia ja lopeta
+tcpdump-n	Älä selvitä isäntänimiä
+tshark	Wiresharkin komentoriviliittymä
+tshark-i	Sieppaa liittymällä tsharkilla
+tshark-r	Lue sieppaustiedosto
+tshark-y	Näytä suodatinlauseke
+socat-2	Kaksisuuntainen tiedonsiirto stdion kautta
+socat-tcp-listen8080fork	TCP-palvelin haarautuksella
+socat-openssl-listen443cert	SSL-palvelin socatilla
+socat-unix-listen-tmp-sock	Unix-pistorasiapalvelin
+iptables-t-nat	NAT-taulun säännöt
+iptables-t-mangle	Muokkauslista pakettien muokkaukseen
+iptables-a-input-s	Lähdeosoitesuodatin
+iptables-a-input-p	Protokollavertailu
+iptables-a-input-dport	Kohdeporttivertailu
+iptables-a-forward	Välitysketjun säännöt
+iptables-j-drop	Pudota paketti -kohde
+iptables-j-reject	Hylkää paketti -kohde
+iptables-j-log	Kirjaa paketti -kohde
+ip6tables	IPv6-palomuurin hallinta
+ip-rule	IP-käytäntöreititys
+ip-tunnel	IP-tunnelin konfigurointi
+ip-maddr	Monilähetysosoitteiden hallinta
+ip-netns	Verkkonimiavaruuksien hallinta
+ip-netns-exec	Suorita verkkonimiavaruudessa
+find-name-c-exec-grep-l-main	Etsi C-tiedostot, jotka sisältävät mainin
+find-size-plus10m-exec-ls-lh	Etsi ja listaa suuret tiedostot
+find-mtime-7-not-name-git	Etsi hiljattain muokatut ilman .git
+find-perm-4000	Etsi SUID-tiedostot
+find-type-f-delete	Poista kaikki tavalliset tiedostot
+sed-i-s-foo-bar-g	Korvaa kaikki foo barilla paikan päällä
+sed-n-pattern-p	Tulosta mallia vastaavat rivit
+sed-start-stop-d	Poista rivit kahden kuvion välillä
+sed-n-1020p	Tulosta rivit 10-20
+sed-s-g	Tiivistä useat välilyönnit
+sed-s-t	Poista alussa olevat välilyönnit
+awk-sum-plus1-end-print-sum	Summaa ensimmäinen sarake
+awk-nrfnr-a1-next-1-in-a	Yhdistä avaimet tiedostojen välillä
+awk-f-print-13	Tulosta tietyt kentät mukautetulla erottimella
+awk-fori1infi-plus-plus-c-plus-plus-end-print-c	Laska sanojen kokonaismäärä
+awk-seen0-plus-plus	Poista kaksoiskappaleet säilyttäen järjestys
+sort-t-k3-n-etc-passwd	Järjestä passwd UID:n mukaan
+gdb-disassemble	Pura funktio konekieleksi gdb:ssä
+gdb-info-frame	Näytä kehystieto gdb:ssä
+gdb-info-registers-2	Näytä suorittimen rekisterit gdb:ssä
+gdb-x-gx	Tutki muistia jättiläissanoina
+gdb-x-s-2	Tutki muistia merkkijonona
+gdb-x-i	Tutki muistia konekäskyinä
+gdb-thread-apply-all-bt	Takaisinjalanjälki kaikista säikeistä
+gdb-catch-syscall	Sieppaa järjestelmäkutsu gdb:ssä
+gdb-reverse-step	Käänteinen askel gdb:ssä
+gdb-record	Aloita käänteisen suorituksen tallennus
+valgrind-toolcallgrind-2	Kutsugraafiprofilointi valgrindilla
+valgrind-toolmassif-2	Keon profilointi valgrindilla
+valgrind-toolhelgrind-2	Säikevirheiden tunnistus valgrindilla
+valgrind-tooldrd	Säikeiden datakilpailun tunnistin
+valgrind-vgdb-error	Odota gdb:tä virheen sattuessa
+perf-probe	Lisää dynaamisia mittauspisteitä
+perf-trace	Järjestelmänlaajuinen jäljitys
+perf-sched	Aikatauluanalyysi
+perf-lock	Lukitusanalyysi
+perf-kmem	Muistinvarausanalyysi
+perf-c2c	Cache-to-cache väärän jakamisen tunnistus
+perf-diff	Vertaa perf-tietotiedostoja
+bpftrace-l	Listaa BPF-mittauspisteet
+bpftrace-tracepointsyscalls	Jäljitä kaikki järjestelmäkutsut bpftracella
+sed-n-start-plus5p	Tulosta 5 riviä kuvion jälkeen
+sed-n-n-d	Tiivistä useat tyhjät rivit yhdeksi
+sed-hxs-n-gp	Yhdistä kaikki rivit pilkulla
+awk-nr1-nr1print-0-sort-n	Järjestä data säilyttäen otsake
+awk-a1-plus2-endfork-in-a-print-kak	Summaa summat avaimen mukaan
+awk-length-80	Tulosta rivit, jotka ovat yli 80 merkkiä
+awk-printf-s-ts-n-1-2	Muotoile tuloste sarkaimilla
+dd-if-dev-zero-offile-bs1m-count100	Luo 100 megatavun nollatiedosto
+dd-if-dev-urandom-offile-bs1m-count10	Luo satunnainen datatiedosto
+dd-if-dev-sda-ofdisk-img-bs4k-convsyncnoerror	Raaka levyvarmistus dd:llä
+dd-iffile-offile2-bs1m-seek10	Kirjoita tiettyyn sijaintiin
+dd-convfsync	Synkronoi tuloste dd:n jälkeen
+iptables-a-input-m-conntrack-ctstate-relatedestablished-j-accept	Salli vakiintuneet yhteydet
+iptables-a-input-m-limit-limit-10-min-j-log	Rajoitettu LOG-nopeus
+iptables-a-input-m-state-state-invalid-j-drop	Pudota virheelliset paketit
+ip-link-add-veth0-type-veth-peer-name-veth1	Luo virtuaalinen ethernet-pari
+ip-netns-add-ns1	Luo verkkonimiavaruus
+ip-link-set-veth0-netns-ns1	Siirrä liittymä nimiavaruuteen
+nmap-ss-sv-o-p	Täysi piiloskannaus version tunnistuksella
+nmap-scriptvuln	Nmap-haavoittuvuusskannaus
+nmap-sn-192-168-1-0-24	Ping-skannaa aliverkko
+openssl	OpenSSL-salaustyökalu
+openssl-sclient	SSL/TLS-asiakas testausta varten
+openssl-sserver	SSL/TLS-testipalvelin
+openssl-x509-in-cert-pem-text-noout	Näytä varmenteen tiedot
+openssl-req-new-x509	Luo itseallekirjoitettu varmenne
+openssl-enc-aes-256-cbc	Salaa tiedosto AES:llä
+openssl-speed	Vertailuarvo salaausalgoritmeille
+openssl-rand-hex-32	Luo satunnainen heksadesimaalimerkkijono
+ssh-l-8080localhost80-userhost	Paikallinen SSH-portinvälitys
+ssh-r-8080localhost80-userhost	Etä-SSH-portinvälitys
+ssh-d-1080-userhost	Dynaaminen SOCKS-välityspalvelin SSH:n kautta
+ssh-o-stricthostkeycheckingno	Ohita isäntäavaimen tarkistus
+ssh-o-proxyjumpuserbastion	SSH-tukipalvelimen kautta
+scp-3-user1host1file-user2host2	Kopioi etäisäntien välillä paikallisen kautta

@@ -1,0 +1,42 @@
+# id	description
+ctrl-c	Keskeytä (SIGINT) nykyinen etuala prosessi
+ctrl-z	Keskeytä (SIGTSTP) nykyinen etuala prosessi
+ctrl-d	EOF - lopeta syöte / kirjaudu ulos Shellistä
+ctrl-l	Tyhjennä päätenäyttö (kuten clear)
+ctrl-a	Siirrä kursori rivin alkuun
+ctrl-e	Siirrä kursori rivin loppuun
+ctrl-b	Siirrä kursoria yksi merkki taaksepäin
+ctrl-f	Siirrä kursoria yksi merkki eteenpäin
+alt-b	Siirrä kursori yksi sana taaksepäin
+alt-f	Siirrä kursori yksi sana eteenpäin
+ctrl-u	Poista kursorista rivin alkuun
+ctrl-k	Poista kursorista rivin loppuun
+ctrl-w	Poista sana ennen kursoria
+alt-d	Poista sana kursorin jälkeen
+ctrl-y	Liitä (yank) poistettu teksti kursorin kohdalle
+ctrl-r	Hae komentohistoriasta (käänteinen haku)
+ctrl-s	Keskeytä tulostus / eteenpäinhaku historiasta
+ctrl-q	Jatka tulostusta Ctrl+S:n jälkeen
+ctrl-t	Vaihda kaksi viimeistä merkkiä ennen kursoria
+ctrl-x	Etuliite laajennetuille komennoille
+ctrl-xx	Vaihda kursori nykyisen ja edellisen sijainnin välillä
+ctrl-h	Poista merkki ennen kursoria (kuten Backspace)
+ctrl-j	Rivinvaihto (kuten Enter joissain yhteyksissä)
+ctrl-m	Rivinvaihto (kuten Enter)
+ctrl-n	Seuraava komento historiassa
+ctrl-p	Edellinen komento historiassa
+ctrl-o	Suorita nykyinen rivi ja etene historiassa
+ctrl-v	Kirjaimellinen - lisää seuraava merkki kirjaimellisesti
+ctrl-underscore	Peru viimeinen tekstinmuokkaus
+alt-dot	Lisää viimeinen argumentti edellisestä komennosta
+esc-dot	Lisää viimeinen argumentti edellisestä komennosta
+alt-backspace	Poista sana taaksepäin (kuten Ctrl+W)
+tab	Täydennä komento tai tiedostonimi
+tab-tab	Näytä kaikki täydennysmahdollisuudet
+alt-question	Listaa mahdolliset täydennykset
+alt-star	Lisää kaikki mahdolliset täydennykset
+ctrl-x-ctrl-e	Muokkaa komentoriviä ulkoisessa editorissa
+ctrl-bracket	Peruuta (kuten Escape-näppäin)
+alt-lt	Siirry historian alkuun
+alt-gt	Siirry historian loppuun
+ctrl-r-ctrl-r	Kierrä historian osumien läpi

@@ -1,0 +1,51 @@
+# id	description
+pipe	Pipe stdout of one command to stdin of another
+redirect-out	Redirect stdout to file (overwrite)
+redirect-append	Redirect stdout to file (append)
+redirect-in	Redirect stdin from file
+redirect-err	Redirect stderr to file (overwrite)
+redirect-err-append	Append stderr to file
+redirect-err-out	Redirect stderr to stdout
+redirect-both-bash	Redirect both stdout and stderr (bash syntax)
+redirect-both	Redirect both stdout and stderr
+redirect-both-append	Append both stdout and stderr
+redirect-out-err	Redirect stdout to stderr
+redirect-readwrite	Open file for both reading and writing
+heredoc	Here document - provide inline input
+herestring	Here string - provide string as input
+redirect-clobber	Clobber - overwrite file even if noclobber set
+cmdsub-dollar	Command substitution
+cmdsub-backtick	Command substitution (backtick syntax)
+arith-expand	Arithmetic expansion
+var-home	Home directory variable
+param-expand	Parameter expansion
+param-default	Use default if variable unset
+param-assign	Assign default if variable unset
+param-alt	Use alternate value if variable set
+param-error	Error if variable unset
+param-substr	Substring expansion
+param-length	Length of variable value
+param-replace	Pattern substitution
+semicolon	Command separator - execute sequentially
+and	AND - execute next only if previous succeeds
+or	OR - execute next only if previous fails
+background	Background - run command in background
+not-hist	NOT - negate exit status / history expansion
+rerun-last	Re-run last command
+last-arg	Last argument of previous command
+all-args	All arguments of previous command
+rerun-nth	Re-run Nth command from history
+rerun-str	Re-run most recent command starting with string
+home-dir	Home directory expansion
+home-user	Home directory of specific user
+glob-any	Wildcard glob - match any characters
+glob-char	Wildcard glob - match single character
+glob-class	Character class glob
+brace-expand	Brace expansion
+brace-comma	Brace expansion comma syntax
+brace-range	Brace expansion range syntax
+subshell	Subshell - run command in subshell
+cmd-group	Command grouping
+arith-eval	Arithmetic evaluation
+ext-test	Extended test conditional
+test-bracket	Test conditional (single bracket)

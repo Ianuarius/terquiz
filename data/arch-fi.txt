@@ -1,0 +1,43 @@
+# id	description
+pacman	Arch Linuxin pakettienhallinta
+pacman-s	Asenna paketti pacmanilla
+pacman-r	Poista paketti pacmanilla
+pacman-rs	Poista paketti ja riippuvuudet
+pacman-rns	Poista paketti, riippuvuudet ja asetukset
+pacman-u	Asenna paikallinen pakettitiedosto
+pacman-sy	Synkronoi pakettitietokannat
+pacman-su	Päivitä kaikki paketit
+pacman-syu	Täysi järjestelmäpäivitys
+pacman-ss	Etsi paketteja
+pacman-si	Näytä paketin tiedot
+pacman-qs	Etsi asennettuja paketteja
+pacman-qi	Asennetun paketin tiedot
+pacman-ql	Listaa paketin asentamat tiedostot
+pacman-qo	Etsi mikä paketti omistaa tiedoston
+pacman-qdt	Listaa orvot paketit
+pacman-sc	Tyhjennä pakettivälimuisti
+pacman-scc	Tyhjennä pakettivälimuisti kokonaan
+pacman-fl	Listaa tiedostot etäpaketissa
+pacman-sw	Lataa ilman asennusta
+pacman-noconfirm	Ohita vahvistuskehotteet
+yay	AUR-apuri - Yet Another Yogurt
+yay-s	Asenna paketti AUR:sta
+yay-syu	Täysi järjestelmäpäivitys AUR:n kanssa
+yay-ss	Etsi AUR-paketteja
+yay-yc	Poista tarpeettomat AUR-riippuvuudet
+paru	AUR-apuri Rustilla
+paru-s	Asenna parulla
+makepkg	Rakenna paketti PKGBUILD:sta
+makepkg-si	Rakenna ja asenna paketti
+makepkg-c	Siivoa rakennuksen jälkeen
+pkgbuild	Arch-paketin rakennusskripti
+pkgfile	Etsi paketti joka sisältää tiedoston
+pkgfile-u	Päivitä pkgfile-tietokanta
+pacman-key	Hallitse pacman-avainnippua
+pacman-key-init	Alusta pacman-avainnippu
+pacman-key-populate	Täytä avainnippu
+pacstrap	Asenna perusjärjestelmä uuteen juureen
+arch-chroot	Suorita chroot Arch-järjestelmään
+genfstab	Luo fstab uudelle asennukselle
+mkinitcpio	Luo initramfs
+reflector	Hae uusin peililista

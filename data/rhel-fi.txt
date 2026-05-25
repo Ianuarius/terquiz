@@ -1,0 +1,50 @@
+# id	description
+yum	RPM-pakettienhallinta RHEL/CentOS:lle
+yum-install	Asenna paketti yumilla
+yum-remove	Poista paketti yumilla
+yum-update	Päivitä kaikki paketit yumilla
+yum-search	Etsi paketteja yumilla
+yum-info	Näytä paketin tiedot yumilla
+yum-list-installed	Listaa asennetut yumilla
+yum-groupinstall	Asenna pakettiryhmä
+yum-group-list	Listaa saatavilla olevat ryhmät
+yum-clean-all	Tyhjennä yum-välimuisti
+yum-history	Katso yumin tapahtumahistoriaa
+dnf	DNF-pakettienhallinta Fedoralle
+dnf-install	Asenna paketti dnf:llä
+dnf-remove	Poista paketti dnf:llä
+dnf-update	Päivitä paketit dnf:llä
+dnf-search	Etsi paketteja dnf:llä
+dnf-info	Paketin tiedot dnf:llä
+dnf-groupinstall	Asenna pakettiryhmä dnf:llä
+dnf-group-list	Listaa ryhmät dnf:llä
+dnf-history	Tapahtumahistoria dnf:llä
+dnf-autoremove	Poista tarpeettomat paketit
+dnf-repolist	Listaa määritellyt pakettivarastot
+dnf-provides	Etsi paketti joka tarjoaa tiedoston
+dnf-reinstall	Asenna paketti uudelleen
+dnf-downgrade	Palauta paketti vanhempaan versioon
+dnf-module-install	Asenna moduulistream
+rpm-ivh	Asenna RPM verbose-hashilla
+rpm-uvh	Päivitä RPM-paketti
+rpm-qr	Kysely paketin vaatimuksista
+rpm-q-scripts	Näytä paketin skriptit
+firewall-cmd	Palomuurin hallinta (firewalld)
+firewall-cmd-add-port	Avaa portti
+firewall-cmd-add-service	Salli palvelu
+firewall-cmd-list-all	Listaa palomuurisäännöt
+firewall-cmd-permanent	Tee säännöstä pysyvä
+firewall-cmd-zone	Määritä vyöhyke
+semanage	SELinux-käytäntöjen hallinta
+semanage-port-a	Lisää portti SELinux-käytäntöön
+semanage-fcontext	Hallitse tiedostokonteksteja
+restorecon	Palauta SELinux-tiedostokonteksti
+restorecon-r	Palauta konteksti rekursiivisesti
+chcon	Muuta SELinux-tiedostokontekstia
+getenforce	Hae SELinuxin tila
+setenforce	Aseta SELinuxin tila
+subscription-manager	RHEL-tilauksen hallinta
+subscription-manager-register	Rekisteröi järjestelmä
+subscription-manager-attach	Liitä tilaus
+authselect	Authentication-valitsin
+authselect-select	Valitse auth-profiili

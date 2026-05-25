@@ -1,0 +1,50 @@
+# id	command	category	difficulty
+yum	yum	rhel	4
+yum-install	yum install	rhel	5
+yum-remove	yum remove	rhel	5
+yum-update	yum update	rhel	5
+yum-search	yum search	rhel	6
+yum-info	yum info	rhel	6
+yum-list-installed	yum list installed	rhel	7
+yum-groupinstall	yum groupinstall	rhel	8
+yum-group-list	yum group list	rhel	9
+yum-clean-all	yum clean all	rhel	8
+yum-history	yum history	rhel	9
+dnf	dnf	rhel	4
+dnf-install	dnf install	rhel	5
+dnf-remove	dnf remove	rhel	5
+dnf-update	dnf update	rhel	5
+dnf-search	dnf search	rhel	6
+dnf-info	dnf info	rhel	6
+dnf-groupinstall	dnf groupinstall	rhel	8
+dnf-group-list	dnf group list	rhel	9
+dnf-history	dnf history	rhel	9
+dnf-autoremove	dnf autoremove	rhel	8
+dnf-repolist	dnf repolist	rhel	7
+dnf-provides	dnf provides	rhel	8
+dnf-reinstall	dnf reinstall	rhel	9
+dnf-downgrade	dnf downgrade	rhel	10
+dnf-module-install	dnf module install	rhel	11
+rpm-ivh	rpm -ivh	rhel	6
+rpm-uvh	rpm -Uvh	rhel	7
+rpm-qr	rpm -qR	rhel	9
+rpm-q-scripts	rpm -q --scripts	rhel	11
+firewall-cmd	firewall-cmd	rhel	7
+firewall-cmd-add-port	firewall-cmd --add-port	rhel	8
+firewall-cmd-add-service	firewall-cmd --add-service	rhel	8
+firewall-cmd-list-all	firewall-cmd --list-all	rhel	8
+firewall-cmd-permanent	firewall-cmd --permanent	rhel	9
+firewall-cmd-zone	firewall-cmd --zone	rhel	9
+semanage	semanage	rhel	10
+semanage-port-a	semanage port -a	rhel	12
+semanage-fcontext	semanage fcontext	rhel	12
+restorecon	restorecon	rhel	10
+restorecon-r	restorecon -R	rhel	10
+chcon	chcon	rhel	11
+getenforce	getenforce	rhel	9
+setenforce	setenforce	rhel	10
+subscription-manager	subscription-manager	rhel	9
+subscription-manager-register	subscription-manager register	rhel	10
+subscription-manager-attach	subscription-manager attach	rhel	11
+authselect	authselect	rhel	10
+authselect-select	authselect select	rhel	11

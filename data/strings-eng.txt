@@ -1,0 +1,113 @@
+# UI strings
+menu_title	TERQUIZ
+menu_subtitle	Linux Terminal Quiz
+menu_version	v1.0
+menu_play	Play
+menu_topics	Topics
+menu_settings	Settings
+menu_progress	Progress
+menu_quit	Quit
+menu_nav	[Up/Down]: navigate  [Enter]: select
+menu_mastered	Mastered: %d/%d commands
+settings_title	SETTINGS
+settings_mode	Mode:
+settings_length	Quiz Length:
+settings_timer	Timer:
+settings_lives	Lives:
+settings_practice	Practice:
+settings_language	Language:
+settings_nav	[Left/Right]: adjust  [Space/Enter]: toggle
+settings_back	[q]: Back
+settings_guess_cmd	Cmd
+settings_guess_def	Def
+settings_guess_mixed	Mixed
+settings_timer_off	Off
+settings_lives_off	Off
+settings_practice_off	No penalties, show answers
+settings_lang_eng	English
+settings_lang_fi	Suomi
+settings_length_10	10
+settings_length_20	20
+settings_length_50	50
+settings_length_endless	Endless
+topics_title	TOPICS
+topics_categories	Categories:
+topics_packs	Content Packs:
+topics_nav	[Up/Down]: navigate  [Space/Enter]: toggle
+topics_back	q: Back
+source_core	Core Linux Commands
+source_hotkeys	Terminal Hotkeys
+source_builtins	Shell Builtins
+source_redir	Redirections && Pipes
+source_debian	Debian/Ubuntu/Mint
+source_rhel	RHEL/Fedora
+source_arch	Arch Linux
+source_macos	macOS
+game_score	Score: %d
+game_streak	Streak: %d
+game_lives	Lives: %d
+game_question_fmt	Question %d/%d
+game_question_n	Question %d
+game_guess_cmd	Which command does this?
+game_guess_def	What does this command do?
+game_time_limit	Time limit: %ds
+game_select	[1-6] Select  [q] Quit
+game_select_typed	Type your answer  [Enter] Submit  [q] Quit
+game_type_prompt	Command:
+results_title	GAME OVER
+results_header	Results
+results_score	Score:       %d
+results_correct	Correct:     %d / %d
+results_accuracy	Accuracy:    %d%%
+results_best_streak	Best Streak: %d
+results_lives_lost	Lives Lost:  %d
+results_grade	Grade: %s
+results_continue	Press any key to continue
+progress_title	PROGRESS
+progress_header	Command/Streak/Total/Status
+progress_mastered	MASTERED
+progress_learning	Learning
+progress_new	New
+progress_nav	[Up/Down]: scroll  [q]: back
+progress_empty	No progress yet. Play a game first!
+msg_no_commands	No commands match your filters!
+msg_failed_load	Failed to load commands file!
+confirm_title	Confirm
+confirm_yes	[Enter]=Yes  [q]=No
+info_title	Info
+info_any_key	Press any key to continue
+cat_file_operations	File Operations
+cat_text_processing	Text Processing
+cat_networking	Networking
+cat_process_management	Process Management
+cat_system_information	System Information
+cat_users_permissions	Users && Permissions
+cat_package_management	Package Management
+cat_development_tools	Development Tools
+cat_shell_basics	Shell Basics
+cat_terminal_hotkeys	Terminal Hotkeys
+cat_redir_pipes	Redirections && Pipes
+difficulty_label	Level %d unlocked
+difficulty_level	Difficulty: Level %d
+result_correct	> %s
+result_wrong_cmd	X %s  (you typed: %s)
+result_wrong_def	X You: %s  (correct: %s)
+result_timed_out	X Timed out  (%s)
+result_retry_correct	[RETRY] > %s
+result_retry_wrong_cmd	[RETRY] X Correct: %s  (you: %s)
+result_retry_wrong_def	[RETRY] X You: %s  (correct: %s)
+result_retry_timed_out	[RETRY] X Timed out  (answer: %s)
+game_retry_tag	[RETRY]
+game_option_none	---
+settings_timer_5	5s
+settings_timer_10	10s
+settings_timer_15	15s
+settings_timer_30	30s
+settings_lives_1	1
+settings_lives_3	3
+settings_lives_5	5
+grade_f	F
+grade_d	D
+grade_c	C
+grade_b	B
+grade_a	A

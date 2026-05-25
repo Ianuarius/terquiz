@@ -1,0 +1,43 @@
+# id	description
+pacman	Arch Linux package manager
+pacman-s	Install a package with pacman
+pacman-r	Remove a package with pacman
+pacman-rs	Remove package and dependencies
+pacman-rns	Remove package, deps, and configs
+pacman-u	Install a local package file
+pacman-sy	Sync package databases
+pacman-su	Upgrade all packages
+pacman-syu	Full system update
+pacman-ss	Search for packages
+pacman-si	Show package information
+pacman-qs	Search installed packages
+pacman-qi	Installed package info
+pacman-ql	List files installed by package
+pacman-qo	Find which package owns file
+pacman-qdt	List orphaned packages
+pacman-sc	Clean package cache
+pacman-scc	Fully clean package cache
+pacman-fl	List files in remote package
+pacman-sw	Download without installing
+pacman-noconfirm	Skip confirmation prompts
+yay	AUR helper - Yet Another Yogurt
+yay-s	Install package from AUR
+yay-syu	Full system update with AUR
+yay-ss	Search AUR packages
+yay-yc	Clean unneeded AUR deps
+paru	AUR helper in Rust
+paru-s	Install with paru
+makepkg	Build package from PKGBUILD
+makepkg-si	Build and install package
+makepkg-c	Clean after build
+pkgbuild	Arch package build script
+pkgfile	Find package containing file
+pkgfile-u	Update pkgfile database
+pacman-key	Manage pacman keyring
+pacman-key-init	Initialize pacman keyring
+pacman-key-populate	Populate keyring
+pacstrap	Install base system to new root
+arch-chroot	Chroot into Arch system
+genfstab	Generate fstab for new install
+mkinitcpio	Generate initramfs
+reflector	Fetch latest mirror list

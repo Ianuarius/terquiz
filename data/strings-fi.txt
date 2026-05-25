@@ -1,0 +1,113 @@
+# UI strings in Finnish
+menu_title	TERQUIZ
+menu_subtitle	Linux Terminal -tietovisa
+menu_version	v1.0
+menu_play	Pelaa
+menu_topics	Aiheet
+menu_settings	Asetukset
+menu_progress	Edistyminen
+menu_quit	Lopeta
+menu_nav	[Ylös/Alas] selaa  [Enter] valitse
+menu_mastered	Hallittu: %d/%d komentoa
+settings_title	ASETUKSET
+settings_mode	Tila:
+settings_length	Kyselyn pituus:
+settings_timer	Ajastin:
+settings_lives	Elämiä:
+settings_practice	Harjoittelu:
+settings_language	Kieli:
+settings_nav	[Vasen/Oikea] säädä  [Väli/Enter] valitse
+settings_back	[q] Takaisin
+settings_guess_cmd	Käsky
+settings_guess_def	Määritelmä
+settings_guess_mixed	Sekalainen
+settings_timer_off	Pois
+settings_lives_off	Pois
+settings_practice_off	Ei rangaistuksia, näytä vastaukset
+settings_lang_eng	Englanti
+settings_lang_fi	Suomi
+settings_length_10	10
+settings_length_20	20
+settings_length_50	50
+settings_length_endless	Loputon
+topics_title	AIHEET
+topics_categories	Kategoriat:
+topics_packs	Sisältöpaketit:
+topics_nav	[Ylös/Alas] selaa  [Väli/Enter] valitse
+topics_back	[q] Takaisin
+source_core	Perus Linux -komennot
+source_hotkeys	Päätteen pikakomennot
+source_builtins	Shellin sisäänrakennetut
+source_redir	Uudelleenohjaukset ja putket
+source_debian	Debian/Ubuntu/Mint
+source_rhel	RHEL/Fedora
+source_arch	Arch Linux
+source_macos	macOS
+game_score	Pisteet: %d
+game_streak	Putki: %d
+game_lives	Elämää: %d
+game_question_fmt	Kysymys %d/%d
+game_question_n	Kysymys %d
+game_guess_cmd	Kirjoita käsky tälle toiminnolle:
+game_guess_def	Mitä tämä käsky tekee?
+game_time_limit	Aikaraja: %ds
+game_select	[1-6] Valitse  [q] Lopeta
+game_select_typed	Kirjoita vastaus  [Enter] Lähetä  [q] Lopeta
+game_type_prompt	Käsky:
+results_title	PELI PÄÄTTYI
+results_header	Tulokset
+results_score	Pisteet:      %d
+results_correct	Oikein:      %d / %d
+results_accuracy	Tarkkuus:    %d%%
+results_best_streak	Paras putki: %d
+results_lives_lost	Menetetyt elämät: %d
+results_grade	Arvosana: %s
+results_continue	Paina mitä tahansa näppäintä jatkaaksesi
+progress_title	EDISTYMINEN
+progress_header	Käsky/Putki/Yhteensä/Tila
+progress_mastered	HALLITTU
+progress_learning	Oppii
+progress_new	Uusi
+progress_nav	[Ylös/Alas] selaa  [q] takaisin
+progress_empty	Ei edistymistä. Pelaa ensin peli!
+msg_no_commands	Komennot eivät täsmää suodattimiisi!
+msg_failed_load	Tiedoston lataus epäonnistui!
+confirm_title	Vahvista
+confirm_yes	[Enter]=Kyllä  [q]=Ei
+info_title	Tietoa
+info_any_key	Paina mitä tahansa näppäintä
+cat_file_operations	Tiedostotoiminnot
+cat_text_processing	Tekstinkäsittely
+cat_networking	Verkko
+cat_process_management	Prosessien hallinta
+cat_system_information	Järjestelmätiedot
+cat_users_permissions	Käyttäjät ja oikeudet
+cat_package_management	Pakettien hallinta
+cat_development_tools	Työkalut
+cat_shell_basics	Shell-perusteet
+cat_terminal_hotkeys	Päätteen pikakomennot
+cat_redir_pipes	Uudelleenohjaukset ja putket
+difficulty_label	Taso %d avattu
+difficulty_level	Vaikeustaso: Taso %d
+result_correct	> %s
+result_wrong_cmd	X %s  (kirjoitit: %s)
+result_wrong_def	X Sinä: %s  (oikein: %s)
+result_timed_out	X Aika loppui  (%s)
+result_retry_correct	[RETRY] > %s
+result_retry_wrong_cmd	[RETRY] X Oikein: %s  (sinä: %s)
+result_retry_wrong_def	[RETRY] X Sinä: %s  (oikein: %s)
+result_retry_timed_out	[RETRY] X Aika loppui  (vastaus: %s)
+game_retry_tag	[RETRY]
+game_option_none	---
+settings_timer_5	5s
+settings_timer_10	10s
+settings_timer_15	15s
+settings_timer_30	30s
+settings_lives_1	1
+settings_lives_3	3
+settings_lives_5	5
+grade_f	F
+grade_d	D
+grade_c	C
+grade_b	B
+grade_a	A

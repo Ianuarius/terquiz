@@ -1,0 +1,1029 @@
+# id	command	category	difficulty
+ls	ls	file	1
+ls-a	ls -a	file	3
+ls-l	ls -l	file	3
+ls-la	ls -la	file	4
+ls-lh	ls -lh	file	5
+ls-r	ls -R	file	6
+ls-s	ls -S	file	7
+ls-t	ls -t	file	7
+ls-r-2	ls -r	file	8
+ls-1	ls -1	file	5
+ls-d	ls -d	file	6
+ls-i	ls -i	file	7
+ls-f	ls -F	file	6
+ls-la-color	ls -la --color	file	5
+ls-lhs	ls -lhS	file	8
+ls-latr	ls -latr	file	8
+ls-la-group-directories-first	ls -la --group-directories-first	file	9
+ls-la-sortextension	ls -la --sort=extension	file	10
+cat	cat	file	1
+tac	tac	file	4
+rm	rm	file	1
+rm-rf	rm -rf	file	4
+rm-i	rm -i	file	4
+rmdir	rmdir	file	3
+mv	mv	file	1
+mv-i	mv -i	file	4
+mv-u	mv -u	file	6
+mv-b	mv -b	file	7
+cp	cp	file	1
+cp-r	cp -r	file	3
+cp-a	cp -a	file	5
+cp-i	cp -i	file	4
+cp-u	cp -u	file	6
+cp-p	cp -p	file	5
+cp-l	cp -l	file	7
+cp-s	cp -s	file	8
+cp-preserveall	cp --preserve=all	file	7
+mkdir	mkdir	file	1
+mkdir-p	mkdir -p	file	3
+mkdir-v	mkdir -v	file	5
+mkdir-m	mkdir -m	file	6
+touch	touch	file	1
+touch-t	touch -t	file	5
+touch-r	touch -r	file	6
+find	find	file	3
+find-name	find -name	file	4
+find-iname	find -iname	file	5
+find-type	find -type	file	5
+find-size	find -size	file	6
+find-mtime	find -mtime	file	6
+find-mmin	find -mmin	file	7
+find-exec	find -exec	file	7
+find-ok	find -ok	file	10
+find-delete	find -delete	file	8
+find-maxdepth	find -maxdepth	file	6
+find-mindepth	find -mindepth	file	7
+find-newer	find -newer	file	9
+find-perm	find -perm	file	9
+find-user	find -user	file	9
+find-group	find -group	file	10
+find-print0	find -print0	file	8
+find-l	find -L	file	10
+ln	ln	file	4
+ln-s	ln -s	file	4
+ln-sf	ln -sf	file	5
+ln-v	ln -v	file	7
+tar	tar	file	4
+tar-czf	tar -czf	file	5
+tar-xzf	tar -xzf	file	5
+tar-tjf	tar -tjf	file	9
+tar-xjf	tar -xjf	file	8
+tar-xjf-2	tar -xJf	file	9
+tar-xf	tar -xf	file	5
+tar-rf	tar -rf	file	8
+tar-uf	tar -uf	file	9
+tar-tvf	tar -tvf	file	7
+tar-exclude	tar --exclude	file	9
+gzip	gzip	file	4
+gzip-k	gzip -k	file	6
+gzip-d	gzip -d	file	5
+gunzip	gunzip	file	4
+gunzip-k	gunzip -k	file	7
+bzip2	bzip2	file	5
+bunzip2	bunzip2	file	5
+bzip2-k	bzip2 -k	file	7
+xz	xz	file	6
+unxz	unxz	file	6
+zip	zip	file	4
+zip-r	zip -r	file	5
+zip-q	zip -q	file	7
+zip-d	zip -d	file	8
+unzip	unzip	file	4
+unzip-l	unzip -l	file	6
+unzip-o	unzip -o	file	6
+unzip-d	unzip -d	file	6
+rsync	rsync	file	5
+rsync-a	rsync -a	file	6
+rsync-v	rsync -v	file	7
+rsync-z	rsync -z	file	7
+rsync-p	rsync -P	file	8
+rsync-delete	rsync --delete	file	9
+rsync-e-ssh	rsync -e ssh	file	9
+dd	dd	sys	9
+dd-if	dd if	sys	9
+dd-of	dd of	sys	10
+dd-bs	dd bs	sys	10
+dd-count	dd count	sys	11
+dd-statusprogress	dd status=progress	sys	10
+stat	stat	file	4
+stat-c	stat -c	file	7
+stat-f	stat -f	file	8
+file	file	file	2
+tree	tree	file	3
+tree-l	tree -L	file	5
+tree-d	tree -d	file	6
+tree-h	tree -h	file	7
+tree-a	tree -a	file	5
+basename	basename	text	3
+dirname	dirname	text	3
+realpath	realpath	text	3
+mktemp	mktemp	file	4
+mktemp-d	mktemp -d	file	5
+mktemp-p	mktemp -p	file	7
+install	install	file	6
+install-d	install -d	file	7
+install-m	install -m	file	8
+patch	patch	text	7
+patch-p	patch -p	text	9
+patch-r	patch -R	text	10
+sync	sync	sys	4
+truncate	truncate	file	6
+fallocate	fallocate	file	8
+readlink	readlink	file	5
+readlink-f	readlink -f	file	6
+grep	grep	text	2
+grep-r	grep -r	text	4
+grep-i	grep -i	text	4
+grep-v	grep -v	text	4
+grep-c	grep -c	text	5
+grep-n	grep -n	text	5
+grep-l	grep -l	text	5
+grep-w	grep -w	text	6
+grep-x	grep -x	text	8
+grep-o	grep -o	text	6
+grep-a	grep -A	text	7
+grep-b	grep -B	text	7
+grep-c-2	grep -C	text	7
+grep-e	grep -E	text	5
+grep-p	grep -P	text	9
+grep-q	grep -q	text	7
+grep-s	grep -s	text	8
+grep-color	grep --color	text	5
+grep-m	grep -m	text	8
+grep-f	grep -f	text	9
+egrep	egrep	text	5
+fgrep	fgrep	text	5
+sed	sed	text	4
+sed-i	sed -i	text	6
+sed-n	sed -n	text	6
+sed-s	sed s/	text	5
+sed-e	sed -e	text	8
+sed-f	sed -f	text	9
+sed-r	sed -r	text	9
+awk	awk	text	5
+awk-f	awk -F	text	6
+awk-print	awk '{print}'	text	6
+awk-pattern	awk '/pattern/'	text	8
+awk-v	awk -v	text	9
+awk-begin	awk 'BEGIN'	text	10
+awk-end	awk 'END'	text	10
+cut	cut	text	3
+cut-d	cut -d	text	5
+cut-f	cut -f	text	5
+cut-c	cut -c	text	5
+cut-complement	cut --complement	text	9
+sort	sort	text	2
+sort-r	sort -r	text	4
+sort-n	sort -n	text	4
+sort-k	sort -k	text	6
+sort-u	sort -u	text	5
+sort-t	sort -t	text	7
+sort-h	sort -h	text	7
+sort-v	sort -V	text	8
+uniq	uniq	text	3
+uniq-c	uniq -c	text	5
+uniq-d	uniq -d	text	6
+uniq-u	uniq -u	text	7
+uniq-i	uniq -i	text	7
+wc	wc	text	2
+wc-l	wc -l	text	4
+wc-w	wc -w	text	4
+wc-c	wc -c	text	5
+wc-m	wc -m	text	6
+head	head	text	2
+head-n	head -n	text	4
+head-c	head -c	text	6
+head-q	head -q	text	8
+tail	tail	text	2
+tail-n	tail -n	text	4
+tail-f	tail -f	text	5
+tail-f-2	tail -F	text	7
+tail-q	tail -q	text	8
+tail-c	tail -c	text	7
+diff	diff	text	4
+diff-u	diff -u	text	5
+diff-y	diff -y	text	7
+diff-r	diff -r	text	6
+diff-q	diff -q	text	7
+diff-i	diff -i	text	8
+diff-w	diff -w	text	8
+diff-n	diff -N	text	9
+diff-color	diff --color	text	7
+sdiff	sdiff	text	8
+cmp	cmp	text	4
+cmp-l	cmp -l	text	7
+comm	comm	text	5
+comm-1	comm -1	text	8
+comm-2	comm -2	text	8
+comm-3	comm -3	text	8
+tr	tr	text	3
+tr-d	tr -d	text	5
+tr-s	tr -s	text	5
+tr-c	tr -c	text	7
+tee	tee	text	3
+tee-a	tee -a	text	6
+tee-i	tee -i	text	8
+fold	fold	text	4
+fold-w	fold -w	text	6
+fold-s	fold -s	text	7
+expand	expand	text	4
+expand-t	expand -t	text	6
+unexpand	unexpand	text	5
+unexpand-a	unexpand -a	text	7
+nl	nl	text	4
+nl-ba	nl -ba	text	7
+nl-n	nl -n	text	8
+od	od	text	8
+od-a	od -A	text	10
+od-t	od -t	text	10
+hexdump	hexdump	text	8
+hexdump-c	hexdump -C	text	9
+hexdump-n	hexdump -n	text	10
+xxd	xxd	text	8
+xxd-r	xxd -r	text	9
+xxd-p	xxd -p	text	9
+rev	rev	text	4
+seq	seq	text	3
+seq-s	seq -s	text	6
+seq-w	seq -w	text	7
+shuf	shuf	text	4
+shuf-n	shuf -n	text	7
+shuf-e	shuf -e	text	8
+shuf-r	shuf -r	text	9
+xargs	xargs	text	5
+xargs-n	xargs -n	text	7
+xargs-i	xargs -I	text	8
+xargs-p	xargs -P	text	9
+xargs-0	xargs -0	text	8
+xargs-r	xargs -r	text	9
+pr	pr	text	6
+pr-2	pr -2	text	9
+paste	paste	text	4
+paste-d	paste -d	text	6
+paste-s	paste -s	text	7
+join	join	text	5
+join-t	join -t	text	8
+join-1	join -1	text	8
+look	look	text	5
+fmt	fmt	text	6
+fmt-w	fmt -w	text	7
+fmt-u	fmt -u	text	9
+strings	strings	text	5
+strings-n	strings -n	text	8
+strings-t	strings -t	text	9
+iconv	iconv	text	6
+iconv-f	iconv -f	text	7
+iconv-t	iconv -t	text	7
+iconv-l	iconv -l	text	9
+recode	recode	text	10
+less	less	text	2
+less-n	less -N	text	5
+less-s	less -S	text	6
+less-i	less -i	text	6
+less-r	less -R	text	7
+less-plusf	less +F	text	8
+less-g	less -g	text	9
+more	more	text	2
+more-s	more -s	text	6
+more-plus-pattern	more +/pattern	text	8
+echo	echo	sys	1
+echo-n	echo -n	sys	3
+echo-e	echo -e	sys	4
+printf	printf	sys	4
+printf-s	printf '%s'	sys	5
+printf-d	printf '%d'	sys	6
+printf-x	printf '%x'	sys	8
+column	column	text	5
+column-t	column -t	text	6
+column-s	column -s	text	7
+column-x	column -x	text	9
+tsort	tsort	text	8
+curl	curl	net	2
+curl-o	curl -o	net	4
+curl-l	curl -L	net	5
+curl-i	curl -I	net	5
+curl-s	curl -s	net	5
+curl-s-2	curl -S	net	7
+curl-o-2	curl -O	net	5
+curl-c	curl -C	net	8
+curl-u	curl -u	net	6
+curl-h	curl -H	net	7
+curl-d	curl -d	net	6
+curl-x	curl -X	net	7
+curl-k	curl -k	net	8
+curl-v	curl -v	net	6
+curl-data-urlencode	curl --data-urlencode	net	9
+curl-limit-rate	curl --limit-rate	net	9
+wget	wget	net	2
+wget-o	wget -O	net	4
+wget-c	wget -c	net	5
+wget-q	wget -q	net	5
+wget-p	wget -P	net	7
+wget-r	wget -r	net	8
+wget-np	wget -np	net	9
+wget-l	wget -l	net	9
+wget-m	wget -m	net	10
+wget-nv	wget -nv	net	6
+ssh	ssh	net	4
+ssh-i	ssh -i	net	6
+ssh-p	ssh -p	net	6
+ssh-j	ssh -J	net	9
+ssh-x	ssh -X	net	8
+ssh-y	ssh -Y	net	9
+ssh-n	ssh -N	net	8
+ssh-f	ssh -f	net	8
+ssh-v	ssh -v	net	6
+ssh-keygen	ssh-keygen	net	6
+ssh-copy-id	ssh-copy-id	net	6
+ssh-add	ssh-add	net	7
+ssh-agent	ssh-agent	net	7
+scp	scp	net	4
+scp-p	scp -P	net	6
+scp-r	scp -r	net	5
+scp-c	scp -C	net	8
+sftp	sftp	net	5
+sftp-p	sftp -P	net	8
+ftp	ftp	net	4
+ftp-i	ftp -i	net	7
+nc	nc	net	6
+nc-l	nc -l	net	8
+nc-v	nc -v	net	8
+nc-z	nc -z	net	9
+nc-u	nc -u	net	9
+nc-w	nc -w	net	9
+netstat	netstat	net	4
+netstat-tuln	netstat -tuln	net	6
+netstat-a	netstat -a	net	6
+netstat-p	netstat -p	net	7
+netstat-r	netstat -r	net	7
+netstat-s	netstat -s	net	8
+ss	ss	net	4
+ss-t	ss -t	net	6
+ss-u	ss -u	net	7
+ss-l	ss -l	net	6
+ss-p	ss -p	net	7
+ss-n	ss -n	net	6
+ss-s	ss -s	net	8
+ping	ping	net	2
+ping-c	ping -c	net	4
+ping-i	ping -i	net	7
+ping-s	ping -s	net	8
+ping-4	ping -4	net	8
+ping-6	ping -6	net	9
+traceroute	traceroute	net	6
+traceroute-n	traceroute -n	net	7
+traceroute-m	traceroute -m	net	9
+traceroute-w	traceroute -w	net	10
+traceroute-i	traceroute -I	net	9
+mtr	mtr	net	7
+mtr-r	mtr -r	net	8
+mtr-c	mtr -c	net	9
+dig	dig	net	4
+dig-x	dig -x	net	6
+dig-plusshort	dig +short	net	6
+dig-plustrace	dig +trace	net	8
+dig-server	dig @server	net	7
+dig-any	dig ANY	net	9
+dig-mx	dig MX	net	7
+nslookup	nslookup	net	4
+host	host	net	4
+host-t	host -t	net	8
+host-a	host -a	net	8
+nmap	nmap	net	7
+nmap-ss	nmap -sS	net	10
+nmap-sv	nmap -sV	net	10
+nmap-st	nmap -sT	net	10
+nmap-su	nmap -sU	net	11
+nmap-o	nmap -O	net	11
+nmap-p	nmap -p	net	8
+nmap-a	nmap -A	net	11
+nmap-v	nmap -v	net	8
+nmap-sn	nmap -sn	net	9
+nmap-top-ports	nmap --top-ports	net	9
+iptables	iptables	net	10
+iptables-l	iptables -L	net	10
+iptables-a	iptables -A	net	11
+iptables-d	iptables -D	net	12
+iptables-p	iptables -P	net	12
+iptables-f	iptables -F	net	11
+iptables-s	iptables -s	net	12
+iptables-j	iptables -j	net	11
+ip	ip	net	4
+ip-addr	ip addr	net	5
+ip-link	ip link	net	6
+ip-route	ip route	net	6
+ip-neigh	ip neigh	net	8
+ip-s	ip -s	net	7
+ip-c	ip -c	net	9
+ip-link-set	ip link set	net	9
+ip-route-add	ip route add	net	9
+ifconfig	ifconfig	net	4
+ifconfig-a	ifconfig -a	net	6
+route	route	net	4
+route-n	route -n	net	6
+arp	arp	net	6
+arp-a	arp -a	net	7
+arp-d	arp -d	net	9
+iwconfig	iwconfig	net	7
+iwconfig-a	iwconfig -a	net	9
+whois	whois	net	5
+telnet	telnet	net	5
+elinks	elinks	net	7
+links	links	net	7
+lynx	lynx	net	7
+httpie	httpie	net	8
+http	http	net	8
+socat	socat	net	9
+socat-tcp-listen	socat TCP-LISTEN	net	10
+socat-unix-connect	socat UNIX-CONNECT	net	12
+ps	ps	proc	2
+ps-aux	ps aux	proc	4
+ps-ef	ps -ef	proc	4
+ps-u	ps -u	proc	6
+ps-c	ps -C	proc	7
+ps-o	ps -o	proc	8
+ps-sort	ps --sort	proc	8
+ps-l	ps -L	proc	9
+ps-forest	ps --forest	proc	8
+top	top	proc	4
+top-u	top -u	proc	6
+top-p	top -p	proc	7
+top-b	top -b	proc	8
+top-n	top -n	proc	9
+htop	htop	proc	4
+htop-p	htop -p	proc	8
+htop-u	htop -u	proc	7
+htop-t	htop -t	proc	9
+kill	kill	proc	2
+kill-9	kill -9	proc	4
+kill-15	kill -15	proc	4
+kill-1	kill -1	proc	7
+kill-2	kill -2	proc	7
+kill-3	kill -3	proc	9
+kill-stop	kill -STOP	proc	8
+kill-cont	kill -CONT	proc	8
+killall	killall	proc	4
+killall-9	killall -9	proc	6
+killall-i	killall -i	proc	8
+killall-q	killall -q	proc	9
+pkill	pkill	proc	4
+pkill-f	pkill -f	proc	6
+pkill-u	pkill -u	proc	7
+pgrep	pgrep	proc	4
+pgrep-f	pgrep -f	proc	6
+pgrep-u	pgrep -u	proc	7
+pgrep-l	pgrep -l	proc	6
+nice	nice	proc	7
+nice-n	nice -n	proc	7
+renice	renice	proc	7
+renice-n	renice -n	proc	8
+nohup	nohup	proc	5
+nohup-out	nohup.out	proc	6
+bg	bg	proc	4
+fg	fg	proc	4
+jobs	jobs	proc	4
+jobs-l	jobs -l	proc	7
+jobs-r	jobs -r	proc	8
+jobs-s	jobs -s	proc	8
+disown	disown	proc	7
+disown-h	disown -h	proc	8
+wait	wait	sys	5
+wait-n	wait -n	proc	9
+timeout	timeout	proc	6
+timeout-k	timeout -k	proc	9
+timeout-s	timeout -s	proc	9
+pidof	pidof	proc	4
+pidof-x	pidof -x	proc	8
+lsof	lsof	proc	6
+lsof-i	lsof -i	proc	7
+lsof-u	lsof -u	proc	7
+lsof-p	lsof -p	proc	7
+lsof-plusd	lsof +D	proc	9
+fuser	fuser	proc	6
+fuser-k	fuser -k	proc	8
+fuser-v	fuser -v	proc	8
+strace	strace	dev	9
+strace-p	strace -p	dev	9
+strace-e	strace -e	dev	10
+strace-o	strace -o	dev	10
+strace-c	strace -c	dev	11
+strace-f	strace -f	dev	10
+strace-t	strace -t	dev	10
+ltrace	ltrace	dev	9
+ltrace-p	ltrace -p	dev	10
+ltrace-e	ltrace -e	dev	10
+ltrace-s	ltrace -S	dev	11
+mpstat	mpstat	sys	7
+mpstat-p-all	mpstat -P ALL	sys	8
+pwdx	pwdx	proc	6
+pmap	pmap	proc	7
+uptime	uptime	sys	2
+w	w	sys	4
+uname	uname	sys	2
+uname-a	uname -a	sys	4
+uname-r	uname -r	sys	4
+uname-n	uname -n	sys	5
+uname-m	uname -m	sys	5
+uname-s	uname -s	sys	7
+df	df	sys	3
+df-h	df -h	sys	4
+df-t	df -T	sys	6
+df-i	df -i	sys	6
+df-x	df -x	sys	8
+df-total	df --total	sys	7
+du	du	sys	3
+du-sh	du -sh	sys	4
+du-h	du -h	sys	4
+du-c	du -c	sys	7
+du-max-depth	du --max-depth	sys	6
+du-a	du -a	sys	5
+du-exclude	du --exclude	sys	8
+du-t	du -t	sys	8
+free	free	sys	3
+free-h	free -h	sys	4
+free-m	free -m	sys	5
+free-g	free -g	sys	7
+free-s	free -s	sys	8
+free-t	free -t	sys	7
+lscpu	lscpu	sys	4
+lscpu-e	lscpu -e	sys	8
+lscpu-p	lscpu -p	sys	9
+lspci	lspci	sys	4
+lspci-v	lspci -v	sys	6
+lspci-k	lspci -k	sys	7
+lspci-nn	lspci -nn	sys	6
+lsblk	lsblk	sys	4
+lsblk-f	lsblk -f	sys	6
+lsblk-m	lsblk -m	sys	7
+lsblk-l	lsblk -l	sys	7
+lsusb	lsusb	sys	4
+lsusb-v	lsusb -v	sys	7
+lsusb-t	lsusb -t	sys	8
+lshw	lshw	sys	7
+lshw-short	lshw -short	sys	8
+lshw-class	lshw -class	sys	9
+dmidecode	dmidecode	sys	10
+dmidecode-t	dmidecode -t	sys	11
+dmidecode-s	dmidecode -s	sys	11
+dmesg	dmesg	sys	4
+dmesg-w	dmesg -w	sys	6
+dmesg-l	dmesg -l	sys	8
+dmesg-t	dmesg -T	sys	8
+dmesg-level	dmesg --level	sys	9
+hostname	hostname	sys	2
+hostname-f	hostname -f	sys	6
+hostname-i	hostname -i	sys	6
+hostnamectl	hostnamectl	sys	6
+date	date	sys	2
+date-plusf	date +%F	sys	4
+date-pluss	date +%s	sys	5
+date-u	date -u	sys	5
+date-d	date -d	sys	6
+cal	cal	sys	2
+cal-3	cal -3	sys	6
+cal-y	cal -y	sys	5
+cal-j	cal -j	sys	8
+which	which	sys	2
+which-a	which -a	sys	6
+whereis	whereis	sys	3
+whereis-b	whereis -b	sys	7
+whereis-m	whereis -m	sys	7
+whatis	whatis	sys	3
+man	man	sys	2
+man-k	man -k	sys	5
+man-f	man -f	sys	6
+man-w	man -w	sys	7
+man-5	man 5	sys	6
+apropos	apropos	sys	4
+type	type	sys	3
+env	env	sys	2
+env-i	env -i	sys	7
+env-u	env -u	sys	8
+printenv	printenv	sys	2
+pwd	pwd	sys	1
+tty	tty	sys	2
+sleep	sleep	sys	1
+sleep-inf	sleep inf	sys	8
+yes	yes	sys	2
+yes-text	yes 'text'	sys	5
+clear	clear	sys	1
+reset	reset	sys	4
+watch	watch	sys	4
+watch-n	watch -n	sys	6
+watch-d	watch -d	sys	7
+watch-g	watch -g	sys	9
+watch-t	watch -t	sys	8
+crontab	crontab	sys	6
+crontab-e	crontab -e	sys	6
+crontab-l	crontab -l	sys	6
+crontab-r	crontab -r	sys	8
+at	at	sys	6
+at-now	at now	sys	7
+atq	atq	sys	8
+atrm	atrm	sys	9
+time	time	sys	4
+time-v	time -v	sys	7
+nproc	nproc	sys	4
+arch	arch	sys	4
+getconf	getconf	sys	7
+locale	locale	sys	5
+locale-a	locale -a	sys	6
+localectl	localectl	sys	7
+timedatectl	timedatectl	sys	6
+timedatectl-list-timezones	timedatectl list-timezones	sys	8
+logname	logname	sys	4
+groups	groups	perm	3
+id	id	perm	3
+id-u	id -u	perm	5
+id-g	id -g	perm	5
+id-un	id -un	perm	6
+sudo	sudo	perm	2
+sudo-u	sudo -u	perm	5
+sudo-i	sudo -i	perm	6
+sudo-s	sudo -s	perm	6
+sudo-l	sudo -l	perm	7
+sudo-k	sudo -k	perm	8
+sudo-v	sudo -v	perm	7
+sudo-e	sudo -E	perm	7
+su	su	perm	4
+su-2	su -	perm	5
+su-c	su -c	perm	6
+useradd	useradd	perm	4
+useradd-m	useradd -m	perm	5
+useradd-s	useradd -s	perm	6
+useradd-g	useradd -G	perm	6
+userdel	userdel	perm	4
+userdel-r	userdel -r	perm	6
+usermod	usermod	perm	6
+usermod-ag	usermod -aG	perm	7
+usermod-l	usermod -l	perm	8
+usermod-l-2	usermod -L	perm	8
+usermod-u	usermod -U	perm	9
+passwd	passwd	perm	2
+passwd-l	passwd -l	perm	7
+passwd-u	passwd -u	perm	8
+passwd-d	passwd -d	perm	9
+passwd-s	passwd -S	perm	8
+groupadd	groupadd	perm	5
+groupadd-r	groupadd -r	perm	8
+groupdel	groupdel	perm	5
+groupmod	groupmod	perm	7
+whoami	whoami	perm	1
+who	who	perm	2
+who-b	who -b	perm	6
+who-r	who -r	perm	7
+last	last	perm	3
+last-n	last -n	perm	6
+last-x	last -x	perm	8
+lastb	lastb	perm	5
+users	users	perm	4
+faillog	faillog	perm	7
+chage	chage	perm	10
+chage-l	chage -l	perm	10
+chage-m	chage -M	perm	11
+getent	getent	perm	6
+getent-passwd	getent passwd	perm	7
+getent-group	getent group	perm	7
+getent-hosts	getent hosts	perm	8
+visudo	visudo	perm	10
+adduser	adduser	perm	4
+deluser	deluser	perm	4
+deluser-remove-home	deluser --remove-home	perm	6
+newgrp	newgrp	perm	7
+setfacl	setfacl	perm	10
+setfacl-m	setfacl -m	perm	10
+setfacl-x	setfacl -x	perm	11
+setfacl-r	setfacl -R	perm	12
+getfacl	getfacl	perm	10
+groups-2	groups	perm	3
+umask	umask	perm	5
+umask-s	umask -S	perm	7
+chmod	chmod	perm	4
+chmod-plusx	chmod +x	perm	4
+chmod-r	chmod -R	perm	5
+chmod-755	chmod 755	perm	5
+chmod-644	chmod 644	perm	5
+chmod-u-pluss	chmod u+s	perm	8
+chmod-g-pluss	chmod g+s	perm	8
+chmod-plust	chmod +t	perm	8
+chown	chown	perm	4
+chown-r	chown -R	perm	5
+chown-usergroup	chown user:group	perm	5
+chgrp	chgrp	perm	5
+chgrp-r	chgrp -R	perm	6
+apt	apt	pkg	3
+apt-update	apt update	pkg	3
+apt-upgrade	apt upgrade	pkg	4
+apt-full-upgrade	apt full-upgrade	pkg	6
+apt-install	apt install	pkg	4
+apt-remove	apt remove	pkg	4
+apt-autoremove	apt autoremove	pkg	6
+apt-purge	apt purge	pkg	5
+apt-search	apt search	pkg	4
+apt-show	apt show	pkg	4
+apt-list	apt list	pkg	5
+apt-list-installed	apt list --installed	pkg	6
+apt-list-upgradable	apt list --upgradable	pkg	7
+apt-edit-sources	apt edit-sources	pkg	8
+apt-mark	apt-mark	pkg	9
+apt-mark-hold	apt-mark hold	pkg	10
+dpkg	dpkg	pkg	4
+dpkg-i	dpkg -i	pkg	5
+dpkg-r	dpkg -r	pkg	5
+dpkg-l	dpkg -l	pkg	5
+dpkg-l-2	dpkg -L	pkg	7
+dpkg-s	dpkg -S	pkg	7
+dpkg-p	dpkg -P	pkg	8
+dpkg-configure	dpkg --configure	pkg	8
+dpkg-reconfigure	dpkg-reconfigure	pkg	8
+snap	snap	pkg	6
+snap-install	snap install	pkg	6
+snap-remove	snap remove	pkg	6
+snap-list	snap list	pkg	7
+snap-find	snap find	pkg	7
+snap-refresh	snap refresh	pkg	7
+snap-revert	snap revert	pkg	9
+flatpak	flatpak	pkg	6
+flatpak-install	flatpak install	pkg	6
+flatpak-run	flatpak run	pkg	7
+flatpak-list	flatpak list	pkg	7
+flatpak-update	flatpak update	pkg	7
+flatpak-remove	flatpak remove	pkg	7
+flatpak-search	flatpak search	pkg	7
+flatpak-override	flatpak override	pkg	10
+rpm	rpm	pkg	5
+rpm-i	rpm -i	pkg	6
+rpm-e	rpm -e	pkg	6
+rpm-q	rpm -q	pkg	6
+rpm-qa	rpm -qa	pkg	6
+rpm-v	rpm -V	pkg	8
+rpm-qf	rpm -qf	pkg	8
+rpm-ql	rpm -ql	pkg	7
+make	make	dev	4
+make-clean	make clean	dev	4
+make-install	make install	dev	6
+make-j	make -j	dev	6
+make-f	make -f	dev	8
+cmake	cmake	dev	6
+cmake-2	cmake .	dev	7
+cmake-d	cmake -D	dev	8
+cmake-build	cmake --build	dev	7
+cmake-install	cmake --install	dev	9
+git	git	dev	4
+git-clone	git clone	dev	4
+git-clone-depth	git clone --depth	dev	7
+git-commit	git commit	dev	4
+git-commit-m	git commit -m	dev	5
+git-commit-a	git commit -a	dev	6
+git-commit-amend	git commit --amend	dev	7
+git-push	git push	dev	4
+git-push-origin	git push origin	dev	5
+git-push-force	git push --force	dev	8
+git-pull	git pull	dev	4
+git-pull-rebase	git pull --rebase	dev	7
+git-add	git add	dev	4
+git-add-p	git add -p	dev	7
+git-add-2	git add .	dev	4
+git-status	git status	dev	3
+git-status-s	git status -s	dev	6
+git-diff	git diff	dev	4
+git-diff-cached	git diff --cached	dev	7
+git-diff-stat	git diff --stat	dev	7
+git-log	git log	dev	4
+git-log-oneline	git log --oneline	dev	5
+git-log-graph	git log --graph	dev	7
+git-log-p	git log -p	dev	7
+git-branch	git branch	dev	4
+git-branch-d	git branch -d	dev	6
+git-branch-d-2	git branch -D	dev	8
+git-branch-a	git branch -a	dev	6
+git-checkout	git checkout	dev	6
+git-checkout-b	git checkout -b	dev	6
+git-merge	git merge	dev	6
+git-merge-no-ff	git merge --no-ff	dev	8
+git-rebase	git rebase	dev	10
+git-rebase-i	git rebase -i	dev	10
+git-stash	git stash	dev	7
+git-stash-pop	git stash pop	dev	8
+git-stash-list	git stash list	dev	8
+git-fetch	git fetch	dev	5
+git-remote-v	git remote -v	dev	6
+git-tag	git tag	dev	6
+git-revert	git revert	dev	8
+git-reset	git reset	dev	8
+git-reset-hard	git reset --hard	dev	9
+git-rm	git rm	dev	5
+git-mv	git mv	dev	6
+git-config	git config	dev	6
+git-config-global	git config --global	dev	6
+git-config-global-user-name	git config --global user.name	dev	7
+git-config-global-user-email	git config --global user.email	dev	7
+git-init	git init	dev	5
+git-blame	git blame	dev	8
+git-bisect	git bisect	dev	12
+git-cherry-pick	git cherry-pick	dev	9
+gcc	gcc	dev	5
+gcc-o	gcc -o	dev	5
+gcc-wall	gcc -Wall	dev	6
+gcc-g	gcc -g	dev	6
+gcc-o2	gcc -O2	dev	6
+gcc-c	gcc -c	dev	6
+gcc-i	gcc -I	dev	7
+gcc-l	gcc -L	dev	8
+gcc-l-2	gcc -l	dev	7
+gcc-d	gcc -D	dev	8
+gcc-stdc11	gcc -std=c11	dev	7
+gcc-fsanitize	gcc -fsanitize	dev	10
+gcc-e	gcc -E	dev	9
+gcc-s	gcc -S	dev	9
+g-plus-plus	g++	dev	5
+g-plus-plus-stdc-plus-plus11	g++ -std=c++11	dev	7
+clang	clang	dev	6
+clang-o2	clang -O2	dev	7
+clang-fsanitize	clang -fsanitize	dev	10
+gdb	gdb	dev	9
+gdb-run	gdb run	dev	10
+gdb-break	gdb break	dev	10
+gdb-next	gdb next	dev	10
+gdb-step	gdb step	dev	10
+gdb-continue	gdb continue	dev	10
+gdb-print	gdb print	dev	10
+gdb-backtrace	gdb backtrace	dev	11
+gdb-info-registers	gdb info registers	dev	12
+gdb-x-s	gdb x/s	dev	13
+gdb-attach	gdb attach	dev	11
+valgrind	valgrind	dev	9
+valgrind-leak-check	valgrind --leak-check	dev	10
+valgrind-toolcallgrind	valgrind --tool=callgrind	dev	12
+valgrind-toolhelgrind	valgrind --tool=helgrind	dev	13
+valgrind-toolmassif	valgrind --tool=massif	dev	13
+valgrind-v	valgrind -v	dev	10
+ldd	ldd	dev	6
+ldd-v	ldd -v	dev	8
+ldd-r	ldd -r	dev	9
+objdump	objdump	dev	10
+objdump-d	objdump -d	dev	10
+objdump-t	objdump -t	dev	11
+objdump-h	objdump -h	dev	11
+nm	nm	dev	8
+nm-c	nm -C	dev	9
+nm-a	nm -a	dev	10
+strip	strip	dev	8
+strip-strip-debug	strip --strip-debug	dev	9
+ar	ar	dev	8
+ar-rcs	ar rcs	dev	9
+ar-t	ar t	dev	9
+autoconf	autoconf	dev	10
+configure	configure	dev	6
+configure-prefix	configure --prefix	dev	7
+configure-enable	configure --enable	dev	8
+configure-with	configure --with	dev	8
+patch-2	patch	dev	6
+ctags	ctags	dev	6
+ctags-r	ctags -R	dev	7
+cscope	cscope	dev	10
+indent	indent	dev	7
+pkg-config	pkg-config	dev	6
+pkg-config-cflags	pkg-config --cflags	dev	7
+pkg-config-libs	pkg-config --libs	dev	7
+pkg-config-list-all	pkg-config --list-all	dev	9
+pkg-config-modversion	pkg-config --modversion	dev	8
+ccache	ccache	dev	8
+distcc	distcc	dev	12
+ninja	ninja	dev	8
+meson	meson	dev	9
+meson-setup	meson setup	dev	9
+meson-compile	meson compile	dev	10
+meson-test	meson test	dev	10
+perf	perf	dev	13
+perf-stat	perf stat	dev	13
+perf-record	perf record	dev	14
+perf-report	perf report	dev	14
+perf-top	perf top	dev	14
+perf-annotate	perf annotate	dev	15
+perf-script	perf script	dev	15
+bpftrace	bpftrace	dev	16
+bpftrace-e	bpftrace -e	dev	17
+strace-e-traceopenreadwrite	strace -e trace=open,read,write	dev	13
+strace-c-2	strace -c	dev	12
+objdump-m-intel-d	objdump -M intel -d	dev	14
+objdump-s	objdump -S	dev	13
+readelf	readelf	dev	12
+readelf-a	readelf -a	dev	13
+readelf-s	readelf -s	dev	13
+readelf-r	readelf -r	dev	14
+objcopy	objcopy	dev	13
+objcopy-strip-debug	objcopy --strip-debug	dev	14
+objcopy-add-gnu-debuglink	objcopy --add-gnu-debuglink	dev	15
+size	size	dev	11
+size-d	size -d	dev	13
+tcpdump	tcpdump	net	12
+tcpdump-i	tcpdump -i	net	12
+tcpdump-x	tcpdump -X	net	13
+tcpdump-w	tcpdump -w	net	13
+tcpdump-r	tcpdump -r	net	13
+tcpdump-port	tcpdump port	net	12
+tcpdump-host	tcpdump host	net	12
+tcpdump-c	tcpdump -c	net	14
+tcpdump-n	tcpdump -n	net	13
+tshark	tshark	net	14
+tshark-i	tshark -i	net	15
+tshark-r	tshark -r	net	15
+tshark-y	tshark -Y	net	16
+socat-2	socat -	net	13
+socat-tcp-listen8080fork	socat TCP-LISTEN:8080,fork	net	14
+socat-openssl-listen443cert	socat OPENSSL-LISTEN:443,cert	net	16
+socat-unix-listen-tmp-sock	socat UNIX-LISTEN:/tmp/sock	net	15
+iptables-t-nat	iptables -t nat	net	13
+iptables-t-mangle	iptables -t mangle	net	14
+iptables-a-input-s	iptables -A INPUT -s	net	12
+iptables-a-input-p	iptables -A INPUT -p	net	13
+iptables-a-input-dport	iptables -A INPUT --dport	net	13
+iptables-a-forward	iptables -A FORWARD	net	14
+iptables-j-drop	iptables -j DROP	net	11
+iptables-j-reject	iptables -j REJECT	net	12
+iptables-j-log	iptables -j LOG	net	13
+ip6tables	ip6tables	net	15
+ip-rule	ip rule	net	14
+ip-tunnel	ip tunnel	net	15
+ip-maddr	ip maddr	net	15
+ip-netns	ip netns	net	14
+ip-netns-exec	ip netns exec	net	15
+find-name-c-exec-grep-l-main	find . -name '*.c' -exec grep -l main {} \;	file	14
+find-size-plus10m-exec-ls-lh	find . -size +10M -exec ls -lh {} \;	file	13
+find-mtime-7-not-name-git	find . -mtime -7 -not -name '.git'	file	13
+find-perm-4000	find . -perm /4000	file	14
+find-type-f-delete	find . -type f -delete	file	12
+sed-i-s-foo-bar-g	sed -i 's/foo/bar/g'	text	8
+sed-n-pattern-p	sed -n '/pattern/p'	text	8
+sed-start-stop-d	sed '/start/,/stop/d'	text	11
+sed-n-1020p	sed -n '10,20p'	text	10
+sed-s-g	sed 's/  */ /g'	text	9
+sed-s-t	sed 's/^[ \t]*//'	text	10
+awk-sum-plus1-end-print-sum	awk '{sum+=$1} END {print sum}'	text	10
+awk-nrfnr-a1-next-1-in-a	awk 'NR==FNR {a[$1]; next} $1 in a'	text	12
+awk-f-print-13	awk -F: '{print $1,$3}'	text	9
+awk-fori1infi-plus-plus-c-plus-plus-end-print-c	awk '{for(i=1;i<=NF;i++) c++} END {print c}'	text	14
+awk-seen0-plus-plus	awk '!seen[$0]++'	text	11
+sort-t-k3-n-etc-passwd	sort -t: -k3 -n /etc/passwd	text	9
+gdb-disassemble	gdb disassemble	dev	15
+gdb-info-frame	gdb info frame	dev	16
+gdb-info-registers-2	gdb info registers	dev	15
+gdb-x-gx	gdb x/gx	dev	17
+gdb-x-s-2	gdb x/s	dev	16
+gdb-x-i	gdb x/i	dev	16
+gdb-thread-apply-all-bt	gdb thread apply all bt	dev	18
+gdb-catch-syscall	gdb catch syscall	dev	17
+gdb-reverse-step	gdb reverse-step	dev	19
+gdb-record	gdb record	dev	18
+valgrind-toolcallgrind-2	valgrind --tool=callgrind	dev	15
+valgrind-toolmassif-2	valgrind --tool=massif	dev	15
+valgrind-toolhelgrind-2	valgrind --tool=helgrind	dev	16
+valgrind-tooldrd	valgrind --tool=drd	dev	17
+valgrind-vgdb-error	valgrind --vgdb-error	dev	18
+perf-probe	perf probe	dev	16
+perf-trace	perf trace	dev	15
+perf-sched	perf sched	dev	17
+perf-lock	perf lock	dev	17
+perf-kmem	perf kmem	dev	18
+perf-c2c	perf c2c	dev	19
+perf-diff	perf diff	dev	16
+bpftrace-l	bpftrace -l	dev	18
+bpftrace-tracepointsyscalls	bpftrace tracepoint:syscalls:*	dev	19
+sed-n-start-plus5p	sed -n '/start/,+5p'	text	13
+sed-n-n-d	sed '/^$/{N;/^\n$/D}'	text	15
+sed-hxs-n-gp	sed 'H;${x;s/\n/,/g;p}'	text	17
+awk-nr1-nr1print-0-sort-n	awk 'NR==1; NR>1{print $0 | "sort -n"}'	text	16
+awk-a1-plus2-endfork-in-a-print-kak	awk '{a[$1]+=$2} END{for(k in a) print k,a[k]}'	text	14
+awk-length-80	awk 'length > 80'	text	13
+awk-printf-s-ts-n-1-2	awk '{printf "%s\\t%s\\n", $1, $2}'	text	14
+dd-if-dev-zero-offile-bs1m-count100	dd if=/dev/zero of=file bs=1M count=100	file	14
+dd-if-dev-urandom-offile-bs1m-count10	dd if=/dev/urandom of=file bs=1M count=10	file	15
+dd-if-dev-sda-ofdisk-img-bs4k-convsyncnoerror	dd if=/dev/sda of=disk.img bs=4K conv=sync,noerror	file	17
+dd-iffile-offile2-bs1m-seek10	dd if=file of=file2 bs=1M seek=10	file	16
+dd-convfsync	dd conv=fsync	file	16
+iptables-a-input-m-conntrack-ctstate-relatedestablished-j-accept	iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT	net	16
+iptables-a-input-m-limit-limit-10-min-j-log	iptables -A INPUT -m limit --limit 10/min -j LOG	net	15
+iptables-a-input-m-state-state-invalid-j-drop	iptables -A INPUT -m state --state INVALID -j DROP	net	15
+ip-link-add-veth0-type-veth-peer-name-veth1	ip link add veth0 type veth peer name veth1	net	16
+ip-netns-add-ns1	ip netns add ns1	net	15
+ip-link-set-veth0-netns-ns1	ip link set veth0 netns ns1	net	16
+nmap-ss-sv-o-p	nmap -sS -sV -O -p-	dev	17
+nmap-scriptvuln	nmap --script=vuln	dev	16
+nmap-sn-192-168-1-0-24	nmap -sn 192.168.1.0/24	dev	13
+openssl	openssl	net	15
+openssl-sclient	openssl s_client	net	16
+openssl-sserver	openssl s_server	net	17
+openssl-x509-in-cert-pem-text-noout	openssl x509 -in cert.pem -text -noout	net	16
+openssl-req-new-x509	openssl req -new -x509	net	16
+openssl-enc-aes-256-cbc	openssl enc -aes-256-cbc	net	17
+openssl-speed	openssl speed	net	15
+openssl-rand-hex-32	openssl rand -hex 32	net	15
+ssh-l-8080localhost80-userhost	ssh -L 8080:localhost:80 user@host	net	13
+ssh-r-8080localhost80-userhost	ssh -R 8080:localhost:80 user@host	net	14
+ssh-d-1080-userhost	ssh -D 1080 user@host	net	14
+ssh-o-stricthostkeycheckingno	ssh -o StrictHostKeyChecking=no	net	13
+ssh-o-proxyjumpuserbastion	ssh -o ProxyJump=user@bastion	net	15
+scp-3-user1host1file-user2host2	scp -3 user1@host1:file user2@host2:	net	15

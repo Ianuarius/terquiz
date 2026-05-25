@@ -1,0 +1,78 @@
+# id	command	category	difficulty
+brew	brew	macos	5
+brew-install	brew install	macos	5
+brew-uninstall	brew uninstall	macos	6
+brew-update	brew update	macos	6
+brew-upgrade	brew upgrade	macos	6
+brew-search	brew search	macos	7
+brew-info	brew info	macos	7
+brew-list	brew list	macos	7
+brew-cask	brew cask	macos	8
+brew-cask-install	brew cask install	macos	8
+brew-doctor	brew doctor	macos	8
+brew-cleanup	brew cleanup	macos	9
+brew-services	brew services	macos	9
+brew-bundle	brew bundle	macos	9
+defaults	defaults	macos	7
+defaults-read	defaults read	macos	8
+defaults-write	defaults write	macos	8
+defaults-delete	defaults delete	macos	9
+defaults-find	defaults find	macos	10
+plutil	plutil	macos	7
+plutil-p	plutil -p	macos	8
+plutil-convert-xml1	plutil -convert xml1	macos	9
+plutil-lint	plutil -lint	macos	9
+swvers	sw_vers	macos	5
+systemprofiler	system_profiler	macos	7
+systemprofiler-sphardwaredatatype	system_profiler SPHardwareDataType	macos	8
+systemprofiler-spsoftwaredatatype	system_profiler SPSoftwareDataType	macos	8
+pmset	pmset	macos	8
+pmset-g	pmset -g	macos	9
+pmset-g-batt	pmset -g batt	macos	9
+pmset-noidle	pmset noidle	macos	10
+diskutil	diskutil	macos	7
+diskutil-list	diskutil list	macos	7
+diskutil-info	diskutil info	macos	8
+diskutil-mount	diskutil mount	macos	9
+diskutil-unmount	diskutil unmount	macos	9
+diskutil-erasedisk	diskutil eraseDisk	macos	10
+hdiutil	hdiutil	macos	8
+hdiutil-attach	hdiutil attach	macos	8
+hdiutil-create	hdiutil create	macos	9
+hdiutil-detach	hdiutil detach	macos	9
+open	open	macos	5
+open-a	open -a	macos	6
+open-2	open .	macos	6
+open-e	open -e	macos	8
+osascript	osascript	macos	8
+osascript-e	osascript -e	macos	8
+mdfind	mdfind	macos	7
+mdfind-name	mdfind -name	macos	8
+mdfind-onlyin	mdfind -onlyin	macos	9
+mdutil	mdutil	macos	9
+mdutil-e	mdutil -E	macos	10
+mdutil-i	mdutil -i	macos	10
+launchctl	launchctl	macos	8
+launchctl-load	launchctl load	macos	9
+launchctl-unload	launchctl unload	macos	9
+launchctl-start	launchctl start	macos	9
+launchctl-stop	launchctl stop	macos	9
+launchctl-list	launchctl list	macos	9
+caffeinate	caffeinate	macos	8
+sips	sips	macos	9
+sips-z	sips -Z	macos	10
+sips-f	sips -f	macos	11
+textutil	textutil	macos	9
+textutil-convert	textutil -convert	macos	10
+airport	airport	macos	9
+networksetup	networksetup	macos	8
+networksetup-listallnetworkservices	networksetup -listallnetworkservices	macos	9
+networksetup-setairportpower	networksetup -setairportpower	macos	10
+dscacheutil	dscacheutil	macos	9
+softwareupdate	softwareupdate	macos	7
+softwareupdate-l	softwareupdate -l	macos	8
+softwareupdate-i	softwareupdate -i	macos	9
+tmutil	tmutil	macos	9
+tmutil-startbackup	tmutil startbackup	macos	10
+tmutil-stopbackup	tmutil stopbackup	macos	11
+tmutil-listbackups	tmutil listbackups	macos	11

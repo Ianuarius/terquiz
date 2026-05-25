@@ -1,0 +1,75 @@
+# id	description
+cd	Change directory
+cd-home	Change to home directory
+cd-prev	Change to previous directory
+cd-parent	Change to parent directory
+cd-root	Change to root directory
+pushd	Push directory onto stack and change to it
+pushd-plusn	Rotate stack and change to Nth directory
+popd	Pop directory from stack and change to it
+popd-plusn	Remove Nth directory from stack
+dirs	Display directory stack
+alias	Create a command alias
+alias-p	Print all aliases in reusable format
+unalias	Remove a command alias
+unalias-a	Remove all aliases
+export	Set environment variable for child processes
+export-p	Print all exported variables
+unset	Remove variable or function
+set	Set or display shell options and positional params
+set-o	Set shell option
+set-pluso	Unset shell option
+set-e	Exit on error (errexit)
+set-u	Treat unset variables as error
+set-x	Print commands before executing (xtrace)
+set-a	Export all defined variables
+readonly	Mark variables as read-only
+source	Execute commands from a file in current shell
+source-dot	Source alias (dot) - execute file in current shell
+exec	Replace shell with a command
+eval	Evaluate arguments as shell command
+let	Evaluate arithmetic expression
+command	Run command ignoring shell functions
+builtin	Run a shell builtin by name
+enable	Enable or disable shell builtins
+hash	Remember command locations
+exit	Exit the shell with optional status
+return	Return from a function or sourced script
+break	Exit from a loop
+continue	Continue to next iteration of loop
+logout	Logout of login shell
+read	Read a line from stdin into variable
+read-p	Read with prompt
+read-r	Read raw input (no backslash escaping)
+read-t	Read with timeout
+read-s	Read silently (no echo)
+readarray	Read lines from stdin into array
+declare	Declare variable and set attributes
+declare-i	Declare integer variable
+declare-a	Declare array variable
+declare-r	Declare read-only variable
+declare-x	Export variable
+declare-f	Display function definition
+typeset	Declare variable (synonym for declare)
+local	Declare local variable in function
+local-r	Declare local read-only variable
+shopt	Set shell options
+shopt-s	Enable shell option
+shopt-u	Disable shell option
+history	Display command history
+history-c	Clear command history
+history-d	Delete specific history entry
+fc	Fix command - edit and re-execute history
+fc-l	List history entries
+fc-s	Re-execute history entry
+suspend	Suspend shell execution
+ulimit	Set or display resource limits
+ulimit-a	Show all resource limits
+ulimit-n	Set file descriptor limit
+umask	Set file creation mask
+type	Display command type (builtin, alias, external)
+caller	Print calling function context
+printf-v	Format and assign to variable
+mapfile	Read lines from stdin into array
+complete	Specify completion rules
+compgen	Generate completion matches

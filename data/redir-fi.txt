@@ -1,0 +1,51 @@
+# id	description
+pipe	Putkita yhden komennon stdout toisen komennon stdiniin
+redirect-out	Ohjaa stdout tiedostoon (ylikirjoita)
+redirect-append	Ohjaa stdout tiedostoon (lisää)
+redirect-in	Ohjaa stdin tiedostosta
+redirect-err	Ohjaa stderr tiedostoon (ylikirjoitus)
+redirect-err-append	Ohjaa stderr tiedostoon (lisää)
+redirect-err-out	Ohjaa stderr stdoutiin
+redirect-both-bash	Ohjaa stdout ja stderr (bash-syntaksi)
+redirect-both	Ohjaa stdout ja stderr
+redirect-both-append	Lisää stdout ja stderr
+redirect-out-err	Ohjaa stdout stderriin
+redirect-readwrite	Avaa tiedosto luku- ja kirjoitustilassa
+heredoc	Tässä dokumentti - anna syöte suoraan
+herestring	Tässä merkkijono - anna merkkijono syötteenä
+redirect-clobber	Ylikirjoita tiedosto vaikka noclobber olisi asetettu
+cmdsub-dollar	Komennon korvaus
+cmdsub-backtick	Komennon korvaus (backtick-syntaksi)
+arith-expand	Aritmeettinen laajennus
+var-home	Kotihakemistomuuttuja
+param-expand	Parametrin laajennus
+param-default	Käytä oletusta jos muuttujaa ei ole asetettu
+param-assign	Aseta oletus jos muuttujaa ei ole asetettu
+param-alt	Käytä vaihtoehtoista arvoa jos muuttuja on asetettu
+param-error	Virhe jos muuttujaa ei ole asetettu
+param-substr	Merkkijonon osan laajennus
+param-length	Muuttujan arvon pituus
+param-replace	Mallin korvaus
+semicolon	Komentoerotin - suorita peräkkäin
+and	JA - suorita seuraava vain jos edellinen onnistuu
+or	TAI - suorita seuraava vain jos edellinen epäonnistuu
+background	Tausta - suorita komento taustalla
+not-hist	EI - käännä poistumistila / historian laajennus
+rerun-last	Suorita viimeinen komento uudelleen
+last-arg	Edellisen komennon viimeinen argumentti
+all-args	Edellisen komennon kaikki argumentit
+rerun-nth	Suorita N:s komento historiasta uudelleen
+rerun-str	Suorita viimeisin komennolla alkava komento uudelleen
+home-dir	Kotihakemiston laajennus
+home-user	Tietyn käyttäjän kotihakemisto
+glob-any	Wildcard-glob - täsmää kaikkiin merkkeihin
+glob-char	Wildcard-glob - täsmää yhteen merkkiin
+glob-class	Merkkiluokkaglob
+brace-expand	Aaltosulkeiden laajennus
+brace-comma	Aaltosulkeiden pilkkusyntaksi
+brace-range	Aaltosulkeiden väliarvo syntaksi
+subshell	Alikuori - suorita komento alikuoressa
+cmd-group	Komentoryhmittely
+arith-eval	Aritmeettinen evaluointi
+ext-test	Laajennettu testiehto
+test-bracket	Testiehto (hakasulku)

@@ -1,0 +1,55 @@
+# id	command	category	difficulty
+apt-get	apt-get	debian	4
+apt-get-install	apt-get install	debian	5
+apt-get-update	apt-get update	debian	4
+apt-get-upgrade	apt-get upgrade	debian	5
+apt-get-dist-upgrade	apt-get dist-upgrade	debian	7
+apt-get-autoremove	apt-get autoremove	debian	7
+apt-cache-search	apt-cache search	debian	5
+apt-cache-show	apt-cache show	debian	6
+apt-cache-policy	apt-cache policy	debian	7
+apt-cache-depends	apt-cache depends	debian	8
+dpkg-deb	dpkg-deb	debian	6
+dpkg-deb-c	dpkg-deb -c	debian	7
+dpkg-deb-x	dpkg-deb -x	debian	7
+dpkg-deb-build	dpkg-deb --build	debian	9
+debconf	debconf	debian	9
+debconf-show	debconf-show	debian	9
+update-alternatives	update-alternatives	debian	8
+update-alternatives-config	update-alternatives --config	debian	8
+update-alternatives-install	update-alternatives --install	debian	10
+update-alternatives-remove	update-alternatives --remove	debian	10
+update-rc-d	update-rc.d	debian	8
+add-apt-repository	add-apt-repository	debian	7
+apt-add-repository	apt-add-repository	debian	7
+apt-file	apt-file	debian	9
+apt-file-search	apt-file search	debian	9
+apt-file-update	apt-file update	debian	10
+deborphan	deborphan	debian	10
+aptitude	aptitude	debian	8
+aptitude-search	aptitude search	debian	8
+aptitude-install	aptitude install	debian	8
+tasksel	tasksel	debian	8
+sources-list	sources.list	debian	6
+sources-list-d	sources.list.d	debian	8
+systemctl	systemctl	debian	5
+systemctl-start	systemctl start	debian	5
+systemctl-stop	systemctl stop	debian	5
+systemctl-restart	systemctl restart	debian	6
+systemctl-status	systemctl status	debian	5
+systemctl-enable	systemctl enable	debian	6
+systemctl-disable	systemctl disable	debian	7
+systemctl-list-units	systemctl list-units	debian	7
+systemctl-daemon-reload	systemctl daemon-reload	debian	8
+journalctl	journalctl	debian	6
+journalctl-u	journalctl -u	debian	7
+journalctl-f	journalctl -f	debian	7
+journalctl-since	journalctl --since	debian	8
+journalctl-p	journalctl -p	debian	9
+ufw	ufw	debian	7
+ufw-enable	ufw enable	debian	8
+ufw-disable	ufw disable	debian	9
+ufw-status	ufw status	debian	8
+ufw-allow	ufw allow	debian	8
+ufw-deny	ufw deny	debian	9
+ufw-default	ufw default	debian	10

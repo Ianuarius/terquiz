@@ -1,0 +1,1029 @@
+# id	description
+ls	List directory contents
+ls-a	List all entries including hidden files
+ls-l	List in long format with details
+ls-la	List all files in long format
+ls-lh	List in human-readable long format
+ls-r	List in reverse order
+ls-s	List sorted by file size
+ls-t	List sorted by modification time
+ls-r-2	List in reverse order
+ls-1	List one entry per line
+ls-d	List directory names, not their contents
+ls-i	List with inode numbers
+ls-f	Append indicator to entries
+ls-la-color	List all with colorized output
+ls-lhs	List human-readable sorted by size
+ls-latr	List all sorted by time reversed
+ls-la-group-directories-first	List all with directories first
+ls-la-sortextension	List all sorted by file extension
+cat	Concatenate and display files
+tac	Concatenate and display files in reverse
+rm	Remove files or directories
+rm-rf	Forcefully remove files recursively
+rm-i	Prompt before every removal
+rmdir	Remove empty directories
+mv	Move or rename files
+mv-i	Prompt before overwrite
+mv-u	Move only when source is newer
+mv-b	Make backup before moving
+cp	Copy files and directories
+cp-r	Copy directories recursively
+cp-a	Archive copy preserving attributes
+cp-i	Prompt before overwrite
+cp-u	Copy only when source is newer
+cp-p	Preserve file attributes
+cp-l	Create hard links instead of copying
+cp-s	Create symbolic links instead of copying
+cp-preserveall	Preserve all attributes
+mkdir	Create directories
+mkdir-p	Create parent directories as needed
+mkdir-v	Print created directories
+mkdir-m	Set permissions on creation
+touch	Create empty files or update timestamps
+touch-t	Set specific timestamp
+touch-r	Use reference file's timestamp
+find	Search for files in a directory hierarchy
+find-name	Find files by name pattern
+find-iname	Find files by name ignoring case
+find-type	Find files by type
+find-size	Find files by size
+find-mtime	Find files by modification time
+find-mmin	Find files modified N minutes ago
+find-exec	Execute command on found files
+find-ok	Execute with confirmation
+find-delete	Delete found files
+find-maxdepth	Limit search depth
+find-mindepth	Set minimum search depth
+find-newer	Find files newer than reference
+find-perm	Find files by permissions
+find-user	Find files by owner
+find-group	Find files by group
+find-print0	Print filenames null-separated
+find-l	Follow symbolic links
+ln	Create hard links
+ln-s	Create symbolic links
+ln-sf	Force create or update symlink
+ln-v	Print linked file names
+tar	Archive files
+tar-czf	Create a gzip-compressed archive
+tar-xzf	Extract a gzip-compressed archive
+tar-tjf	List contents of bzip2 archive
+tar-xjf	Extract an xz-compressed archive
+tar-xjf-2	Extract an xz-compressed archive
+tar-xf	Extract any compressed archive
+tar-rf	Append files to archive
+tar-uf	Update files in archive
+tar-tvf	List archive contents verbosely
+tar-exclude	Exclude files from archive
+gzip	Compress files using gzip
+gzip-k	Keep original file when compressing
+gzip-d	Decompress gzip files
+gunzip	Decompress gzip files
+gunzip-k	Keep original when decompressing
+bzip2	Compress files using bzip2
+bunzip2	Decompress bzip2 files
+bzip2-k	Keep original when compressing
+xz	Compress files using xz
+unxz	Decompress xz files
+zip	Package and compress files
+zip-r	Compress directory recursively
+zip-q	Quiet compression
+zip-d	Delete entries from archive
+unzip	Extract zip archives
+unzip-l	List zip archive contents
+unzip-o	Overwrite files without prompting
+unzip-d	Extract to specific directory
+rsync	Remote file synchronization
+rsync-a	Archive mode rsync
+rsync-v	Verbose rsync
+rsync-z	Compress during transfer
+rsync-p	Show progress and keep partial
+rsync-delete	Delete extraneous files from dest
+rsync-e-ssh	Use SSH for rsync transfer
+dd	Convert and copy a file
+dd-if	Read from a specified input file
+dd-of	Write to specified output file
+dd-bs	Set block size
+dd-count	Copy only N blocks
+dd-statusprogress	Show progress during copy
+stat	Display file or filesystem status
+stat-c	Format output with custom format
+stat-f	Display filesystem status
+file	Determine file type
+tree	Display directory tree structure
+tree-l	Limit tree depth
+tree-d	Show only directories
+tree-h	Human-readable sizes
+tree-a	Include hidden files
+basename	Strip directory and suffix from pathname
+dirname	Strip last component from file path
+realpath	Resolve absolute pathname
+mktemp	Create a temporary file or directory
+mktemp-d	Create temporary directory
+mktemp-p	Create temp file in specific directory
+install	Copy files and set attributes
+install-d	Create directories like mkdir -p
+install-m	Set permissions during install
+patch	Apply a diff file to an original
+patch-p	Strip path components
+patch-r	Reverse apply a patch
+sync	Flush filesystem buffers
+truncate	Shrink or extend file size
+fallocate	Preallocate space to file
+readlink	Print value of symbolic link
+readlink-f	Canonicalize by following symlinks
+grep	Search for text inside files
+grep-r	Search recursively through directories
+grep-i	Case-insensitive search
+grep-v	Invert match showing non-matching lines
+grep-c	Show context around match
+grep-n	Show line numbers with matches
+grep-l	List filenames with matches only
+grep-w	Match whole words only
+grep-x	Match whole lines only
+grep-o	Show only matched part
+grep-a	Show lines after match
+grep-b	Show lines before match
+grep-c-2	Show context around match
+grep-e	Use extended regex
+grep-p	Use Perl-compatible regex
+grep-q	Quiet mode, just exit status
+grep-s	Suppress error messages
+grep-color	Highlight matches
+grep-m	Stop after N matches
+grep-f	Read patterns from file
+egrep	Extended grep (same as grep -E)
+fgrep	Fixed-string grep (same as grep -F)
+sed	Stream editor for filtering and transforming text
+sed-i	Edit files in-place
+sed-n	Suppress automatic printing
+sed-s	Substitute text pattern
+sed-e	Specify multiple expressions
+sed-f	Read script from file
+sed-r	Use extended regex
+awk	Pattern scanning and text processing language
+awk-f	Set input field separator
+awk-print	Print specific fields
+awk-pattern	Print lines matching pattern
+awk-v	Pass variable to awk script
+awk-begin	Execute before file processing
+awk-end	Execute after file processing
+cut	Remove sections from each line of files
+cut-d	Cut using a custom delimiter
+cut-f	Select specific fields
+cut-c	Select specific characters
+cut-complement	Complement selection
+sort	Sort lines of text files
+sort-r	Sort in reverse order
+sort-n	Sort numerically
+sort-k	Sort by key/column
+sort-u	Sort and output unique lines
+sort-t	Specify field separator
+sort-h	Human-numeric sort
+sort-v	Version-number sort
+uniq	Filter duplicate adjacent lines
+uniq-c	Count occurrences of each line
+uniq-d	Show only duplicate lines
+uniq-u	Show only unique lines
+uniq-i	Case-insensitive comparison
+wc	Count lines words and characters
+wc-l	Count lines only
+wc-w	Count words only
+wc-c	Count bytes
+wc-m	Count characters
+head	Display first lines of a file
+head-n	Display first N lines
+head-c	Display first N bytes
+head-q	Never print headers
+tail	Display last lines of a file
+tail-n	Display last N lines
+tail-f	Follow with retry on rotation
+tail-f-2	Follow with retry on rotation
+tail-q	Suppress headers
+tail-c	Display last N bytes
+diff	Compare files line by line
+diff-u	Unified diff format
+diff-y	Side-by-side comparison
+diff-r	Recursively compare directories
+diff-q	Show only whether files differ
+diff-i	Ignore case differences
+diff-w	Ignore whitespace differences
+diff-n	Treat absent files as empty
+diff-color	Colorized output
+sdiff	Side-by-side diff
+cmp	Compare two files byte by byte
+cmp-l	Show differing byte positions
+comm	Compare sorted files line by line
+comm-1	Suppress first column
+comm-2	Suppress second column
+comm-3	Suppress third column
+tr	Translate or delete characters
+tr-d	Delete specified characters
+tr-s	Squeeze repeated characters
+tr-c	Use complement of character set
+tee	Read from stdin and write to stdout and files
+tee-a	Append to files instead of overwrite
+tee-i	Ignore interrupt signals
+fold	Wrap input lines to fit specified width
+fold-w	Set wrap width
+fold-s	Break at spaces
+expand	Convert tabs to spaces
+expand-t	Set tab size
+unexpand	Convert spaces to tabs
+unexpand-a	Convert all spaces
+nl	Number lines of files
+nl-ba	Number all lines including blanks
+nl-n	Set line number format
+od	Dump files in octal and other formats
+od-a	Set address format
+od-t	Set output type format
+hexdump	Display file contents in hexadecimal
+hexdump-c	Canonical hex+ASCII display
+hexdump-n	Display only N bytes
+xxd	Make hex dump or reverse
+xxd-r	Reverse hex dump
+xxd-p	Plain hex dump
+rev	Reverse each line characterwise
+seq	Print sequence of numbers
+seq-s	Set separator
+seq-w	Equal width padding
+shuf	Generate random permutations
+shuf-n	Output N random lines
+shuf-e	Treat arguments as input lines
+shuf-r	Allow repeated output
+xargs	Build and execute command lines from input
+xargs-n	Limit arguments per command
+xargs-i	Replace string in command
+xargs-p	Run commands in parallel
+xargs-0	Read null-separated input
+xargs-r	Do not run if input empty
+pr	Convert text files for printing
+pr-2	Two-column output
+paste	Merge lines of files
+paste-d	Use custom delimiter
+paste-s	Serialize all lines
+join	Join lines of two files on a common field
+join-t	Set field separator
+join-1	Join on field of first file
+look	Display lines beginning with a given string
+fmt	Simple optimal text formatter
+fmt-w	Set maximum line width
+fmt-u	Uniform spacing
+strings	Find printable strings in binary files
+strings-n	Minimum string length
+strings-t	Show offset of strings
+iconv	Convert text between character encodings
+iconv-f	Specify from encoding
+iconv-t	Specify to encoding
+iconv-l	List known encodings
+recode	Convert file character sets
+less	View file contents page by page
+less-n	Show line numbers
+less-s	Chop long lines
+less-i	Case-insensitive search
+less-r	Output raw control characters
+less-plusf	Follow mode like tail -f
+less-g	Highlight only last search match
+more	View file contents page by page
+more-s	Squeeze blank lines
+more-plus-pattern	Start at pattern
+echo	Display a line of text
+echo-n	Print without trailing newline
+echo-e	Interpret escape sequences
+printf	Format and print data
+printf-s	Print formatted string
+printf-d	Print formatted integer
+printf-x	Print hexadecimal
+column	Columnate lists
+column-t	Create aligned table
+column-s	Specify column delimiter
+column-x	Fill columns before rows
+tsort	Topological sort
+curl	Transfer data from or to a URL
+curl-o	Download using remote filename
+curl-l	Follow redirects
+curl-i	Fetch headers only
+curl-s	Show errors in silent mode
+curl-s-2	Show errors in silent mode
+curl-o-2	Download using remote filename
+curl-c	Resume interrupted download
+curl-u	Provide username for auth
+curl-h	Add custom header
+curl-d	Send POST data
+curl-x	Specify HTTP method
+curl-k	Allow insecure SSL
+curl-v	Verbose output
+curl-data-urlencode	URL-encode POST data
+curl-limit-rate	Limit download speed
+wget	Non-interactive network downloader
+wget-o	Write downloaded data to file
+wget-c	Resume incomplete download
+wget-q	Quiet mode download
+wget-p	Download to specific directory
+wget-r	Recursive download
+wget-np	No parent directories
+wget-l	Recursion depth limit
+wget-m	Mirror a website
+wget-nv	Non-verbose output
+ssh	OpenSSH remote login client
+ssh-i	SSH using identity file
+ssh-p	SSH on a specific port
+ssh-j	SSH jump host
+ssh-x	Enable X11 forwarding
+ssh-y	Enable trusted X11 forwarding
+ssh-n	Do not run remote command
+ssh-f	Go to background after auth
+ssh-v	Verbose SSH output
+ssh-keygen	Generate SSH key pair
+ssh-copy-id	Install SSH public key
+ssh-add	Add key to SSH agent
+ssh-agent	SSH authentication agent
+scp	Secure copy over SSH
+scp-p	Specify port for SCP
+scp-r	Recursive SCP
+scp-c	Enable compression
+sftp	SSH file transfer protocol
+sftp-p	Specify SFTP port
+ftp	File transfer protocol client
+ftp-i	Turn off interactive mode
+nc	Arbitrary TCP and UDP connections
+nc-l	Listen for incoming connection
+nc-v	Verbose output
+nc-z	Scan for open ports
+nc-u	Use UDP
+nc-w	Connection timeout
+netstat	Network statistics and connections
+netstat-tuln	Show listening ports
+netstat-a	Show all sockets
+netstat-p	Show process using socket
+netstat-r	Show routing table
+netstat-s	Show per-protocol statistics
+ss	Socket statistics utility
+ss-t	Show TCP sockets
+ss-u	Show UDP sockets
+ss-l	Show listening sockets
+ss-p	Show process using socket
+ss-n	Show numeric addresses
+ss-s	Show socket summary
+ping	Test network connectivity to a host
+ping-c	Ping with a specific count
+ping-i	Ping with interval
+ping-s	Set packet size
+ping-4	Force IPv4
+ping-6	Force IPv6
+traceroute	Trace network path to host
+traceroute-n	Traceroute with numeric output
+traceroute-m	Set max hops
+traceroute-w	Set wait time
+traceroute-i	Use ICMP instead of UDP
+mtr	Network diagnostic tool combining ping and traceroute
+mtr-r	Report mode
+mtr-c	Set ping count
+dig	DNS lookup utility
+dig-x	Reverse DNS lookup
+dig-plusshort	Short answer
+dig-plustrace	Trace DNS delegation
+dig-server	Query specific DNS server
+dig-any	Query all record types
+dig-mx	Query mail exchange records
+nslookup	Query DNS name servers
+host	DNS lookup utility
+host-t	Query specific record type
+host-a	Query all records
+nmap	Network exploration and scanning
+nmap-ss	SYN stealth scan
+nmap-sv	Version detection scan
+nmap-st	TCP connect scan
+nmap-su	UDP scan
+nmap-o	OS detection
+nmap-p	Scan specific ports
+nmap-a	Aggressive scan
+nmap-v	Verbose output
+nmap-sn	Ping scan
+nmap-top-ports	Scan top N ports
+iptables	Administration of IPv4 firewall rules
+iptables-l	List current firewall rules
+iptables-a	Append rule
+iptables-d	Delete rule
+iptables-p	Set default policy
+iptables-f	Flush all rules
+iptables-s	Specify source address
+iptables-j	Specify target jump
+ip	Show and manipulate routing devices
+ip-addr	Show IP addresses
+ip-link	Manage network interfaces
+ip-route	Show routing table
+ip-neigh	Show neighbour/ARP table
+ip-s	Show statistics
+ip-c	Colorized output
+ip-link-set	Change interface state
+ip-route-add	Add route
+ifconfig	Configure network interfaces
+ifconfig-a	Show all interfaces
+route	Show and manipulate IP routing table
+route-n	Numeric routing table
+arp	Manipulate ARP cache
+arp-a	Show all ARP entries
+arp-d	Delete ARP entry
+iwconfig	Configure wireless network interfaces
+iwconfig-a	Show all wireless interfaces
+whois	Query domain registration info
+telnet	User interface to TELNET protocol
+elinks	Text-based web browser
+links	Text mode web browser
+lynx	Command-line web browser
+httpie	HTTP client with JSON support
+http	Simple HTTP client (httpie)
+socat	Bidirectional data relay stdio
+socat-tcp-listen	Listen on TCP port
+socat-unix-connect	Connect to Unix socket
+ps	List running processes
+ps-aux	List all running processes with details
+ps-ef	List full process listing
+ps-u	List processes by user
+ps-c	List processes by command name
+ps-o	Custom output format
+ps-sort	Sort process list
+ps-l	List threads
+ps-forest	Show process tree
+top	Display real-time process information
+top-u	Show processes for specific user
+top-p	Monitor specific PIDs
+top-b	Batch mode
+top-n	Update count in batch mode
+htop	Interactive process viewer
+htop-p	Monitor specific PIDs
+htop-u	Show processes for user
+htop-t	Tree view
+kill	Send a signal to a process
+kill-9	Forcefully terminate a process
+kill-15	Gracefully terminate a process
+kill-1	Hangup signal (reload config)
+kill-2	Interrupt signal (Ctrl+C)
+kill-3	Quit signal
+kill-stop	Stop process
+kill-cont	Continue stopped process
+killall	Kill processes by name
+killall-9	Force kill all by name
+killall-i	Interactive kill
+killall-q	Quiet killall
+pkill	Send signal to processes by name
+pkill-f	Match full command line
+pkill-u	Kill processes of user
+pgrep	Search processes by name
+pgrep-f	Match full command line
+pgrep-u	Search by user
+pgrep-l	Show process name with PID
+nice	Run a program with modified scheduling priority
+nice-n	Specify priority increment
+renice	Alter priority of running process
+renice-n	Change priority by increment
+nohup	Run command immune to hangups
+nohup-out	Output file for nohup
+bg	Resume suspended job in background
+fg	Bring background job to foreground
+jobs	List active jobs in current shell
+jobs-l	Show PID with job listing
+jobs-r	Show only running jobs
+jobs-s	Show only stopped jobs
+disown	Remove jobs from current shell
+disown-h	Mark job so it is not killed on logout
+wait	Wait for process completion
+wait-n	Wait for next job to finish
+timeout	Run command with a time limit
+timeout-k	Send KILL if SIGTERM ignored
+timeout-s	Specify signal
+pidof	Find PID of a running program
+pidof-x	Find PID of script
+lsof	List open files by process
+lsof-i	List network connections
+lsof-u	List files by user
+lsof-p	List files by PID
+lsof-plusd	List open files in directory
+fuser	Identify processes using files
+fuser-k	Kill processes using file
+fuser-v	Verbose output
+strace	Trace system calls and signals
+strace-p	Attach to running process
+strace-e	Filter specific syscalls
+strace-o	Write output to file
+strace-c	Count syscall statistics
+strace-f	Trace child processes
+strace-t	Show timestamps
+ltrace	Trace library calls
+ltrace-p	Attach to process
+ltrace-e	Filter library calls
+ltrace-s	Show syscalls as well
+mpstat	Report processor statistics
+mpstat-p-all	Per-processor statistics
+pwdx	Show current working directory of a process
+pmap	Report memory map of a process
+uptime	How long the system has been running
+w	Show who is logged in and what they are doing
+uname	Print system information
+uname-a	Print all system information
+uname-r	Print kernel release version
+uname-n	Print network node hostname
+uname-m	Print machine hardware name
+uname-s	Print kernel name
+df	Report filesystem disk space usage
+df-h	Human-readable disk space
+df-t	Show filesystem type
+df-i	Show inode usage
+df-x	Exclude filesystem type
+df-total	Show totals
+du	Estimate file space usage
+du-sh	Summary in human-readable format
+du-h	Human-readable sizes
+du-c	Grand total
+du-max-depth	Limit directory depth
+du-a	Include files in listing
+du-exclude	Exclude matching files
+du-t	Show only entries larger than size
+free	Display memory usage
+free-h	Human-readable memory display
+free-m	Display in megabytes
+free-g	Display in gigabytes
+free-s	Repeat at interval
+free-t	Show totals
+lscpu	Display CPU architecture information
+lscpu-e	Extended CPU info
+lscpu-p	Parsable output
+lspci	List all PCI devices
+lspci-v	Verbose PCI listing
+lspci-k	Show kernel drivers
+lspci-nn	Show numeric IDs
+lsblk	List block devices
+lsblk-f	Show filesystem info
+lsblk-m	Show permissions
+lsblk-l	List format
+lsusb	List USB devices
+lsusb-v	Verbose USB info
+lsusb-t	Tree format with hubs
+lshw	List hardware configuration
+lshw-short	Short hardware listing
+lshw-class	Filter by hardware class
+dmidecode	DMI table decoder for hardware info
+dmidecode-t	Filter by type
+dmidecode-s	Show specific string
+dmesg	Print kernel ring buffer messages
+dmesg-w	Follow kernel messages in real-time
+dmesg-l	Filter by log level
+dmesg-t	Human-readable timestamps
+dmesg-level	Filter by specific level
+hostname	Show or set system hostname
+hostname-f	Show FQDN
+hostname-i	Show IP address of host
+hostnamectl	Control system hostname
+date	Display or set date and time
+date-plusf	Format date ISO 8601
+date-pluss	Unix timestamp
+date-u	Show UTC time
+date-d	Parse date string
+cal	Display a calendar
+cal-3	Show prev/current/next month
+cal-y	Show entire year
+cal-j	Julian dates
+which	Locate a command in PATH
+which-a	Show all matches in PATH
+whereis	Locate binary source and manual pages
+whereis-b	Locate binary only
+whereis-m	Locate manual only
+whatis	Display one-line manual page descriptions
+man	Display manual pages
+man-k	Search man pages by keyword
+man-f	Find man pages by name
+man-w	Show path to man page
+man-5	Read section 5 of man page
+apropos	Search manual page names and descriptions
+type	Describe how a command is interpreted
+env	Display or modify environment variables
+env-i	Clear environment
+env-u	Unset variable
+printenv	Print environment variables
+pwd	Print working directory
+tty	Print terminal name
+sleep	Delay execution for specified time
+sleep-inf	Sleep forever
+yes	Repeatedly output a string
+yes-text	Output custom text
+clear	Clear the terminal screen
+reset	Reset terminal settings
+watch	Execute a program periodically
+watch-n	Set update interval
+watch-d	Highlight changes
+watch-g	Exit when output changes
+watch-t	Suppress header
+crontab	Schedule periodic commands
+crontab-e	Edit crontab
+crontab-l	List crontab entries
+crontab-r	Remove crontab
+at	Schedule commands for later execution
+at-now	Schedule immediately
+atq	List pending at jobs
+atrm	Remove at job
+time	Measure command execution time
+time-v	Verbose timing output
+nproc	Print number of processing units
+arch	Print machine architecture
+getconf	Get system configuration values
+locale	Get locale-specific information
+locale-a	List available locales
+localectl	Control system locale
+timedatectl	Control system time and date
+timedatectl-list-timezones	List timezones
+logname	Print user's login name
+groups	Print group memberships
+id	Print user and group identity
+id-u	Print user ID only
+id-g	Print group ID only
+id-un	Print effective user name
+sudo	Execute a command as superuser
+sudo-u	Execute as a different user
+sudo-i	Login shell as root
+sudo-s	Shell as root
+sudo-l	List allowed commands
+sudo-k	Invalidate timestamp
+sudo-v	Validate sudo timestamp
+sudo-e	Preserve environment
+su	Login shell
+su-2	Login shell
+su-c	Run command as user
+useradd	Create a new user account
+useradd-m	Create home directory
+useradd-s	Set login shell
+useradd-g	Set supplementary groups
+userdel	Delete a user account
+userdel-r	Remove home directory
+usermod	Modify a user account
+usermod-ag	Append to groups
+usermod-l	Lock user account
+usermod-l-2	Lock user account
+usermod-u	Unlock user account
+passwd	Change user password
+passwd-l	Lock password
+passwd-u	Unlock password
+passwd-d	Remove password
+passwd-s	Show password status
+groupadd	Create a new group
+groupadd-r	Create system group
+groupdel	Delete a group
+groupmod	Modify group
+whoami	Print current user name
+who	Show who is logged in
+who-b	Show last boot time
+who-r	Show run level
+last	Show last logged in users
+last-n	Show last N entries
+last-x	Show shutdown/runlevel
+lastb	Show bad login attempts
+users	List current logged in users
+faillog	Login failure records
+chage	Change user password expiry information
+chage-l	List password expiry info
+chage-m	Set max password age
+getent	Get entries from databases
+getent-passwd	List users from passwd
+getent-group	List groups
+getent-hosts	List hosts
+visudo	Edit sudoers file safely
+adduser	Create a new user interactively
+deluser	Remove a user
+deluser-remove-home	Remove with home directory
+newgrp	Log in to a new group
+setfacl	Set file access control lists
+setfacl-m	Modify ACL
+setfacl-x	Remove ACL entry
+setfacl-r	Recursive ACL
+getfacl	Get file access control lists
+groups-2	Print group memberships
+umask	Set file creation mask
+umask-s	Symbolic umask
+chmod	Change file mode bits
+chmod-plusx	Make a file executable
+chmod-r	Recursively change permissions
+chmod-755	Set rwxr-xr-x permissions
+chmod-644	Set rw-r--r-- permissions
+chmod-u-pluss	Set SUID bit
+chmod-g-pluss	Set SGID bit
+chmod-plust	Set sticky bit
+chown	Change file owner and group
+chown-r	Recursive chown
+chown-usergroup	Change owner and group
+chgrp	Change group ownership
+chgrp-r	Recursive chgrp
+apt	Debian package management tool
+apt-update	Update package index
+apt-upgrade	Upgrade all upgradable packages
+apt-full-upgrade	Upgrade with dependency changes
+apt-install	Install a package
+apt-remove	Remove a package
+apt-autoremove	Remove unused packages
+apt-purge	Remove package and configuration files
+apt-search	Search for packages
+apt-show	Display package details
+apt-list	List packages by criteria
+apt-list-installed	List installed packages
+apt-list-upgradable	List upgradable packages
+apt-edit-sources	Edit sources.list
+apt-mark	Mark packages as hold/auto
+apt-mark-hold	Hold package at current version
+dpkg	Debian package manager low-level
+dpkg-i	Install a Debian package
+dpkg-r	Remove a Debian package
+dpkg-l	List files installed by a package
+dpkg-l-2	List files installed by a package
+dpkg-s	Find package owning a file
+dpkg-p	Purge package completely
+dpkg-configure	Reconfigure unpacked package
+dpkg-reconfigure	Reconfigure installed package
+snap	Snap package manager
+snap-install	Install a snap package
+snap-remove	Remove a snap package
+snap-list	List installed snaps
+snap-find	Search for snaps
+snap-refresh	Update snap packages
+snap-revert	Revert snap to previous version
+flatpak	Flatpak application manager
+flatpak-install	Install a Flatpak application
+flatpak-run	Run a Flatpak application
+flatpak-list	List installed Flatpaks
+flatpak-update	Update Flatpak applications
+flatpak-remove	Remove a Flatpak application
+flatpak-search	Search Flatpak remote
+flatpak-override	Override permissions
+rpm	RPM package manager
+rpm-i	Install RPM package
+rpm-e	Erase/Remove RPM package
+rpm-q	Query RPM database
+rpm-qa	Query all installed packages
+rpm-v	Verify installed packages
+rpm-qf	Query file ownership
+rpm-ql	List files in package
+make	Build targets from a Makefile
+make-clean	Remove build artifacts
+make-install	Install compiled program
+make-j	Build with parallel jobs
+make-f	Use custom Makefile
+cmake	Cross-platform build system generator
+cmake-2	Generate build files in current dir
+cmake-d	Set CMake variable
+cmake-build	Build using CMake
+cmake-install	Install with CMake
+git	Distributed version control system
+git-clone	Clone a repository
+git-clone-depth	Shallow clone
+git-commit	Record changes to the repository
+git-commit-m	Commit with inline message
+git-commit-a	Stage and commit all changes
+git-commit-amend	Amend last commit
+git-push	Push changes to remote
+git-push-origin	Push to specific remote
+git-push-force	Force push
+git-pull	Pull changes from remote
+git-pull-rebase	Pull with rebase
+git-add	Add file contents to index
+git-add-p	Add interactively by patch
+git-add-2	Add all changes
+git-status	Show working tree status
+git-status-s	Short status output
+git-diff	Show changes between commits
+git-diff-cached	Show staged changes
+git-diff-stat	Show diff statistics
+git-log	Show commit logs
+git-log-oneline	One-line commit log
+git-log-graph	Graphical branch history
+git-log-p	Show patches in log
+git-branch	List or manage branches
+git-branch-d	Force delete branch
+git-branch-d-2	Force delete branch
+git-branch-a	List all branches
+git-checkout	Switch branches or restore files
+git-checkout-b	Create and switch to new branch
+git-merge	Merge branches
+git-merge-no-ff	Merge with no fast-forward
+git-rebase	Reapply commits on top of another base
+git-rebase-i	Interactive rebase
+git-stash	Stash changes
+git-stash-pop	Apply and drop stash
+git-stash-list	List stashes
+git-fetch	Fetch from remote
+git-remote-v	Show remote repositories
+git-tag	Create git tag
+git-revert	Revert a commit
+git-reset	Reset current HEAD
+git-reset-hard	Hard reset
+git-rm	Remove files from tracking
+git-mv	Move file in git
+git-config	Get/set git config
+git-config-global	Set global git config
+git-config-global-user-name	Set git username
+git-config-global-user-email	Set git email
+git-init	Initialize new repository
+git-blame	Show commit per line
+git-bisect	Binary search for bugs
+git-cherry-pick	Apply specific commit
+gcc	GNU C compiler
+gcc-o	Specify output file name
+gcc-wall	Enable all warnings
+gcc-g	Include debug symbols
+gcc-o2	Optimization level 2
+gcc-c	Compile only no link
+gcc-i	Add include directory
+gcc-l	Link with library
+gcc-l-2	Link with library
+gcc-d	Define preprocessor macro
+gcc-stdc11	Set C standard
+gcc-fsanitize	Enable sanitizer
+gcc-e	Preprocess only
+gcc-s	Compile to assembly
+g-plus-plus	GNU C++ compiler
+g-plus-plus-stdc-plus-plus11	Set C++ standard
+clang	C language family frontend for LLVM
+clang-o2	Optimize with clang
+clang-fsanitize	Clang sanitizer
+gdb	GNU debugger
+gdb-run	Run program under debugger
+gdb-break	Set breakpoint in debugger
+gdb-next	Step over in debugger
+gdb-step	Step into in debugger
+gdb-continue	Continue execution
+gdb-print	Print variable value
+gdb-backtrace	Show call stack
+gdb-info-registers	Show CPU registers in gdb
+gdb-x-s	Examine memory as string
+gdb-attach	Attach to running process
+valgrind	Memory debugging and profiling
+valgrind-leak-check	Check for memory leaks
+valgrind-toolcallgrind	Call-graph profiling with valgrind
+valgrind-toolhelgrind	Thread error detection with valgrind
+valgrind-toolmassif	Heap profiling with valgrind
+valgrind-v	Verbose valgrind output
+ldd	Print shared object dependencies
+ldd-v	Verbose ldd
+ldd-r	Check for unresolved symbols
+objdump	Display object file information
+objdump-d	Disassemble object file
+objdump-t	Show symbol table
+objdump-h	Show section headers
+nm	List symbols from object files
+nm-c	Demangle C++ symbols
+nm-a	Show debug symbols
+strip	Remove symbols from object files
+strip-strip-debug	Strip debug symbols only
+ar	Create and manage archive libraries
+ar-rcs	Create static library
+ar-t	List archive members
+autoconf	Generate configure scripts
+configure	Configure source code for compilation
+configure-prefix	Set install prefix
+configure-enable	Enable specific feature
+configure-with	Enable dependency
+patch-2	Apply a diff file to an original
+ctags	Generate tag files for source code
+ctags-r	Recursive tag generation
+cscope	Interactive source code browser
+indent	Format C source code
+pkg-config	Return compiler flags for libraries
+pkg-config-cflags	Show include flags
+pkg-config-libs	Show library flags
+pkg-config-list-all	List all packages
+pkg-config-modversion	Show package version
+ccache	Compilation cache
+distcc	Distributed C compiler
+ninja	Small build system alternative
+meson	High-performance build system
+meson-setup	Configure meson build
+meson-compile	Compile with meson
+meson-test	Run tests with meson
+perf	Linux performance profiling tool
+perf-stat	Measure performance counters
+perf-record	Record performance data
+perf-report	Show recorded performance data
+perf-top	Real-time performance monitoring
+perf-annotate	Annotate perf data with source
+perf-script	Dump perf data as script
+bpftrace	Dynamic tracing tool for eBPF
+bpftrace-e	One-line bpftrace probe
+strace-e-traceopenreadwrite	Trace specific syscalls
+strace-c-2	Count syscall statistics
+objdump-m-intel-d	Disassemble with Intel syntax
+objdump-s	Disassemble with source interleaved
+readelf	Display ELF file information
+readelf-a	Display all ELF information
+readelf-s	Display ELF symbol table
+readelf-r	Display ELF relocation info
+objcopy	Copy and translate object files
+objcopy-strip-debug	Strip debug sections
+objcopy-add-gnu-debuglink	Add external debug info
+size	Display section sizes of object files
+size-d	Display data section size
+tcpdump	Capture and analyze network traffic
+tcpdump-i	Capture on specific interface
+tcpdump-x	Print hex and ASCII of packets
+tcpdump-w	Write capture to file
+tcpdump-r	Read capture from file
+tcpdump-port	Filter capture by port
+tcpdump-host	Filter capture by host
+tcpdump-c	Capture N packets then stop
+tcpdump-n	Don't resolve hostnames
+tshark	Wireshark command-line interface
+tshark-i	Capture on interface with tshark
+tshark-r	Read capture file
+tshark-y	Display filter expression
+socat-2	Bidirectional data relay stdio
+socat-tcp-listen8080fork	TCP server with fork
+socat-openssl-listen443cert	SSL server with socat
+socat-unix-listen-tmp-sock	Unix domain socket server
+iptables-t-nat	NAT table rules
+iptables-t-mangle	Mangle table for packet modification
+iptables-a-input-s	Source address filter
+iptables-a-input-p	Protocol match
+iptables-a-input-dport	Destination port match
+iptables-a-forward	Forward chain rules
+iptables-j-drop	Drop packet target
+iptables-j-reject	Reject packet target
+iptables-j-log	Log packet target
+ip6tables	IPv6 firewall administration
+ip-rule	IP policy routing
+ip-tunnel	IP tunnel configuration
+ip-maddr	Multicast address management
+ip-netns	Network namespace management
+ip-netns-exec	Execute in network namespace
+find-name-c-exec-grep-l-main	Find C files containing main
+find-size-plus10m-exec-ls-lh	Find and list large files
+find-mtime-7-not-name-git	Find recently modified excluding .git
+find-perm-4000	Find SUID files
+find-type-f-delete	Delete all regular files
+sed-i-s-foo-bar-g	Replace all foo with bar in-place
+sed-n-pattern-p	Print lines matching pattern
+sed-start-stop-d	Delete lines between two patterns
+sed-n-1020p	Print lines 10 through 20
+sed-s-g	Collapse multiple spaces
+sed-s-t	Strip leading whitespace
+awk-sum-plus1-end-print-sum	Sum first column
+awk-nrfnr-a1-next-1-in-a	Match keys between files
+awk-f-print-13	Print specific fields with custom FS
+awk-fori1infi-plus-plus-c-plus-plus-end-print-c	Count total words
+awk-seen0-plus-plus	Remove duplicate lines preserving order
+sort-t-k3-n-etc-passwd	Sort passwd by UID
+gdb-disassemble	Disassemble function in gdb
+gdb-info-frame	Show stack frame info in gdb
+gdb-info-registers-2	Show CPU registers in gdb
+gdb-x-gx	Examine memory as giant words
+gdb-x-s-2	Examine memory as string
+gdb-x-i	Examine memory as instructions
+gdb-thread-apply-all-bt	Backtrace all threads
+gdb-catch-syscall	Catch system call in gdb
+gdb-reverse-step	Reverse step in gdb
+gdb-record	Start reverse execution recording
+valgrind-toolcallgrind-2	Call-graph profiling with valgrind
+valgrind-toolmassif-2	Heap profiling with valgrind
+valgrind-toolhelgrind-2	Thread error detection with valgrind
+valgrind-tooldrd	Thread data race detector
+valgrind-vgdb-error	Wait for gdb at error
+perf-probe	Add dynamic probes
+perf-trace	System-wide tracing
+perf-sched	Schedule analysis
+perf-lock	Lock analysis
+perf-kmem	Memory allocation analysis
+perf-c2c	Cache-to-cache false sharing detection
+perf-diff	Compare perf data files
+bpftrace-l	List BPF probes
+bpftrace-tracepointsyscalls	Trace all syscalls with bpftrace
+sed-n-start-plus5p	Print 5 lines after pattern
+sed-n-n-d	Collapse multiple blank lines into one
+sed-hxs-n-gp	Join all lines with comma
+awk-nr1-nr1print-0-sort-n	Sort data keeping header
+awk-a1-plus2-endfork-in-a-print-kak	Aggregate sums by key
+awk-length-80	Print lines longer than 80 chars
+awk-printf-s-ts-n-1-2	Format output with tabs
+dd-if-dev-zero-offile-bs1m-count100	Create 100MB file of zeros
+dd-if-dev-urandom-offile-bs1m-count10	Create random data file
+dd-if-dev-sda-ofdisk-img-bs4k-convsyncnoerror	Raw disk backup with dd
+dd-iffile-offile2-bs1m-seek10	Write at specific offset
+dd-convfsync	Synchronize output after dd
+iptables-a-input-m-conntrack-ctstate-relatedestablished-j-accept	Allow established connections
+iptables-a-input-m-limit-limit-10-min-j-log	Rate-limited LOG
+iptables-a-input-m-state-state-invalid-j-drop	Drop invalid packets
+ip-link-add-veth0-type-veth-peer-name-veth1	Create virtual ethernet pair
+ip-netns-add-ns1	Create network namespace
+ip-link-set-veth0-netns-ns1	Move interface to namespace
+nmap-ss-sv-o-p	Full stealth scan with version detection
+nmap-scriptvuln	Nmap vulnerability scan
+nmap-sn-192-168-1-0-24	Ping sweep subnet
+openssl	OpenSSL cryptography tool
+openssl-sclient	SSL/TLS client for testing
+openssl-sserver	SSL/TLS test server
+openssl-x509-in-cert-pem-text-noout	Display certificate details
+openssl-req-new-x509	Generate self-signed certificate
+openssl-enc-aes-256-cbc	Encrypt file with AES
+openssl-speed	Benchmark crypto algorithms
+openssl-rand-hex-32	Generate random hex string
+ssh-l-8080localhost80-userhost	Local SSH port forwarding
+ssh-r-8080localhost80-userhost	Remote SSH port forwarding
+ssh-d-1080-userhost	Dynamic SOCKS proxy via SSH
+ssh-o-stricthostkeycheckingno	Skip host key checking
+ssh-o-proxyjumpuserbastion	SSH via bastion host
+scp-3-user1host1file-user2host2	Copy between remote hosts through local

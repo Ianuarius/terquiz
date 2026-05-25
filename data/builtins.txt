@@ -1,0 +1,75 @@
+# id	command	category	difficulty
+cd	cd	shell	1
+cd-home	cd ~	shell	1
+cd-prev	cd -	shell	3
+cd-parent	cd ..	shell	1
+cd-root	cd /	shell	2
+pushd	pushd	shell	5
+pushd-plusn	pushd +N	shell	7
+popd	popd	shell	5
+popd-plusn	popd +N	shell	8
+dirs	dirs	shell	5
+alias	alias	shell	3
+alias-p	alias -p	shell	6
+unalias	unalias	shell	4
+unalias-a	unalias -a	shell	7
+export	export	shell	3
+export-p	export -p	shell	7
+unset	unset	shell	4
+set	set	shell	5
+set-o	set -o	shell	6
+set-pluso	set +o	shell	7
+set-e	set -e	shell	6
+set-u	set -u	shell	7
+set-x	set -x	shell	6
+set-a	set -a	shell	8
+readonly	readonly	shell	6
+source	source	shell	4
+source-dot	.	shell	4
+exec	exec	shell	6
+eval	eval	shell	6
+let	let	shell	7
+command	command	shell	7
+builtin	builtin	shell	9
+enable	enable	shell	9
+hash	hash	shell	7
+exit	exit	shell	2
+return	return	shell	4
+break	break	shell	6
+continue	continue	shell	6
+logout	logout	shell	4
+read	read	shell	5
+read-p	read -p	shell	6
+read-r	read -r	shell	7
+read-t	read -t	shell	8
+read-s	read -s	shell	7
+readarray	readarray	shell	10
+declare	declare	shell	7
+declare-i	declare -i	shell	8
+declare-a	declare -a	shell	8
+declare-r	declare -r	shell	9
+declare-x	declare -x	shell	9
+declare-f	declare -f	shell	8
+typeset	typeset	shell	8
+local	local	shell	6
+local-r	local -r	shell	9
+shopt	shopt	shell	7
+shopt-s	shopt -s	shell	7
+shopt-u	shopt -u	shell	8
+history	history	shell	3
+history-c	history -c	shell	6
+history-d	history -d	shell	8
+fc	fc	shell	8
+fc-l	fc -l	shell	8
+fc-s	fc -s	shell	9
+suspend	suspend	shell	8
+ulimit	ulimit	shell	7
+ulimit-a	ulimit -a	shell	7
+ulimit-n	ulimit -n	shell	8
+umask	umask	shell	5
+type	type	shell	3
+caller	caller	shell	9
+printf-v	printf -v	shell	9
+mapfile	mapfile	shell	10
+complete	complete	shell	10
+compgen	compgen	shell	11

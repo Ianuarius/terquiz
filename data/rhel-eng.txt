@@ -1,0 +1,50 @@
+# id	description
+yum	RPM package manager for RHEL/CentOS
+yum-install	Install a package with yum
+yum-remove	Remove a package with yum
+yum-update	Update all packages with yum
+yum-search	Search packages with yum
+yum-info	Show package info with yum
+yum-list-installed	List installed with yum
+yum-groupinstall	Install package group
+yum-group-list	List available groups
+yum-clean-all	Clean yum cache
+yum-history	View yum transaction history
+dnf	DNF package manager for Fedora
+dnf-install	Install a package with dnf
+dnf-remove	Remove a package with dnf
+dnf-update	Update packages with dnf
+dnf-search	Search packages with dnf
+dnf-info	Package info with dnf
+dnf-groupinstall	Install package group with dnf
+dnf-group-list	List groups with dnf
+dnf-history	Transaction history with dnf
+dnf-autoremove	Remove unneeded packages
+dnf-repolist	List configured repositories
+dnf-provides	Find package providing file
+dnf-reinstall	Reinstall package
+dnf-downgrade	Downgrade package
+dnf-module-install	Install module stream
+rpm-ivh	Install RPM with verbose hash
+rpm-uvh	Upgrade RPM package
+rpm-qr	Query package requirements
+rpm-q-scripts	Show package scripts
+firewall-cmd	Firewall management (firewalld)
+firewall-cmd-add-port	Open port
+firewall-cmd-add-service	Allow service
+firewall-cmd-list-all	List firewall rules
+firewall-cmd-permanent	Make rule permanent
+firewall-cmd-zone	Specify zone
+semanage	SELinux policy management
+semanage-port-a	Add port to SELinux policy
+semanage-fcontext	Manage file context
+restorecon	Restore SELinux file context
+restorecon-r	Recursive restore context
+chcon	Change SELinux file context
+getenforce	Get SELinux enforcing mode
+setenforce	Set SELinux mode
+subscription-manager	RHEL subscription management
+subscription-manager-register	Register system
+subscription-manager-attach	Attach subscription
+authselect	Authentication selector
+authselect-select	Select auth profile

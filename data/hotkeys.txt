@@ -1,0 +1,42 @@
+# id	command	category	difficulty
+ctrl-c	Ctrl+C	hotkeys	1
+ctrl-z	Ctrl+Z	hotkeys	2
+ctrl-d	Ctrl+D	hotkeys	3
+ctrl-l	Ctrl+L	hotkeys	1
+ctrl-a	Ctrl+A	hotkeys	3
+ctrl-e	Ctrl+E	hotkeys	3
+ctrl-b	Ctrl+B	hotkeys	5
+ctrl-f	Ctrl+F	hotkeys	5
+alt-b	Alt+B	hotkeys	6
+alt-f	Alt+F	hotkeys	6
+ctrl-u	Ctrl+U	hotkeys	4
+ctrl-k	Ctrl+K	hotkeys	4
+ctrl-w	Ctrl+W	hotkeys	5
+alt-d	Alt+D	hotkeys	7
+ctrl-y	Ctrl+Y	hotkeys	5
+ctrl-r	Ctrl+R	hotkeys	3
+ctrl-s	Ctrl+S	hotkeys	8
+ctrl-q	Ctrl+Q	hotkeys	8
+ctrl-t	Ctrl+T	hotkeys	7
+ctrl-x	Ctrl+X	hotkeys	9
+ctrl-xx	Ctrl+XX	hotkeys	10
+ctrl-h	Ctrl+H	hotkeys	5
+ctrl-j	Ctrl+J	hotkeys	6
+ctrl-m	Ctrl+M	hotkeys	6
+ctrl-n	Ctrl+N	hotkeys	4
+ctrl-p	Ctrl+P	hotkeys	4
+ctrl-o	Ctrl+O	hotkeys	8
+ctrl-v	Ctrl+V	hotkeys	8
+ctrl-underscore	Ctrl+_	hotkeys	9
+alt-dot	Alt+. 	hotkeys	6
+esc-dot	Esc+. 	hotkeys	6
+alt-backspace	Alt+Backspace	hotkeys	7
+tab	Tab	hotkeys	1
+tab-tab	Tab Tab	hotkeys	2
+alt-question	Alt+?	hotkeys	9
+alt-star	Alt+*	hotkeys	10
+ctrl-x-ctrl-e	Ctrl+X Ctrl+E	hotkeys	11
+ctrl-bracket	Ctrl+[	hotkeys	10
+alt-lt	Alt+<	hotkeys	9
+alt-gt	Alt+>	hotkeys	9
+ctrl-r-ctrl-r	Ctrl+R Ctrl+R	hotkeys	7

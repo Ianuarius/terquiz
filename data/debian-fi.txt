@@ -1,0 +1,55 @@
+# id	description
+apt-get	APT-pakettienkäsittelytyökalu (vanha)
+apt-get-install	Asenna paketteja apt-getillä
+apt-get-update	Päivitä pakettihakemisto apt-getillä
+apt-get-upgrade	Päivitä paketteja apt-getillä
+apt-get-dist-upgrade	Jakelupäivitys
+apt-get-autoremove	Poista tarpeettomat paketit
+apt-cache-search	Etsi pakettivälimuistista
+apt-cache-show	Näytä paketin tiedot
+apt-cache-policy	Näytä paketin versiokäytäntö
+apt-cache-depends	Näytä riippuvuustiedot
+dpkg-deb	Debian-pakettiarkistotyökalu
+dpkg-deb-c	Listaa .deb-paketin sisältö
+dpkg-deb-x	Pura .deb-paketin sisältö
+dpkg-deb-build	Rakenna .deb-paketti
+debconf	Debian-pakettien asetusjärjestelmä
+debconf-show	Näytä paketin asetukset
+update-alternatives	Hallitse oletuskomentojen symbolisia linkkejä
+update-alternatives-config	Määritä vaihtoehdot
+update-alternatives-install	Asenna vaihtoehto
+update-alternatives-remove	Poista vaihtoehto
+update-rc-d	Hallitse System V -init-linkkejä
+add-apt-repository	Lisää Ubuntu PPA -pakettivarasto
+apt-add-repository	Lisää pakettivarasto (vanha nimi)
+apt-file	Etsi tiedostoja paketeista
+apt-file-search	Etsi paketti joka sisältää tiedoston
+apt-file-update	Päivitä apt-file-hakemisto
+deborphan	Etsi orvoksi jääneet kirjastot
+aptitude	Korkean tason pakettienhallinta (ncurses)
+aptitude-search	Etsi aptitude-työkalulla
+aptitude-install	Asenna aptitude-työkalulla
+tasksel	Asenna ohjelmistotehtävä/ryhmä
+sources-list	APT-pakettilähteen asetustiedosto
+sources-list-d	Lisä-APT-lähdetiedostot
+systemctl	Hallitse systemd-järjestelmää ja -palveluita
+systemctl-start	Käynnistä palvelu
+systemctl-stop	Pysäytä palvelu
+systemctl-restart	Käynnistä palvelu uudelleen
+systemctl-status	Näytä palvelun tila
+systemctl-enable	Ota palvelu käyttöön käynnistyksessä
+systemctl-disable	Poista palvelu käytöstä käynnistyksessä
+systemctl-list-units	Listaa aktiiviset systemd-yksiköt
+systemctl-daemon-reload	Lataa systemd-asetukset uudelleen
+journalctl	Kysely systemd-päiväkirjaan
+journalctl-u	Päiväkirja tietylle yksikölle
+journalctl-f	Seuraa päiväkirjaa reaaliajassa
+journalctl-since	Päiväkirjamerkinnät tietystä ajasta
+journalctl-p	Suodata prioriteetin mukaan
+ufw	Monimutkaisempi palomuuri
+ufw-enable	Ota UFW-palomuuri käyttöön
+ufw-disable	Poista UFW-palomuuri käytöstä
+ufw-status	Näytä palomuurin tila
+ufw-allow	Salli portti/palvelu
+ufw-deny	Estä portti/palvelu
+ufw-default	Aseta oletuskäytäntö

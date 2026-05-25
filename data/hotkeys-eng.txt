@@ -1,0 +1,42 @@
+# id	description
+ctrl-c	Interrupt (SIGINT) current foreground process
+ctrl-z	Suspend (SIGTSTP) current foreground process
+ctrl-d	EOF - end input / logout of shell
+ctrl-l	Clear terminal screen (like clear)
+ctrl-a	Move cursor to beginning of line
+ctrl-e	Move cursor to end of line
+ctrl-b	Move cursor backward one character
+ctrl-f	Move cursor forward one character
+alt-b	Move cursor backward one word
+alt-f	Move cursor forward one word
+ctrl-u	Delete from cursor to beginning of line
+ctrl-k	Delete from cursor to end of line
+ctrl-w	Delete word before cursor
+alt-d	Delete word after cursor
+ctrl-y	Paste (yank) deleted text at cursor
+ctrl-r	Search through command history (reverse)
+ctrl-s	Pause output / forward search history
+ctrl-q	Resume output after Ctrl+S
+ctrl-t	Swap last two characters before cursor
+ctrl-x	Sequence prefix for extended commands
+ctrl-xx	Toggle cursor between current and previous position
+ctrl-h	Delete character before cursor (like Backspace)
+ctrl-j	Line feed (like Enter in some contexts)
+ctrl-m	Carriage return (like Enter)
+ctrl-n	Next command in history
+ctrl-p	Previous command in history
+ctrl-o	Run current line and advance history
+ctrl-v	Literal next - insert next character literally
+ctrl-underscore	Undo last text editing
+alt-dot	Insert last argument from previous command
+esc-dot	Insert last argument from previous command
+alt-backspace	Delete word backward (like Ctrl+W)
+tab	Autocomplete command or filename
+tab-tab	Show all autocomplete possibilities
+alt-question	List possible completions
+alt-star	Insert all possible completions
+ctrl-x-ctrl-e	Edit command line in external editor
+ctrl-bracket	Cancel (like Escape key)
+alt-lt	Move to end of history
+alt-gt	Move to end of history
+ctrl-r-ctrl-r	Cycle through history matches

@@ -1,0 +1,55 @@
+# id	description
+apt-get	APT package handling utility (legacy)
+apt-get-install	Install packages with apt-get
+apt-get-update	Update package index with apt-get
+apt-get-upgrade	Upgrade packages with apt-get
+apt-get-dist-upgrade	Distribution upgrade
+apt-get-autoremove	Remove unneeded packages
+apt-cache-search	Search package cache
+apt-cache-show	Show package details
+apt-cache-policy	Show package version policy
+apt-cache-depends	Show dependency information
+dpkg-deb	Debian package archive tool
+dpkg-deb-c	List contents of .deb
+dpkg-deb-x	Extract contents of .deb
+dpkg-deb-build	Build a .deb package
+debconf	Debian package configuration system
+debconf-show	Show package configuration
+update-alternatives	Manage symbolic links for default commands
+update-alternatives-config	Configure alternatives
+update-alternatives-install	Install alternative
+update-alternatives-remove	Remove alternative
+update-rc-d	Manage System V init links
+add-apt-repository	Add Ubuntu PPA repository
+apt-add-repository	Add repository (older name)
+apt-file	Search for files in packages
+apt-file-search	Find package containing file
+apt-file-update	Update apt-file index
+deborphan	Find orphaned libraries
+aptitude	High-level package manager (ncurses)
+aptitude-search	Search with aptitude
+aptitude-install	Install with aptitude
+tasksel	Install software task/group
+sources-list	APT package source configuration file
+sources-list-d	Additional APT source files
+systemctl	Control systemd system and service manager
+systemctl-start	Start a service
+systemctl-stop	Stop a service
+systemctl-restart	Restart a service
+systemctl-status	Show service status
+systemctl-enable	Enable service at boot
+systemctl-disable	Disable service at boot
+systemctl-list-units	List active systemd units
+systemctl-daemon-reload	Reload systemd configuration
+journalctl	Query systemd journal
+journalctl-u	Journal for specific unit
+journalctl-f	Follow journal in real-time
+journalctl-since	Journal entries since time
+journalctl-p	Filter by priority
+ufw	Uncomplicated firewall
+ufw-enable	Enable UFW firewall
+ufw-disable	Disable UFW firewall
+ufw-status	Show firewall status
+ufw-allow	Allow port/service
+ufw-deny	Deny port/service
+ufw-default	Set default policy
